@@ -1,2 +1,2 @@
 id,tanggal,nim,tahap,seri_kode,keputusan,alternatif_ditolak,alasan,dampak_baris
-K-001,2026-11-03,12345678,silver,var543,"periode bulanan Februari/Agustus disimpan sebagai jenis_periode=bulan","rata-rata ke tahunan","sumber menerbitkan dua kali setahun; agregasi dilakukan di Gold",0
+K-001,2026-11-08,124450001,silver,semua,"wilayah dipetakan lewat kode BPS 2 digit dikali 100 pada tata 38 provinsi 2025, 9999 untuk Indonesia","pemetaan lewat nama provinsi","ejaan nama berbeda antartabel dan provinsi dimekarkan (Kalimantan Utara 2012, empat provinsi Papua 2022)",0
