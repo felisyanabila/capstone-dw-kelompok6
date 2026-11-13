@@ -102,13 +102,12 @@ def baca_bps_json_rinci(raw: Path = RAW) -> pd.DataFrame:
 
     matriks = [_ekstrak_sel_dengan_colspan(tr) for tr in trs]
 
-    
     baris_daerah = matriks[2]
     baris_jk = matriks[3]
     baris_tahun = [""] + matriks[4]
 
     baris = []
-    
+
     for row in matriks[5:]:
         if not row or not row[0]:
             continue
@@ -116,7 +115,6 @@ def baca_bps_json_rinci(raw: Path = RAW) -> pd.DataFrame:
         if wilayah.lower().startswith(("catatan", "sumber", "keterangan", "*")):
             break
 
-        
         batas_kolom = min(len(row), len(baris_daerah), len(baris_jk), len(baris_tahun))
         for col_idx in range(2, batas_kolom):
             tahun_str = baris_tahun[col_idx]
@@ -137,11 +135,63 @@ def baca_bps_json_rinci(raw: Path = RAW) -> pd.DataFrame:
     return _tempel_lineage(df, berkas, raw=raw)
 
 
+def _baca_wdi_json(berkas: str, raw: Path = RAW, filter_indikator: str | None = None) -> pd.DataFrame:
+    """Membaca berkas JSON API World Bank (WDI) dan meratakan struktur bersarangnya."""
+    with open(raw / berkas, encoding="utf-8") as f:
+        payload = json.load(f)
+
+    daftar = payload[1] if isinstance(payload, list) and len(payload) > 1 else []
+    df = pd.json_normalize(daftar)
+
+    if filter_indikator and not df.empty:
+        kolom_id = "indicator.id" if "indicator.id" in df.columns else "id"
+        if kolom_id in df.columns:
+            df = df[df[kolom_id] == filter_indikator].reset_index(drop=True)
+
+    return _tempel_lineage(df, berkas, raw=raw)
+
+
+def baca_wdi_data(raw: Path = RAW) -> pd.DataFrame:
+    """Membaca data observasi WDI dan menyaring seri SE.ADT.LITR.ZS."""
+    return _baca_wdi_json(
+        "wdi/2026-10-20/data/kelompok-03-hal-01.json",
+        raw=raw,
+        filter_indikator="SE.ADT.LITR.ZS",
+    )
+
+
+def baca_wdi_metadata_sumber(raw: Path = RAW) -> pd.DataFrame:
+    """Membaca metadata sumber basis data WDI."""
+    return _baca_wdi_json("wdi/2026-10-20/metadata/sumber.json", raw=raw)
+
+
+def baca_wdi_metadata_indikator_sumber2(raw: Path = RAW) -> pd.DataFrame:
+    """Membaca metadata indikator WDI sumber 2 dan menyaring seri SE.ADT.LITR.ZS."""
+    return _baca_wdi_json(
+        "wdi/2026-10-20/metadata/sumber2_indikator.json",
+        raw=raw,
+        filter_indikator="SE.ADT.LITR.ZS",
+    )
+
+
+def baca_wdi_metadata_indikator_sumber46(raw: Path = RAW) -> pd.DataFrame:
+    """Membaca metadata indikator WDI sumber 46 dan menyaring seri SE.ADT.LITR.ZS."""
+    return _baca_wdi_json(
+        "wdi/2026-10-20/metadata/sumber46_indikator.json",
+        raw=raw,
+        filter_indikator="SE.ADT.LITR.ZS",
+    )
+
+
 def jalankan(raw: Path = RAW) -> dict[str, pd.DataFrame]:
-    """Kembalikan {nama_sumber: DataFrame mentah} untuk semua berkas BPS."""
+    """Kembalikan {nama_sumber: DataFrame mentah} untuk semua berkas BPS dan WDI."""
     return {
         "bps_sdg4_amh_csv": baca_bps_csv_ringkas(raw=raw),
         "bps_sdg4_amh_rinci_csv": baca_bps_csv_rinci(raw=raw),
         "bps_sdg4_amh_json": baca_bps_json_ringkas(raw=raw),
         "bps_sdg4_amh_rinci_json": baca_bps_json_rinci(raw=raw),
+        "wdi_data": baca_wdi_data(raw=raw),
+        "wdi_metadata_sumber": baca_wdi_metadata_sumber(raw=raw),
+        "wdi_metadata_indikator_sumber2": baca_wdi_metadata_indikator_sumber2(raw=raw),
+        "wdi_metadata_indikator_sumber46": baca_wdi_metadata_indikator_sumber46(raw=raw),
     }
