@@ -1,0 +1,10 @@
+{
+  "metrik": {
+    "berkas_dibaca": 8,
+    "baris_mentah": 13110,
+    "format": 2
+  },
+  "seed": 0,
+  "data_hash": "8c82f4533900ceb595082bd6dc49aecb4b06974a9ed00e213a8641b5ac528df9",
+  "perangkat": "Windows AMD64 Python 3.13.7"
+}
