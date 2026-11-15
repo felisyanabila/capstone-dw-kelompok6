@@ -1,0 +1,9 @@
+indikator_wdi,padanan_bps,status,tahun_irisan_rinci,tahun_irisan_var1458,alasan
+SE.ADT.LITR.ZS,"var1458 Indonesia; rinci Indonesia, Perkotaan + Perdesaan, Laki-laki+Perempuan",kandidat utama,2009 2010 2011 2014 2015 2016 2018 2020,2014 2015 2016 2018 2020,"umur sama (15 tahun ke atas), total semua jenis kelamin dan daerah, satuan persen, tingkat nasional"
+SE.ADT.LITR.MA.ZS,"rinci Indonesia, Perkotaan + Perdesaan, Laki-laki",kandidat,2009 2010 2011 2014 2015 2016 2018 2020,2014 2015 2016 2018 2020,"umur sama (15 tahun ke atas), jenis kelamin laki-laki, nasional"
+SE.ADT.LITR.FE.ZS,"rinci Indonesia, Perkotaan + Perdesaan, Perempuan",kandidat,2009 2010 2011 2014 2015 2016 2018 2020,2014 2015 2016 2018 2020,"umur sama (15 tahun ke atas), jenis kelamin perempuan, nasional"
+SE.ADT.1524.LT.ZS,tidak ada,ditolak,2009 2010 2011 2014 2015 2016 2017 2018 2020 2022,2014 2015 2016 2017 2018 2020 2022,"rentang umur 15 sampai 24 tahun, sedangkan seri BPS 15 tahun ke atas; definisi penduduk berbeda"
+SE.ADT.1524.LT.MA.ZS,tidak ada,ditolak,2009 2010 2011 2014 2015 2016 2017 2018 2020 2022,2014 2015 2016 2017 2018 2020 2022,"rentang umur 15 sampai 24 tahun, sedangkan seri BPS 15 tahun ke atas; definisi penduduk berbeda"
+SE.ADT.1524.LT.FE.ZS,tidak ada,ditolak,2009 2010 2011 2014 2015 2016 2017 2018 2020 2022,2014 2015 2016 2017 2018 2020 2022,"rentang umur 15 sampai 24 tahun, sedangkan seri BPS 15 tahun ke atas; definisi penduduk berbeda"
+SE.ADT.1524.LT.FM.ZS,tidak ada,ditolak,2009 2010 2011 2014 2015 2016 2017 2018 2020 2022,2014 2015 2016 2017 2018 2020 2022,"berupa rasio (indeks paritas), bukan persen; juga rentang umur 15 sampai 24 tahun"
+(rincian daerah),rinci Perkotaan dan Perdesaan,tidak ada padanan,,,WDI hanya nasional gabungan; tidak ada pemisahan perkotaan dan perdesaan
