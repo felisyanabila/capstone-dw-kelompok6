@@ -1,0 +1,541 @@
+seri,provinsi,periode,nilai,metode,alasan
+rinci | Perdesaan | Laki-laki,BALI,2011,91.5,lompatan_tahunan,"selisih +2.91 poin dari tahun sebelumnya, di luar pagar [-2.30; 2.74]"
+rinci | Perdesaan | Laki-laki,BANTEN,2009,91.91,z_dalam_provinsi,z = -3.48 terhadap deret provinsi itu sendiri
+rinci | Perdesaan | Laki-laki,BANTEN,2010,95.54,lompatan_tahunan,"selisih +3.63 poin dari tahun sebelumnya, di luar pagar [-2.30; 2.74]"
+rinci | Perdesaan | Laki-laki,DI YOGYAKARTA,2009,89.34,z_dalam_provinsi,z = -2.59 terhadap deret provinsi itu sendiri
+rinci | Perdesaan | Laki-laki,DI YOGYAKARTA,2011,93.99,lompatan_tahunan,"selisih +3.52 poin dari tahun sebelumnya, di luar pagar [-2.30; 2.74]"
+rinci | Perdesaan | Laki-laki,GORONTALO,2011,92.91,lompatan_tahunan,"selisih -2.99 poin dari tahun sebelumnya, di luar pagar [-2.30; 2.74]"
+rinci | Perdesaan | Laki-laki,JAWA TIMUR,2010,89.29,lompatan_tahunan,"selisih -6.66 poin dari tahun sebelumnya, di luar pagar [-2.30; 2.74]"
+rinci | Perdesaan | Laki-laki,KEPULAUAN RIAU,2010,95.32,lompatan_tahunan,"selisih -2.47 poin dari tahun sebelumnya, di luar pagar [-2.30; 2.74]"
+rinci | Perdesaan | Laki-laki,LAMPUNG,2010,95.78,lompatan_tahunan,"selisih -2.61 poin dari tahun sebelumnya, di luar pagar [-2.30; 2.74]"
+rinci | Perdesaan | Laki-laki,LAMPUNG,2010,95.78,z_dalam_provinsi,z = -2.68 terhadap deret provinsi itu sendiri
+rinci | Perdesaan | Laki-laki,NUSA TENGGARA BARAT,2011,86.3,iqr_lintas_provinsi,di luar pagar [86.80; 103.17] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki,NUSA TENGGARA BARAT,2013,86.91,iqr_lintas_provinsi,di luar pagar [87.81; 103.95] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki,NUSA TENGGARA BARAT,2014,88.43,iqr_lintas_provinsi,di luar pagar [89.09; 104.37] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki,PAPUA,2009,67.88,iqr_lintas_provinsi,di luar pagar [83.28; 106.24] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki,PAPUA,2010,62.59,iqr_lintas_provinsi,di luar pagar [82.67; 105.60] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki,PAPUA,2010,62.59,lompatan_tahunan,"selisih -5.29 poin dari tahun sebelumnya, di luar pagar [-2.30; 2.74]"
+rinci | Perdesaan | Laki-laki,PAPUA,2011,60.59,iqr_lintas_provinsi,di luar pagar [86.80; 103.17] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki,PAPUA,2012,61.63,iqr_lintas_provinsi,di luar pagar [86.02; 104.24] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki,PAPUA,2013,63.64,iqr_lintas_provinsi,di luar pagar [87.81; 103.95] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki,PAPUA,2014,68.12,iqr_lintas_provinsi,di luar pagar [89.09; 104.37] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki,PAPUA,2014,68.12,lompatan_tahunan,"selisih +4.48 poin dari tahun sebelumnya, di luar pagar [-2.30; 2.74]"
+rinci | Perdesaan | Laki-laki,PAPUA,2015,67.75,iqr_lintas_provinsi,di luar pagar [88.59; 104.75] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki,PAPUA,2016,67.98,iqr_lintas_provinsi,di luar pagar [87.29; 105.77] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki,PAPUA,2017,73.8,iqr_lintas_provinsi,di luar pagar [89.05; 105.00] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki,PAPUA,2017,73.8,lompatan_tahunan,"selisih +5.82 poin dari tahun sebelumnya, di luar pagar [-2.30; 2.74]"
+rinci | Perdesaan | Laki-laki,PAPUA,2018,74.51,iqr_lintas_provinsi,di luar pagar [87.37; 105.90] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki,PAPUA,2019,74.98,iqr_lintas_provinsi,di luar pagar [89.77; 104.41] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki,PAPUA,2020,74.94,iqr_lintas_provinsi,di luar pagar [88.55; 105.27] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki,PAPUA,2021,73.6,iqr_lintas_provinsi,di luar pagar [88.96; 105.04] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki,PAPUA,2022,76.82,iqr_lintas_provinsi,di luar pagar [88.43; 105.23] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki,PAPUA,2022,76.82,lompatan_tahunan,"selisih +3.22 poin dari tahun sebelumnya, di luar pagar [-2.30; 2.74]"
+rinci | Perdesaan | Laki-laki,PAPUA,2023,80.15,iqr_lintas_provinsi,di luar pagar [90.46; 103.90] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki,PAPUA,2023,80.15,lompatan_tahunan,"selisih +3.33 poin dari tahun sebelumnya, di luar pagar [-2.30; 2.74]"
+rinci | Perdesaan | Laki-laki,PAPUA,2024,97.87,lompatan_tahunan,"selisih +17.72 poin dari tahun sebelumnya, di luar pagar [-2.30; 2.74]"
+rinci | Perdesaan | Laki-laki,PAPUA PEGUNUNGAN,2024,71.14,iqr_lintas_provinsi,di luar pagar [90.64; 103.56] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki,PAPUA PEGUNUNGAN,2025,69.87,iqr_lintas_provinsi,di luar pagar [92.43; 102.94] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki,PAPUA TENGAH,2024,82.21,iqr_lintas_provinsi,di luar pagar [90.64; 103.56] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki,PAPUA TENGAH,2025,82.89,iqr_lintas_provinsi,di luar pagar [92.43; 102.94] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki,SULAWESI BARAT,2010,90.13,lompatan_tahunan,"selisih -4.54 poin dari tahun sebelumnya, di luar pagar [-2.30; 2.74]"
+rinci | Perdesaan | Laki-laki,SULAWESI SELATAN,2010,86.6,lompatan_tahunan,"selisih -7.14 poin dari tahun sebelumnya, di luar pagar [-2.30; 2.74]"
+rinci | Perdesaan | Laki-laki,SULAWESI TENGAH,2009,87.05,z_dalam_provinsi,z = -3.56 terhadap deret provinsi itu sendiri
+rinci | Perdesaan | Laki-laki,SULAWESI TENGAH,2010,96.13,lompatan_tahunan,"selisih +9.08 poin dari tahun sebelumnya, di luar pagar [-2.30; 2.74]"
+rinci | Perdesaan | Laki-laki,SULAWESI TENGGARA,2009,88.72,z_dalam_provinsi,z = -3.05 terhadap deret provinsi itu sendiri
+rinci | Perdesaan | Laki-laki,SULAWESI TENGGARA,2010,93.35,lompatan_tahunan,"selisih +4.63 poin dari tahun sebelumnya, di luar pagar [-2.30; 2.74]"
+rinci | Perdesaan | Laki-laki,SUMATERA SELATAN,2009,96.54,z_dalam_provinsi,z = -2.84 terhadap deret provinsi itu sendiri
+rinci | Perdesaan | Laki-laki+Perempuan,BANTEN,2009,86.43,z_dalam_provinsi,z = -3.55 terhadap deret provinsi itu sendiri
+rinci | Perdesaan | Laki-laki+Perempuan,BANTEN,2010,93.99,lompatan_tahunan,"selisih +7.56 poin dari tahun sebelumnya, di luar pagar [-2.23; 2.88]"
+rinci | Perdesaan | Laki-laki+Perempuan,DI YOGYAKARTA,2009,82.38,z_dalam_provinsi,z = -2.50 terhadap deret provinsi itu sendiri
+rinci | Perdesaan | Laki-laki+Perempuan,DI YOGYAKARTA,2011,87.67,lompatan_tahunan,"selisih +4.27 poin dari tahun sebelumnya, di luar pagar [-2.23; 2.88]"
+rinci | Perdesaan | Laki-laki+Perempuan,DI YOGYAKARTA,2014,91.61,lompatan_tahunan,"selisih +3.93 poin dari tahun sebelumnya, di luar pagar [-2.23; 2.88]"
+rinci | Perdesaan | Laki-laki+Perempuan,JAWA TENGAH,2009,83.76,z_dalam_provinsi,z = -2.81 terhadap deret provinsi itu sendiri
+rinci | Perdesaan | Laki-laki+Perempuan,JAWA TENGAH,2010,87.48,lompatan_tahunan,"selisih +3.72 poin dari tahun sebelumnya, di luar pagar [-2.23; 2.88]"
+rinci | Perdesaan | Laki-laki+Perempuan,JAWA TIMUR,2010,83.63,lompatan_tahunan,"selisih -9.92 poin dari tahun sebelumnya, di luar pagar [-2.23; 2.88]"
+rinci | Perdesaan | Laki-laki+Perempuan,KEPULAUAN RIAU,2010,92.5,lompatan_tahunan,"selisih -2.23 poin dari tahun sebelumnya, di luar pagar [-2.23; 2.88]"
+rinci | Perdesaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2024,87.83,iqr_lintas_provinsi,di luar pagar [87.92; 103.89] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2025,89.03,iqr_lintas_provinsi,di luar pagar [89.83; 103.43] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki+Perempuan,PAPUA,2009,61.34,iqr_lintas_provinsi,di luar pagar [73.24; 107.99] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki+Perempuan,PAPUA,2010,56.8,iqr_lintas_provinsi,di luar pagar [75.37; 107.46] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki+Perempuan,PAPUA,2010,56.8,lompatan_tahunan,"selisih -4.54 poin dari tahun sebelumnya, di luar pagar [-2.23; 2.88]"
+rinci | Perdesaan | Laki-laki+Perempuan,PAPUA,2011,52.22,iqr_lintas_provinsi,di luar pagar [77.77; 105.50] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki+Perempuan,PAPUA,2011,52.22,lompatan_tahunan,"selisih -4.58 poin dari tahun sebelumnya, di luar pagar [-2.23; 2.88]"
+rinci | Perdesaan | Laki-laki+Perempuan,PAPUA,2012,54.11,iqr_lintas_provinsi,di luar pagar [77.38; 106.35] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki+Perempuan,PAPUA,2013,55.93,iqr_lintas_provinsi,di luar pagar [79.15; 106.38] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki+Perempuan,PAPUA,2014,60.49,iqr_lintas_provinsi,di luar pagar [82.28; 106.59] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki+Perempuan,PAPUA,2014,60.49,lompatan_tahunan,"selisih +4.56 poin dari tahun sebelumnya, di luar pagar [-2.23; 2.88]"
+rinci | Perdesaan | Laki-laki+Perempuan,PAPUA,2015,61.8,iqr_lintas_provinsi,di luar pagar [82.56; 106.69] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki+Perempuan,PAPUA,2016,60.87,iqr_lintas_provinsi,di luar pagar [82.01; 107.80] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki+Perempuan,PAPUA,2017,67.85,iqr_lintas_provinsi,di luar pagar [83.75; 106.79] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki+Perempuan,PAPUA,2017,67.85,lompatan_tahunan,"selisih +6.98 poin dari tahun sebelumnya, di luar pagar [-2.23; 2.88]"
+rinci | Perdesaan | Laki-laki+Perempuan,PAPUA,2018,68.05,iqr_lintas_provinsi,di luar pagar [81.53; 108.17] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki+Perempuan,PAPUA,2019,69.29,iqr_lintas_provinsi,di luar pagar [81.78; 108.15] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki+Perempuan,PAPUA,2020,69.07,iqr_lintas_provinsi,di luar pagar [82.37; 107.81] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki+Perempuan,PAPUA,2021,70.56,iqr_lintas_provinsi,di luar pagar [83.77; 106.97] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki+Perempuan,PAPUA,2022,74.49,iqr_lintas_provinsi,di luar pagar [85.53; 105.69] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki+Perempuan,PAPUA,2022,74.49,lompatan_tahunan,"selisih +3.93 poin dari tahun sebelumnya, di luar pagar [-2.23; 2.88]"
+rinci | Perdesaan | Laki-laki+Perempuan,PAPUA,2023,78.18,iqr_lintas_provinsi,di luar pagar [86.65; 105.18] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki+Perempuan,PAPUA,2023,78.18,lompatan_tahunan,"selisih +3.69 poin dari tahun sebelumnya, di luar pagar [-2.23; 2.88]"
+rinci | Perdesaan | Laki-laki+Perempuan,PAPUA,2024,96.96,lompatan_tahunan,"selisih +18.78 poin dari tahun sebelumnya, di luar pagar [-2.23; 2.88]"
+rinci | Perdesaan | Laki-laki+Perempuan,PAPUA BARAT,2011,89.92,lompatan_tahunan,"selisih -3.45 poin dari tahun sebelumnya, di luar pagar [-2.23; 2.88]"
+rinci | Perdesaan | Laki-laki+Perempuan,PAPUA PEGUNUNGAN,2024,68.71,iqr_lintas_provinsi,di luar pagar [87.92; 103.89] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki+Perempuan,PAPUA PEGUNUNGAN,2025,66.46,iqr_lintas_provinsi,di luar pagar [89.83; 103.43] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki+Perempuan,PAPUA PEGUNUNGAN,2025,66.46,lompatan_tahunan,"selisih -2.25 poin dari tahun sebelumnya, di luar pagar [-2.23; 2.88]"
+rinci | Perdesaan | Laki-laki+Perempuan,PAPUA TENGAH,2024,80.3,iqr_lintas_provinsi,di luar pagar [87.92; 103.89] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki+Perempuan,PAPUA TENGAH,2025,81.96,iqr_lintas_provinsi,di luar pagar [89.83; 103.43] antarprovinsi pada periode itu
+rinci | Perdesaan | Laki-laki+Perempuan,SULAWESI BARAT,2010,87.18,lompatan_tahunan,"selisih -7.57 poin dari tahun sebelumnya, di luar pagar [-2.23; 2.88]"
+rinci | Perdesaan | Laki-laki+Perempuan,SULAWESI SELATAN,2010,83.44,lompatan_tahunan,"selisih -6.19 poin dari tahun sebelumnya, di luar pagar [-2.23; 2.88]"
+rinci | Perdesaan | Laki-laki+Perempuan,SULAWESI TENGAH,2009,83.15,z_dalam_provinsi,z = -3.56 terhadap deret provinsi itu sendiri
+rinci | Perdesaan | Laki-laki+Perempuan,SULAWESI TENGAH,2010,95.25,lompatan_tahunan,"selisih +12.10 poin dari tahun sebelumnya, di luar pagar [-2.23; 2.88]"
+rinci | Perdesaan | Laki-laki+Perempuan,SULAWESI TENGGARA,2009,84.75,z_dalam_provinsi,z = -2.75 terhadap deret provinsi itu sendiri
+rinci | Perdesaan | Laki-laki+Perempuan,SULAWESI TENGGARA,2010,89.95,lompatan_tahunan,"selisih +5.20 poin dari tahun sebelumnya, di luar pagar [-2.23; 2.88]"
+rinci | Perdesaan | Laki-laki+Perempuan,SUMATERA SELATAN,2009,93.14,z_dalam_provinsi,z = -3.17 terhadap deret provinsi itu sendiri
+rinci | Perdesaan | Laki-laki+Perempuan,SUMATERA SELATAN,2010,96.83,lompatan_tahunan,"selisih +3.69 poin dari tahun sebelumnya, di luar pagar [-2.23; 2.88]"
+rinci | Perdesaan | Perempuan,BANTEN,2009,81.43,z_dalam_provinsi,z = -3.46 terhadap deret provinsi itu sendiri
+rinci | Perdesaan | Perempuan,BANTEN,2010,92.36,lompatan_tahunan,"selisih +10.93 poin dari tahun sebelumnya, di luar pagar [-3.57; 4.44]"
+rinci | Perdesaan | Perempuan,DI YOGYAKARTA,2011,81.85,lompatan_tahunan,"selisih +4.94 poin dari tahun sebelumnya, di luar pagar [-3.57; 4.44]"
+rinci | Perdesaan | Perempuan,DI YOGYAKARTA,2014,87.73,lompatan_tahunan,"selisih +5.17 poin dari tahun sebelumnya, di luar pagar [-3.57; 4.44]"
+rinci | Perdesaan | Perempuan,JAWA TENGAH,2009,76.47,z_dalam_provinsi,z = -2.95 terhadap deret provinsi itu sendiri
+rinci | Perdesaan | Perempuan,JAWA TENGAH,2010,83.53,lompatan_tahunan,"selisih +7.06 poin dari tahun sebelumnya, di luar pagar [-3.57; 4.44]"
+rinci | Perdesaan | Perempuan,JAWA TIMUR,2010,78.33,lompatan_tahunan,"selisih -12.80 poin dari tahun sebelumnya, di luar pagar [-3.57; 4.44]"
+rinci | Perdesaan | Perempuan,LAMPUNG,2009,88.65,z_dalam_provinsi,z = -2.57 terhadap deret provinsi itu sendiri
+rinci | Perdesaan | Perempuan,NUSA TENGGARA BARAT,2023,83.38,iqr_lintas_provinsi,di luar pagar [84.12; 105.75] antarprovinsi pada periode itu
+rinci | Perdesaan | Perempuan,NUSA TENGGARA BARAT,2025,85.59,iqr_lintas_provinsi,di luar pagar [86.67; 104.43] antarprovinsi pada periode itu
+rinci | Perdesaan | Perempuan,PAPUA,2009,54.63,iqr_lintas_provinsi,di luar pagar [66.55; 109.82] antarprovinsi pada periode itu
+rinci | Perdesaan | Perempuan,PAPUA,2010,50.62,iqr_lintas_provinsi,di luar pagar [68.65; 110.05] antarprovinsi pada periode itu
+rinci | Perdesaan | Perempuan,PAPUA,2010,50.62,lompatan_tahunan,"selisih -4.01 poin dari tahun sebelumnya, di luar pagar [-3.57; 4.44]"
+rinci | Perdesaan | Perempuan,PAPUA,2011,43.12,iqr_lintas_provinsi,di luar pagar [67.64; 109.23] antarprovinsi pada periode itu
+rinci | Perdesaan | Perempuan,PAPUA,2011,43.12,lompatan_tahunan,"selisih -7.50 poin dari tahun sebelumnya, di luar pagar [-3.57; 4.44]"
+rinci | Perdesaan | Perempuan,PAPUA,2012,45.85,iqr_lintas_provinsi,di luar pagar [70.84; 107.97] antarprovinsi pada periode itu
+rinci | Perdesaan | Perempuan,PAPUA,2013,47.47,iqr_lintas_provinsi,di luar pagar [72.20; 108.31] antarprovinsi pada periode itu
+rinci | Perdesaan | Perempuan,PAPUA,2014,52.09,iqr_lintas_provinsi,di luar pagar [76.82; 108.17] antarprovinsi pada periode itu
+rinci | Perdesaan | Perempuan,PAPUA,2014,52.09,lompatan_tahunan,"selisih +4.62 poin dari tahun sebelumnya, di luar pagar [-3.57; 4.44]"
+rinci | Perdesaan | Perempuan,PAPUA,2015,55.31,iqr_lintas_provinsi,di luar pagar [75.71; 109.07] antarprovinsi pada periode itu
+rinci | Perdesaan | Perempuan,PAPUA,2016,53.07,iqr_lintas_provinsi,di luar pagar [75.03; 110.10] antarprovinsi pada periode itu
+rinci | Perdesaan | Perempuan,PAPUA,2017,61.3,iqr_lintas_provinsi,di luar pagar [78.49; 108.81] antarprovinsi pada periode itu
+rinci | Perdesaan | Perempuan,PAPUA,2017,61.3,lompatan_tahunan,"selisih +8.23 poin dari tahun sebelumnya, di luar pagar [-3.57; 4.44]"
+rinci | Perdesaan | Perempuan,PAPUA,2018,60.97,iqr_lintas_provinsi,di luar pagar [75.37; 111.02] antarprovinsi pada periode itu
+rinci | Perdesaan | Perempuan,PAPUA,2019,63.06,iqr_lintas_provinsi,di luar pagar [78.62; 109.30] antarprovinsi pada periode itu
+rinci | Perdesaan | Perempuan,PAPUA,2020,62.64,iqr_lintas_provinsi,di luar pagar [80.90; 107.75] antarprovinsi pada periode itu
+rinci | Perdesaan | Perempuan,PAPUA,2021,67.23,iqr_lintas_provinsi,di luar pagar [79.29; 108.41] antarprovinsi pada periode itu
+rinci | Perdesaan | Perempuan,PAPUA,2021,67.23,lompatan_tahunan,"selisih +4.59 poin dari tahun sebelumnya, di luar pagar [-3.57; 4.44]"
+rinci | Perdesaan | Perempuan,PAPUA,2022,71.87,iqr_lintas_provinsi,di luar pagar [80.70; 107.45] antarprovinsi pada periode itu
+rinci | Perdesaan | Perempuan,PAPUA,2022,71.87,lompatan_tahunan,"selisih +4.64 poin dari tahun sebelumnya, di luar pagar [-3.57; 4.44]"
+rinci | Perdesaan | Perempuan,PAPUA,2023,76.03,iqr_lintas_provinsi,di luar pagar [84.12; 105.75] antarprovinsi pada periode itu
+rinci | Perdesaan | Perempuan,PAPUA,2024,95.99,lompatan_tahunan,"selisih +19.96 poin dari tahun sebelumnya, di luar pagar [-3.57; 4.44]"
+rinci | Perdesaan | Perempuan,PAPUA BARAT,2011,86.05,lompatan_tahunan,"selisih -4.40 poin dari tahun sebelumnya, di luar pagar [-3.57; 4.44]"
+rinci | Perdesaan | Perempuan,PAPUA PEGUNUNGAN,2024,66.03,iqr_lintas_provinsi,di luar pagar [84.07; 105.88] antarprovinsi pada periode itu
+rinci | Perdesaan | Perempuan,PAPUA PEGUNUNGAN,2025,62.74,iqr_lintas_provinsi,di luar pagar [86.67; 104.43] antarprovinsi pada periode itu
+rinci | Perdesaan | Perempuan,PAPUA TENGAH,2024,78.23,iqr_lintas_provinsi,di luar pagar [84.07; 105.88] antarprovinsi pada periode itu
+rinci | Perdesaan | Perempuan,PAPUA TENGAH,2025,80.87,iqr_lintas_provinsi,di luar pagar [86.67; 104.43] antarprovinsi pada periode itu
+rinci | Perdesaan | Perempuan,SULAWESI BARAT,2010,84.28,lompatan_tahunan,"selisih -10.54 poin dari tahun sebelumnya, di luar pagar [-3.57; 4.44]"
+rinci | Perdesaan | Perempuan,SULAWESI SELATAN,2010,80.62,lompatan_tahunan,"selisih -5.16 poin dari tahun sebelumnya, di luar pagar [-3.57; 4.44]"
+rinci | Perdesaan | Perempuan,SULAWESI TENGAH,2009,79.8,z_dalam_provinsi,z = -3.53 terhadap deret provinsi itu sendiri
+rinci | Perdesaan | Perempuan,SULAWESI TENGAH,2010,94.32,lompatan_tahunan,"selisih +14.52 poin dari tahun sebelumnya, di luar pagar [-3.57; 4.44]"
+rinci | Perdesaan | Perempuan,SULAWESI TENGGARA,2009,80.85,z_dalam_provinsi,z = -2.53 terhadap deret provinsi itu sendiri
+rinci | Perdesaan | Perempuan,SULAWESI TENGGARA,2010,86.64,lompatan_tahunan,"selisih +5.79 poin dari tahun sebelumnya, di luar pagar [-3.57; 4.44]"
+rinci | Perdesaan | Perempuan,SUMATERA SELATAN,2009,89.63,z_dalam_provinsi,z = -3.23 terhadap deret provinsi itu sendiri
+rinci | Perdesaan | Perempuan,SUMATERA SELATAN,2010,95.74,lompatan_tahunan,"selisih +6.11 poin dari tahun sebelumnya, di luar pagar [-3.57; 4.44]"
+rinci | Perkotaan + Perdesaan | Laki-laki,BANTEN,2009,94.02,z_dalam_provinsi,z = -3.61 terhadap deret provinsi itu sendiri
+rinci | Perkotaan + Perdesaan | Laki-laki,BANTEN,2010,97.56,lompatan_tahunan,"selisih +3.54 poin dari tahun sebelumnya, di luar pagar [-1.49; 1.80]"
+rinci | Perkotaan + Perdesaan | Laki-laki,DI YOGYAKARTA,2009,92.96,z_dalam_provinsi,z = -3.28 terhadap deret provinsi itu sendiri
+rinci | Perkotaan + Perdesaan | Laki-laki,DI YOGYAKARTA,2010,95.83,lompatan_tahunan,"selisih +2.87 poin dari tahun sebelumnya, di luar pagar [-1.49; 1.80]"
+rinci | Perkotaan + Perdesaan | Laki-laki,GORONTALO,2011,94.42,lompatan_tahunan,"selisih -2.02 poin dari tahun sebelumnya, di luar pagar [-1.49; 1.80]"
+rinci | Perkotaan + Perdesaan | Laki-laki,JAWA TENGAH,2010,93.59,lompatan_tahunan,"selisih -1.67 poin dari tahun sebelumnya, di luar pagar [-1.49; 1.80]"
+rinci | Perkotaan + Perdesaan | Laki-laki,JAWA TIMUR,2010,92.77,lompatan_tahunan,"selisih -4.97 poin dari tahun sebelumnya, di luar pagar [-1.49; 1.80]"
+rinci | Perkotaan + Perdesaan | Laki-laki,KALIMANTAN BARAT,2010,92.86,z_dalam_provinsi,z = -2.50 terhadap deret provinsi itu sendiri
+rinci | Perkotaan + Perdesaan | Laki-laki,LAMPUNG,2010,96.45,lompatan_tahunan,"selisih -2.23 poin dari tahun sebelumnya, di luar pagar [-1.49; 1.80]"
+rinci | Perkotaan + Perdesaan | Laki-laki,LAMPUNG,2010,96.45,z_dalam_provinsi,z = -2.66 terhadap deret provinsi itu sendiri
+rinci | Perkotaan + Perdesaan | Laki-laki,NUSA TENGGARA BARAT,2009,87.07,iqr_lintas_provinsi,di luar pagar [87.97; 104.41] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,NUSA TENGGARA BARAT,2010,85.94,iqr_lintas_provinsi,di luar pagar [87.25; 104.16] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,NUSA TENGGARA BARAT,2011,88.57,iqr_lintas_provinsi,di luar pagar [89.20; 103.12] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,NUSA TENGGARA BARAT,2011,88.57,lompatan_tahunan,"selisih +2.63 poin dari tahun sebelumnya, di luar pagar [-1.49; 1.80]"
+rinci | Perkotaan + Perdesaan | Laki-laki,NUSA TENGGARA BARAT,2012,88.74,iqr_lintas_provinsi,di luar pagar [89.47; 103.71] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,NUSA TENGGARA BARAT,2013,89.22,iqr_lintas_provinsi,di luar pagar [91.59; 102.67] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,NUSA TENGGARA BARAT,2014,90.56,iqr_lintas_provinsi,di luar pagar [91.93; 103.53] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,NUSA TENGGARA BARAT,2015,90.83,iqr_lintas_provinsi,di luar pagar [92.67; 103.07] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,NUSA TENGGARA BARAT,2016,91.12,iqr_lintas_provinsi,di luar pagar [91.89; 103.76] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,NUSA TENGGARA BARAT,2017,92.05,iqr_lintas_provinsi,di luar pagar [92.86; 103.18] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,NUSA TENGGARA BARAT,2018,91.86,iqr_lintas_provinsi,di luar pagar [91.88; 103.79] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,NUSA TENGGARA BARAT,2019,92.12,iqr_lintas_provinsi,di luar pagar [93.63; 102.62] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,NUSA TENGGARA BARAT,2020,91.19,iqr_lintas_provinsi,di luar pagar [93.12; 103.17] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,NUSA TENGGARA BARAT,2021,91.02,iqr_lintas_provinsi,di luar pagar [93.12; 103.00] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,NUSA TENGGARA BARAT,2022,91.38,iqr_lintas_provinsi,di luar pagar [92.97; 103.19] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,NUSA TENGGARA BARAT,2023,92.05,iqr_lintas_provinsi,di luar pagar [94.62; 102.16] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,NUSA TENGGARA BARAT,2024,92.7,iqr_lintas_provinsi,di luar pagar [93.17; 102.68] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,NUSA TENGGARA BARAT,2025,94.18,iqr_lintas_provinsi,di luar pagar [94.98; 102.09] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,PAPUA,2009,75.52,iqr_lintas_provinsi,di luar pagar [87.97; 104.41] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,PAPUA,2010,72.86,iqr_lintas_provinsi,di luar pagar [87.25; 104.16] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,PAPUA,2010,72.86,lompatan_tahunan,"selisih -2.66 poin dari tahun sebelumnya, di luar pagar [-1.49; 1.80]"
+rinci | Perkotaan + Perdesaan | Laki-laki,PAPUA,2011,70.72,iqr_lintas_provinsi,di luar pagar [89.20; 103.12] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,PAPUA,2011,70.72,lompatan_tahunan,"selisih -2.14 poin dari tahun sebelumnya, di luar pagar [-1.49; 1.80]"
+rinci | Perkotaan + Perdesaan | Laki-laki,PAPUA,2012,71.74,iqr_lintas_provinsi,di luar pagar [89.47; 103.71] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,PAPUA,2013,73.63,iqr_lintas_provinsi,di luar pagar [91.59; 102.67] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,PAPUA,2013,73.63,lompatan_tahunan,"selisih +1.89 poin dari tahun sebelumnya, di luar pagar [-1.49; 1.80]"
+rinci | Perkotaan + Perdesaan | Laki-laki,PAPUA,2014,76.7,iqr_lintas_provinsi,di luar pagar [91.93; 103.53] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,PAPUA,2014,76.7,lompatan_tahunan,"selisih +3.07 poin dari tahun sebelumnya, di luar pagar [-1.49; 1.80]"
+rinci | Perkotaan + Perdesaan | Laki-laki,PAPUA,2015,75.59,iqr_lintas_provinsi,di luar pagar [92.67; 103.07] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,PAPUA,2016,76.72,iqr_lintas_provinsi,di luar pagar [91.89; 103.76] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,PAPUA,2017,80.34,iqr_lintas_provinsi,di luar pagar [92.86; 103.18] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,PAPUA,2017,80.34,lompatan_tahunan,"selisih +3.62 poin dari tahun sebelumnya, di luar pagar [-1.49; 1.80]"
+rinci | Perkotaan + Perdesaan | Laki-laki,PAPUA,2018,81.69,iqr_lintas_provinsi,di luar pagar [91.88; 103.79] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,PAPUA,2019,82.36,iqr_lintas_provinsi,di luar pagar [93.63; 102.62] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,PAPUA,2020,82.49,iqr_lintas_provinsi,di luar pagar [93.12; 103.17] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,PAPUA,2021,81.33,iqr_lintas_provinsi,di luar pagar [93.12; 103.00] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,PAPUA,2022,82.96,iqr_lintas_provinsi,di luar pagar [92.97; 103.19] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,PAPUA,2023,85.8,iqr_lintas_provinsi,di luar pagar [94.62; 102.16] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,PAPUA,2023,85.8,lompatan_tahunan,"selisih +2.84 poin dari tahun sebelumnya, di luar pagar [-1.49; 1.80]"
+rinci | Perkotaan + Perdesaan | Laki-laki,PAPUA,2024,98.94,lompatan_tahunan,"selisih +13.14 poin dari tahun sebelumnya, di luar pagar [-1.49; 1.80]"
+rinci | Perkotaan + Perdesaan | Laki-laki,PAPUA BARAT,2011,95.12,lompatan_tahunan,"selisih -1.92 poin dari tahun sebelumnya, di luar pagar [-1.49; 1.80]"
+rinci | Perkotaan + Perdesaan | Laki-laki,PAPUA PEGUNUNGAN,2024,72.69,iqr_lintas_provinsi,di luar pagar [93.17; 102.68] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,PAPUA PEGUNUNGAN,2025,71.88,iqr_lintas_provinsi,di luar pagar [94.98; 102.09] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,PAPUA TENGAH,2024,86.2,iqr_lintas_provinsi,di luar pagar [93.17; 102.68] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,PAPUA TENGAH,2025,86.48,iqr_lintas_provinsi,di luar pagar [94.98; 102.09] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki,SULAWESI BARAT,2010,91.0,lompatan_tahunan,"selisih -4.66 poin dari tahun sebelumnya, di luar pagar [-1.49; 1.80]"
+rinci | Perkotaan + Perdesaan | Laki-laki,SULAWESI BARAT,2013,93.58,lompatan_tahunan,"selisih +2.60 poin dari tahun sebelumnya, di luar pagar [-1.49; 1.80]"
+rinci | Perkotaan + Perdesaan | Laki-laki,SULAWESI SELATAN,2010,90.21,lompatan_tahunan,"selisih -4.76 poin dari tahun sebelumnya, di luar pagar [-1.49; 1.80]"
+rinci | Perkotaan + Perdesaan | Laki-laki,SULAWESI TENGAH,2009,90.29,z_dalam_provinsi,z = -3.47 terhadap deret provinsi itu sendiri
+rinci | Perkotaan + Perdesaan | Laki-laki,SULAWESI TENGAH,2010,96.85,lompatan_tahunan,"selisih +6.56 poin dari tahun sebelumnya, di luar pagar [-1.49; 1.80]"
+rinci | Perkotaan + Perdesaan | Laki-laki,SULAWESI TENGGARA,2009,90.87,z_dalam_provinsi,z = -3.03 terhadap deret provinsi itu sendiri
+rinci | Perkotaan + Perdesaan | Laki-laki,SULAWESI TENGGARA,2010,94.71,lompatan_tahunan,"selisih +3.84 poin dari tahun sebelumnya, di luar pagar [-1.49; 1.80]"
+rinci | Perkotaan + Perdesaan | Laki-laki,SUMATERA SELATAN,2009,97.46,z_dalam_provinsi,z = -2.50 terhadap deret provinsi itu sendiri
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,BANTEN,2009,89.46,z_dalam_provinsi,z = -3.61 terhadap deret provinsi itu sendiri
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,BANTEN,2010,96.2,lompatan_tahunan,"selisih +6.74 poin dari tahun sebelumnya, di luar pagar [-1.52; 2.05]"
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,DI YOGYAKARTA,2009,87.8,z_dalam_provinsi,z = -2.78 terhadap deret provinsi itu sendiri
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,DI YOGYAKARTA,2010,90.84,lompatan_tahunan,"selisih +3.04 poin dari tahun sebelumnya, di luar pagar [-1.52; 2.05]"
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,JAWA TIMUR,2010,88.34,lompatan_tahunan,"selisih -7.61 poin dari tahun sebelumnya, di luar pagar [-1.52; 2.05]"
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,KEPULAUAN RIAU,2009,95.51,z_dalam_provinsi,z = -3.00 terhadap deret provinsi itu sendiri
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2011,83.24,lompatan_tahunan,"selisih +2.19 poin dari tahun sebelumnya, di luar pagar [-1.52; 2.05]"
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2014,86.96,lompatan_tahunan,"selisih +2.29 poin dari tahun sebelumnya, di luar pagar [-1.52; 2.05]"
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2019,87.59,iqr_lintas_provinsi,di luar pagar [88.14; 105.43] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2020,87.6,iqr_lintas_provinsi,di luar pagar [88.74; 105.03] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2021,87.39,iqr_lintas_provinsi,di luar pagar [89.08; 104.74] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2022,88.97,iqr_lintas_provinsi,di luar pagar [89.73; 104.44] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2023,89.11,iqr_lintas_provinsi,di luar pagar [90.55; 104.01] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2024,89.83,iqr_lintas_provinsi,di luar pagar [90.03; 104.01] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2025,91.07,iqr_lintas_provinsi,di luar pagar [91.50; 103.42] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA,2009,70.29,iqr_lintas_provinsi,di luar pagar [79.03; 107.47] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA,2010,68.27,iqr_lintas_provinsi,di luar pagar [80.02; 107.34] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA,2010,68.27,lompatan_tahunan,"selisih -2.02 poin dari tahun sebelumnya, di luar pagar [-1.52; 2.05]"
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA,2011,64.08,iqr_lintas_provinsi,di luar pagar [80.91; 106.06] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA,2011,64.08,lompatan_tahunan,"selisih -4.19 poin dari tahun sebelumnya, di luar pagar [-1.52; 2.05]"
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA,2012,65.69,iqr_lintas_provinsi,di luar pagar [82.47; 105.56] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA,2013,67.31,iqr_lintas_provinsi,di luar pagar [82.28; 106.44] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA,2014,70.78,iqr_lintas_provinsi,di luar pagar [84.79; 106.63] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA,2014,70.78,lompatan_tahunan,"selisih +3.47 poin dari tahun sebelumnya, di luar pagar [-1.52; 2.05]"
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA,2015,70.83,iqr_lintas_provinsi,di luar pagar [85.60; 106.31] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA,2016,71.02,iqr_lintas_provinsi,di luar pagar [85.68; 106.63] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA,2017,75.8,iqr_lintas_provinsi,di luar pagar [87.36; 105.75] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA,2017,75.8,lompatan_tahunan,"selisih +4.78 poin dari tahun sebelumnya, di luar pagar [-1.52; 2.05]"
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA,2018,76.79,iqr_lintas_provinsi,di luar pagar [85.99; 106.55] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA,2019,78.0,iqr_lintas_provinsi,di luar pagar [88.14; 105.43] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA,2020,77.9,iqr_lintas_provinsi,di luar pagar [88.74; 105.03] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA,2021,78.89,iqr_lintas_provinsi,di luar pagar [89.08; 104.74] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA,2022,81.19,iqr_lintas_provinsi,di luar pagar [89.73; 104.44] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA,2022,81.19,lompatan_tahunan,"selisih +2.30 poin dari tahun sebelumnya, di luar pagar [-1.52; 2.05]"
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA,2023,84.22,iqr_lintas_provinsi,di luar pagar [90.55; 104.01] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA,2023,84.22,lompatan_tahunan,"selisih +3.03 poin dari tahun sebelumnya, di luar pagar [-1.52; 2.05]"
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA,2024,98.37,lompatan_tahunan,"selisih +14.15 poin dari tahun sebelumnya, di luar pagar [-1.52; 2.05]"
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA BARAT,2010,95.12,lompatan_tahunan,"selisih +2.18 poin dari tahun sebelumnya, di luar pagar [-1.52; 2.05]"
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA BARAT,2011,92.41,lompatan_tahunan,"selisih -2.71 poin dari tahun sebelumnya, di luar pagar [-1.52; 2.05]"
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA BARAT,2012,94.74,lompatan_tahunan,"selisih +2.33 poin dari tahun sebelumnya, di luar pagar [-1.52; 2.05]"
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA PEGUNUNGAN,2024,70.37,iqr_lintas_provinsi,di luar pagar [90.03; 104.01] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA PEGUNUNGAN,2025,68.32,iqr_lintas_provinsi,di luar pagar [91.50; 103.42] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA PEGUNUNGAN,2025,68.32,lompatan_tahunan,"selisih -2.05 poin dari tahun sebelumnya, di luar pagar [-1.52; 2.05]"
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA TENGAH,2024,84.69,iqr_lintas_provinsi,di luar pagar [90.03; 104.01] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,PAPUA TENGAH,2025,85.82,iqr_lintas_provinsi,di luar pagar [91.50; 103.42] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,SULAWESI BARAT,2010,88.48,lompatan_tahunan,"selisih -7.23 poin dari tahun sebelumnya, di luar pagar [-1.52; 2.05]"
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,SULAWESI SELATAN,2010,87.75,lompatan_tahunan,"selisih -3.76 poin dari tahun sebelumnya, di luar pagar [-1.52; 2.05]"
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,SULAWESI TENGAH,2009,87.02,z_dalam_provinsi,z = -3.49 terhadap deret provinsi itu sendiri
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,SULAWESI TENGAH,2010,96.08,lompatan_tahunan,"selisih +9.06 poin dari tahun sebelumnya, di luar pagar [-1.52; 2.05]"
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,SULAWESI TENGAH,2011,94.51,lompatan_tahunan,"selisih -1.57 poin dari tahun sebelumnya, di luar pagar [-1.52; 2.05]"
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,SULAWESI TENGGARA,2009,87.59,z_dalam_provinsi,z = -2.70 terhadap deret provinsi itu sendiri
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,SULAWESI TENGGARA,2010,91.85,lompatan_tahunan,"selisih +4.26 poin dari tahun sebelumnya, di luar pagar [-1.52; 2.05]"
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,SUMATERA SELATAN,2009,94.9,z_dalam_provinsi,z = -2.89 terhadap deret provinsi itu sendiri
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,SUMATERA SELATAN,2010,97.36,lompatan_tahunan,"selisih +2.46 poin dari tahun sebelumnya, di luar pagar [-1.52; 2.05]"
+rinci | Perkotaan + Perdesaan | Perempuan,BALI,2014,88.85,lompatan_tahunan,"selisih +3.12 poin dari tahun sebelumnya, di luar pagar [-2.29; 2.96]"
+rinci | Perkotaan + Perdesaan | Perempuan,BANTEN,2009,85.26,z_dalam_provinsi,z = -3.57 terhadap deret provinsi itu sendiri
+rinci | Perkotaan + Perdesaan | Perempuan,BANTEN,2010,94.81,lompatan_tahunan,"selisih +9.55 poin dari tahun sebelumnya, di luar pagar [-2.29; 2.96]"
+rinci | Perkotaan + Perdesaan | Perempuan,DI YOGYAKARTA,2009,83.09,z_dalam_provinsi,z = -2.53 terhadap deret provinsi itu sendiri
+rinci | Perkotaan + Perdesaan | Perempuan,DI YOGYAKARTA,2010,86.11,lompatan_tahunan,"selisih +3.02 poin dari tahun sebelumnya, di luar pagar [-2.29; 2.96]"
+rinci | Perkotaan + Perdesaan | Perempuan,JAWA TENGAH,2014,90.42,lompatan_tahunan,"selisih +3.04 poin dari tahun sebelumnya, di luar pagar [-2.29; 2.96]"
+rinci | Perkotaan + Perdesaan | Perempuan,JAWA TIMUR,2010,84.16,lompatan_tahunan,"selisih -9.98 poin dari tahun sebelumnya, di luar pagar [-2.29; 2.96]"
+rinci | Perkotaan + Perdesaan | Perempuan,KEPULAUAN RIAU,2009,92.97,z_dalam_provinsi,z = -3.22 terhadap deret provinsi itu sendiri
+rinci | Perkotaan + Perdesaan | Perempuan,KEPULAUAN RIAU,2010,96.21,lompatan_tahunan,"selisih +3.24 poin dari tahun sebelumnya, di luar pagar [-2.29; 2.96]"
+rinci | Perkotaan + Perdesaan | Perempuan,NUSA TENGGARA BARAT,2014,83.76,lompatan_tahunan,"selisih +3.16 poin dari tahun sebelumnya, di luar pagar [-2.29; 2.96]"
+rinci | Perkotaan + Perdesaan | Perempuan,NUSA TENGGARA BARAT,2021,83.95,iqr_lintas_provinsi,di luar pagar [84.37; 107.23] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Perempuan,NUSA TENGGARA BARAT,2023,86.31,iqr_lintas_provinsi,di luar pagar [86.85; 105.55] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Perempuan,NUSA TENGGARA BARAT,2025,88.06,iqr_lintas_provinsi,di luar pagar [88.67; 104.41] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Perempuan,PAPUA,2009,64.89,iqr_lintas_provinsi,di luar pagar [70.56; 110.48] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Perempuan,PAPUA,2010,63.29,iqr_lintas_provinsi,di luar pagar [72.01; 110.81] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Perempuan,PAPUA,2011,56.74,iqr_lintas_provinsi,di luar pagar [73.38; 108.26] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Perempuan,PAPUA,2011,56.74,lompatan_tahunan,"selisih -6.55 poin dari tahun sebelumnya, di luar pagar [-2.29; 2.96]"
+rinci | Perkotaan + Perdesaan | Perempuan,PAPUA,2012,58.87,iqr_lintas_provinsi,di luar pagar [74.97; 107.89] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Perempuan,PAPUA,2013,60.15,iqr_lintas_provinsi,di luar pagar [77.12; 107.97] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Perempuan,PAPUA,2014,64.13,iqr_lintas_provinsi,di luar pagar [80.04; 108.65] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Perempuan,PAPUA,2014,64.13,lompatan_tahunan,"selisih +3.98 poin dari tahun sebelumnya, di luar pagar [-2.29; 2.96]"
+rinci | Perkotaan + Perdesaan | Perempuan,PAPUA,2015,65.47,iqr_lintas_provinsi,di luar pagar [80.71; 108.37] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Perempuan,PAPUA,2016,64.6,iqr_lintas_provinsi,di luar pagar [81.29; 108.45] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Perempuan,PAPUA,2017,70.72,iqr_lintas_provinsi,di luar pagar [84.05; 107.10] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Perempuan,PAPUA,2017,70.72,lompatan_tahunan,"selisih +6.12 poin dari tahun sebelumnya, di luar pagar [-2.29; 2.96]"
+rinci | Perkotaan + Perdesaan | Perempuan,PAPUA,2018,71.26,iqr_lintas_provinsi,di luar pagar [81.11; 108.96] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Perempuan,PAPUA,2019,73.07,iqr_lintas_provinsi,di luar pagar [82.57; 108.34] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Perempuan,PAPUA,2020,72.69,iqr_lintas_provinsi,di luar pagar [83.88; 107.28] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Perempuan,PAPUA,2021,76.17,iqr_lintas_provinsi,di luar pagar [84.37; 107.23] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Perempuan,PAPUA,2021,76.17,lompatan_tahunan,"selisih +3.48 poin dari tahun sebelumnya, di luar pagar [-2.29; 2.96]"
+rinci | Perkotaan + Perdesaan | Perempuan,PAPUA,2022,79.18,iqr_lintas_provinsi,di luar pagar [86.56; 105.63] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Perempuan,PAPUA,2022,79.18,lompatan_tahunan,"selisih +3.01 poin dari tahun sebelumnya, di luar pagar [-2.29; 2.96]"
+rinci | Perkotaan + Perdesaan | Perempuan,PAPUA,2023,82.47,iqr_lintas_provinsi,di luar pagar [86.85; 105.55] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Perempuan,PAPUA,2023,82.47,lompatan_tahunan,"selisih +3.29 poin dari tahun sebelumnya, di luar pagar [-2.29; 2.96]"
+rinci | Perkotaan + Perdesaan | Perempuan,PAPUA,2024,97.76,lompatan_tahunan,"selisih +15.29 poin dari tahun sebelumnya, di luar pagar [-2.29; 2.96]"
+rinci | Perkotaan + Perdesaan | Perempuan,PAPUA BARAT,2011,89.57,lompatan_tahunan,"selisih -3.42 poin dari tahun sebelumnya, di luar pagar [-2.29; 2.96]"
+rinci | Perkotaan + Perdesaan | Perempuan,PAPUA PEGUNUNGAN,2024,67.83,iqr_lintas_provinsi,di luar pagar [86.56; 105.69] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Perempuan,PAPUA PEGUNUNGAN,2025,64.38,iqr_lintas_provinsi,di luar pagar [88.67; 104.41] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Perempuan,PAPUA PEGUNUNGAN,2025,64.38,lompatan_tahunan,"selisih -3.45 poin dari tahun sebelumnya, di luar pagar [-2.29; 2.96]"
+rinci | Perkotaan + Perdesaan | Perempuan,PAPUA TENGAH,2024,83.01,iqr_lintas_provinsi,di luar pagar [86.56; 105.69] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Perempuan,PAPUA TENGAH,2025,85.07,iqr_lintas_provinsi,di luar pagar [88.67; 104.41] antarprovinsi pada periode itu
+rinci | Perkotaan + Perdesaan | Perempuan,SULAWESI BARAT,2010,86.03,lompatan_tahunan,"selisih -9.74 poin dari tahun sebelumnya, di luar pagar [-2.29; 2.96]"
+rinci | Perkotaan + Perdesaan | Perempuan,SULAWESI SELATAN,2010,85.54,lompatan_tahunan,"selisih -2.74 poin dari tahun sebelumnya, di luar pagar [-2.29; 2.96]"
+rinci | Perkotaan + Perdesaan | Perempuan,SULAWESI TENGAH,2009,84.19,z_dalam_provinsi,z = -3.47 terhadap deret provinsi itu sendiri
+rinci | Perkotaan + Perdesaan | Perempuan,SULAWESI TENGAH,2010,95.28,lompatan_tahunan,"selisih +11.09 poin dari tahun sebelumnya, di luar pagar [-2.29; 2.96]"
+rinci | Perkotaan + Perdesaan | Perempuan,SULAWESI TENGAH,2011,92.95,lompatan_tahunan,"selisih -2.33 poin dari tahun sebelumnya, di luar pagar [-2.29; 2.96]"
+rinci | Perkotaan + Perdesaan | Perempuan,SULAWESI TENGGARA,2010,89.07,lompatan_tahunan,"selisih +4.66 poin dari tahun sebelumnya, di luar pagar [-2.29; 2.96]"
+rinci | Perkotaan + Perdesaan | Perempuan,SUMATERA SELATAN,2009,92.35,z_dalam_provinsi,z = -2.97 terhadap deret provinsi itu sendiri
+rinci | Perkotaan + Perdesaan | Perempuan,SUMATERA SELATAN,2010,96.52,lompatan_tahunan,"selisih +4.17 poin dari tahun sebelumnya, di luar pagar [-2.29; 2.96]"
+rinci | Perkotaan | Laki-laki,BALI,2010,95.92,iqr_lintas_provinsi,di luar pagar [96.53; 100.61] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki,BANTEN,2009,96.18,z_dalam_provinsi,z = -3.49 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Laki-laki,BANTEN,2010,98.51,lompatan_tahunan,"selisih +2.33 poin dari tahun sebelumnya, di luar pagar [-1.31; 1.42]"
+rinci | Perkotaan | Laki-laki,BENGKULU,2009,98.36,z_dalam_provinsi,z = -2.65 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Laki-laki,DI YOGYAKARTA,2009,96.7,z_dalam_provinsi,z = -2.50 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Laki-laki,DI YOGYAKARTA,2010,98.48,lompatan_tahunan,"selisih +1.78 poin dari tahun sebelumnya, di luar pagar [-1.31; 1.42]"
+rinci | Perkotaan | Laki-laki,GORONTALO,2010,97.49,lompatan_tahunan,"selisih -2.18 poin dari tahun sebelumnya, di luar pagar [-1.31; 1.42]"
+rinci | Perkotaan | Laki-laki,JAMBI,2010,98.47,z_dalam_provinsi,z = -2.54 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Laki-laki,JAWA TENGAH,2010,95.91,iqr_lintas_provinsi,di luar pagar [96.53; 100.61] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki,JAWA TIMUR,2010,96.61,lompatan_tahunan,"selisih -2.26 poin dari tahun sebelumnya, di luar pagar [-1.31; 1.42]"
+rinci | Perkotaan | Laki-laki,KALIMANTAN BARAT,2010,95.96,iqr_lintas_provinsi,di luar pagar [96.53; 100.61] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki,KALIMANTAN SELATAN,2010,98.85,z_dalam_provinsi,z = -2.53 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Laki-laki,KALIMANTAN UTARA,2022,99.38,lompatan_tahunan,"selisih +1.68 poin dari tahun sebelumnya, di luar pagar [-1.31; 1.42]"
+rinci | Perkotaan | Laki-laki,NUSA TENGGARA BARAT,2009,89.9,iqr_lintas_provinsi,di luar pagar [95.43; 101.67] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki,NUSA TENGGARA BARAT,2010,89.12,iqr_lintas_provinsi,di luar pagar [96.53; 100.61] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki,NUSA TENGGARA BARAT,2011,91.76,iqr_lintas_provinsi,di luar pagar [94.56; 101.49] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki,NUSA TENGGARA BARAT,2011,91.76,lompatan_tahunan,"selisih +2.64 poin dari tahun sebelumnya, di luar pagar [-1.31; 1.42]"
+rinci | Perkotaan | Laki-laki,NUSA TENGGARA BARAT,2012,91.52,iqr_lintas_provinsi,di luar pagar [95.08; 101.56] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki,NUSA TENGGARA BARAT,2013,92.32,iqr_lintas_provinsi,di luar pagar [96.60; 101.21] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki,NUSA TENGGARA BARAT,2014,93.41,iqr_lintas_provinsi,di luar pagar [95.91; 102.03] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki,NUSA TENGGARA BARAT,2015,93.62,iqr_lintas_provinsi,di luar pagar [96.42; 101.41] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki,NUSA TENGGARA BARAT,2016,93.25,iqr_lintas_provinsi,di luar pagar [96.77; 101.36] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki,NUSA TENGGARA BARAT,2017,94.06,iqr_lintas_provinsi,di luar pagar [95.66; 102.08] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki,NUSA TENGGARA BARAT,2018,93.77,iqr_lintas_provinsi,di luar pagar [95.06; 102.43] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki,NUSA TENGGARA BARAT,2019,93.77,iqr_lintas_provinsi,di luar pagar [96.79; 101.55] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki,NUSA TENGGARA BARAT,2020,92.67,iqr_lintas_provinsi,di luar pagar [96.82; 101.43] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki,NUSA TENGGARA BARAT,2021,92.46,iqr_lintas_provinsi,di luar pagar [96.32; 101.71] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki,NUSA TENGGARA BARAT,2022,92.85,iqr_lintas_provinsi,di luar pagar [96.43; 101.51] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki,NUSA TENGGARA BARAT,2023,93.46,iqr_lintas_provinsi,di luar pagar [97.13; 101.27] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki,NUSA TENGGARA BARAT,2024,94.11,iqr_lintas_provinsi,di luar pagar [96.65; 101.32] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki,NUSA TENGGARA BARAT,2025,95.64,iqr_lintas_provinsi,di luar pagar [97.82; 100.81] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki,NUSA TENGGARA BARAT,2025,95.64,lompatan_tahunan,"selisih +1.53 poin dari tahun sebelumnya, di luar pagar [-1.31; 1.42]"
+rinci | Perkotaan | Laki-laki,NUSA TENGGARA TIMUR,2011,96.31,lompatan_tahunan,"selisih -1.96 poin dari tahun sebelumnya, di luar pagar [-1.31; 1.42]"
+rinci | Perkotaan | Laki-laki,NUSA TENGGARA TIMUR,2011,96.31,z_dalam_provinsi,z = -2.72 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Laki-laki,NUSA TENGGARA TIMUR,2012,98.14,lompatan_tahunan,"selisih +1.83 poin dari tahun sebelumnya, di luar pagar [-1.31; 1.42]"
+rinci | Perkotaan | Laki-laki,NUSA TENGGARA TIMUR,2024,97.58,lompatan_tahunan,"selisih -1.33 poin dari tahun sebelumnya, di luar pagar [-1.31; 1.42]"
+rinci | Perkotaan | Laki-laki,PAPUA,2015,94.96,iqr_lintas_provinsi,di luar pagar [96.42; 101.41] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki,PAPUA,2015,94.96,lompatan_tahunan,"selisih -4.29 poin dari tahun sebelumnya, di luar pagar [-1.31; 1.42]"
+rinci | Perkotaan | Laki-laki,PAPUA,2015,94.96,z_dalam_provinsi,z = -3.18 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Laki-laki,PAPUA,2016,98.56,lompatan_tahunan,"selisih +3.60 poin dari tahun sebelumnya, di luar pagar [-1.31; 1.42]"
+rinci | Perkotaan | Laki-laki,PAPUA,2017,97.04,lompatan_tahunan,"selisih -1.52 poin dari tahun sebelumnya, di luar pagar [-1.31; 1.42]"
+rinci | Perkotaan | Laki-laki,PAPUA,2018,98.62,lompatan_tahunan,"selisih +1.58 poin dari tahun sebelumnya, di luar pagar [-1.31; 1.42]"
+rinci | Perkotaan | Laki-laki,PAPUA BARAT,2011,98.21,z_dalam_provinsi,z = -3.40 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Laki-laki,PAPUA BARAT,2012,99.67,lompatan_tahunan,"selisih +1.46 poin dari tahun sebelumnya, di luar pagar [-1.31; 1.42]"
+rinci | Perkotaan | Laki-laki,PAPUA PEGUNUNGAN,2024,92.97,iqr_lintas_provinsi,di luar pagar [96.65; 101.32] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki,PAPUA PEGUNUNGAN,2025,93.61,iqr_lintas_provinsi,di luar pagar [97.82; 100.81] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki,SULAWESI BARAT,2010,93.86,iqr_lintas_provinsi,di luar pagar [96.53; 100.61] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki,SULAWESI BARAT,2010,93.86,lompatan_tahunan,"selisih -3.91 poin dari tahun sebelumnya, di luar pagar [-1.31; 1.42]"
+rinci | Perkotaan | Laki-laki,SULAWESI BARAT,2012,94.43,iqr_lintas_provinsi,di luar pagar [95.08; 101.56] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki,SULAWESI BARAT,2013,96.7,lompatan_tahunan,"selisih +2.27 poin dari tahun sebelumnya, di luar pagar [-1.31; 1.42]"
+rinci | Perkotaan | Laki-laki,SULAWESI BARAT,2016,96.17,iqr_lintas_provinsi,di luar pagar [96.77; 101.36] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki,SULAWESI BARAT,2024,97.13,lompatan_tahunan,"selisih -1.47 poin dari tahun sebelumnya, di luar pagar [-1.31; 1.42]"
+rinci | Perkotaan | Laki-laki,SULAWESI SELATAN,2010,96.19,iqr_lintas_provinsi,di luar pagar [96.53; 100.61] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki,SULAWESI SELATAN,2010,96.19,lompatan_tahunan,"selisih -2.58 poin dari tahun sebelumnya, di luar pagar [-1.31; 1.42]"
+rinci | Perkotaan | Laki-laki,SULAWESI TENGAH,2009,96.68,z_dalam_provinsi,z = -3.35 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Laki-laki,SULAWESI TENGAH,2010,99.03,lompatan_tahunan,"selisih +2.35 poin dari tahun sebelumnya, di luar pagar [-1.31; 1.42]"
+rinci | Perkotaan | Laki-laki,SULAWESI TENGGARA,2009,94.95,iqr_lintas_provinsi,di luar pagar [95.43; 101.67] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki,SULAWESI TENGGARA,2009,94.95,z_dalam_provinsi,z = -3.18 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Laki-laki,SULAWESI TENGGARA,2010,98.06,lompatan_tahunan,"selisih +3.11 poin dari tahun sebelumnya, di luar pagar [-1.31; 1.42]"
+rinci | Perkotaan | Laki-laki,SUMATERA BARAT,2011,98.51,z_dalam_provinsi,z = -2.55 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Laki-laki+Perempuan,BALI,2009,91.56,iqr_lintas_provinsi,di luar pagar [94.26; 100.85] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,BALI,2010,92.29,iqr_lintas_provinsi,di luar pagar [93.52; 101.52] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,BALI,2014,95.75,lompatan_tahunan,"selisih +1.46 poin dari tahun sebelumnya, di luar pagar [-1.14; 1.38]"
+rinci | Perkotaan | Laki-laki+Perempuan,BALI,2019,97.04,lompatan_tahunan,"selisih +1.40 poin dari tahun sebelumnya, di luar pagar [-1.14; 1.38]"
+rinci | Perkotaan | Laki-laki+Perempuan,BANTEN,2009,92.59,iqr_lintas_provinsi,di luar pagar [94.26; 100.85] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,BANTEN,2009,92.59,z_dalam_provinsi,z = -3.51 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Laki-laki+Perempuan,BANTEN,2010,97.22,lompatan_tahunan,"selisih +4.63 poin dari tahun sebelumnya, di luar pagar [-1.14; 1.38]"
+rinci | Perkotaan | Laki-laki+Perempuan,BENGKULU,2009,96.82,z_dalam_provinsi,z = -3.04 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Laki-laki+Perempuan,DI YOGYAKARTA,2009,93.46,iqr_lintas_provinsi,di luar pagar [94.26; 100.85] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,DI YOGYAKARTA,2011,93.39,lompatan_tahunan,"selisih -1.24 poin dari tahun sebelumnya, di luar pagar [-1.14; 1.38]"
+rinci | Perkotaan | Laki-laki+Perempuan,GORONTALO,2010,97.52,lompatan_tahunan,"selisih -1.53 poin dari tahun sebelumnya, di luar pagar [-1.14; 1.38]"
+rinci | Perkotaan | Laki-laki+Perempuan,JAWA TENGAH,2009,93.73,iqr_lintas_provinsi,di luar pagar [94.26; 100.85] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,JAWA TENGAH,2010,92.83,iqr_lintas_provinsi,di luar pagar [93.52; 101.52] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,JAWA TENGAH,2012,92.81,iqr_lintas_provinsi,di luar pagar [93.04; 101.76] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,JAWA TENGAH,2013,93.5,iqr_lintas_provinsi,di luar pagar [93.65; 101.97] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,JAWA TENGAH,2025,96.4,iqr_lintas_provinsi,di luar pagar [97.03; 101.04] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,JAWA TIMUR,2010,93.62,lompatan_tahunan,"selisih -3.83 poin dari tahun sebelumnya, di luar pagar [-1.14; 1.38]"
+rinci | Perkotaan | Laki-laki+Perempuan,KALIMANTAN BARAT,2009,93.93,iqr_lintas_provinsi,di luar pagar [94.26; 100.85] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,KALIMANTAN TENGAH,2011,96.98,lompatan_tahunan,"selisih -1.61 poin dari tahun sebelumnya, di luar pagar [-1.14; 1.38]"
+rinci | Perkotaan | Laki-laki+Perempuan,KALIMANTAN TENGAH,2011,96.98,z_dalam_provinsi,z = -2.68 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Laki-laki+Perempuan,KALIMANTAN TENGAH,2012,98.41,lompatan_tahunan,"selisih +1.43 poin dari tahun sebelumnya, di luar pagar [-1.14; 1.38]"
+rinci | Perkotaan | Laki-laki+Perempuan,KEPULAUAN RIAU,2009,97.07,z_dalam_provinsi,z = -2.98 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Laki-laki+Perempuan,MALUKU UTARA,2009,98.3,z_dalam_provinsi,z = -2.55 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2009,83.61,iqr_lintas_provinsi,di luar pagar [94.26; 100.85] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2010,84.9,iqr_lintas_provinsi,di luar pagar [93.52; 101.52] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2011,86.93,iqr_lintas_provinsi,di luar pagar [90.92; 102.28] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2011,86.93,lompatan_tahunan,"selisih +2.03 poin dari tahun sebelumnya, di luar pagar [-1.14; 1.38]"
+rinci | Perkotaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2012,87.27,iqr_lintas_provinsi,di luar pagar [93.04; 101.76] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2013,88.31,iqr_lintas_provinsi,di luar pagar [93.65; 101.97] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2014,90.45,iqr_lintas_provinsi,di luar pagar [91.81; 104.13] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2014,90.45,lompatan_tahunan,"selisih +2.14 poin dari tahun sebelumnya, di luar pagar [-1.14; 1.38]"
+rinci | Perkotaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2015,90.14,iqr_lintas_provinsi,di luar pagar [93.07; 103.06] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2016,89.6,iqr_lintas_provinsi,di luar pagar [93.45; 102.89] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2017,90.54,iqr_lintas_provinsi,di luar pagar [92.97; 103.35] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2018,89.84,iqr_lintas_provinsi,di luar pagar [92.42; 103.68] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2019,89.92,iqr_lintas_provinsi,di luar pagar [94.58; 102.45] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2020,90.07,iqr_lintas_provinsi,di luar pagar [93.90; 102.81] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2021,89.82,iqr_lintas_provinsi,di luar pagar [94.06; 102.73] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2022,91.11,iqr_lintas_provinsi,di luar pagar [95.17; 102.06] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2023,91.16,iqr_lintas_provinsi,di luar pagar [95.31; 102.02] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2024,91.63,iqr_lintas_provinsi,di luar pagar [95.05; 102.00] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,NUSA TENGGARA BARAT,2025,92.84,iqr_lintas_provinsi,di luar pagar [97.03; 101.04] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,NUSA TENGGARA TIMUR,2011,95.19,lompatan_tahunan,"selisih -2.34 poin dari tahun sebelumnya, di luar pagar [-1.14; 1.38]"
+rinci | Perkotaan | Laki-laki+Perempuan,NUSA TENGGARA TIMUR,2011,95.19,z_dalam_provinsi,z = -2.80 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Laki-laki+Perempuan,NUSA TENGGARA TIMUR,2012,96.86,lompatan_tahunan,"selisih +1.67 poin dari tahun sebelumnya, di luar pagar [-1.14; 1.38]"
+rinci | Perkotaan | Laki-laki+Perempuan,NUSA TENGGARA TIMUR,2015,97.93,lompatan_tahunan,"selisih +1.52 poin dari tahun sebelumnya, di luar pagar [-1.14; 1.38]"
+rinci | Perkotaan | Laki-laki+Perempuan,PAPUA,2015,94.4,lompatan_tahunan,"selisih -4.34 poin dari tahun sebelumnya, di luar pagar [-1.14; 1.38]"
+rinci | Perkotaan | Laki-laki+Perempuan,PAPUA,2015,94.4,z_dalam_provinsi,z = -3.02 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Laki-laki+Perempuan,PAPUA,2016,97.51,lompatan_tahunan,"selisih +3.11 poin dari tahun sebelumnya, di luar pagar [-1.14; 1.38]"
+rinci | Perkotaan | Laki-laki+Perempuan,PAPUA,2018,98.33,lompatan_tahunan,"selisih +1.52 poin dari tahun sebelumnya, di luar pagar [-1.14; 1.38]"
+rinci | Perkotaan | Laki-laki+Perempuan,PAPUA BARAT,2011,98.05,z_dalam_provinsi,z = -2.67 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Laki-laki+Perempuan,PAPUA PEGUNUNGAN,2024,92.57,iqr_lintas_provinsi,di luar pagar [95.05; 102.00] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,PAPUA PEGUNUNGAN,2025,90.79,iqr_lintas_provinsi,di luar pagar [97.03; 101.04] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,PAPUA PEGUNUNGAN,2025,90.79,lompatan_tahunan,"selisih -1.78 poin dari tahun sebelumnya, di luar pagar [-1.14; 1.38]"
+rinci | Perkotaan | Laki-laki+Perempuan,SULAWESI BARAT,2010,92.63,iqr_lintas_provinsi,di luar pagar [93.52; 101.52] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,SULAWESI BARAT,2010,92.63,lompatan_tahunan,"selisih -5.08 poin dari tahun sebelumnya, di luar pagar [-1.14; 1.38]"
+rinci | Perkotaan | Laki-laki+Perempuan,SULAWESI BARAT,2012,92.45,iqr_lintas_provinsi,di luar pagar [93.04; 101.76] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,SULAWESI BARAT,2013,95.63,lompatan_tahunan,"selisih +3.18 poin dari tahun sebelumnya, di luar pagar [-1.14; 1.38]"
+rinci | Perkotaan | Laki-laki+Perempuan,SULAWESI SELATAN,2010,94.94,lompatan_tahunan,"selisih -2.29 poin dari tahun sebelumnya, di luar pagar [-1.14; 1.38]"
+rinci | Perkotaan | Laki-laki+Perempuan,SULAWESI SELATAN,2013,95.62,lompatan_tahunan,"selisih +1.38 poin dari tahun sebelumnya, di luar pagar [-1.14; 1.38]"
+rinci | Perkotaan | Laki-laki+Perempuan,SULAWESI TENGAH,2009,94.82,z_dalam_provinsi,z = -3.48 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Laki-laki+Perempuan,SULAWESI TENGAH,2010,98.52,lompatan_tahunan,"selisih +3.70 poin dari tahun sebelumnya, di luar pagar [-1.14; 1.38]"
+rinci | Perkotaan | Laki-laki+Perempuan,SULAWESI TENGGARA,2009,92.87,iqr_lintas_provinsi,di luar pagar [94.26; 100.85] antarprovinsi pada periode itu
+rinci | Perkotaan | Laki-laki+Perempuan,SULAWESI TENGGARA,2009,92.87,z_dalam_provinsi,z = -3.05 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Laki-laki+Perempuan,SULAWESI TENGGARA,2010,96.52,lompatan_tahunan,"selisih +3.65 poin dari tahun sebelumnya, di luar pagar [-1.14; 1.38]"
+rinci | Perkotaan | Laki-laki+Perempuan,SULAWESI TENGGARA,2011,95.18,lompatan_tahunan,"selisih -1.34 poin dari tahun sebelumnya, di luar pagar [-1.14; 1.38]"
+rinci | Perkotaan | Laki-laki+Perempuan,SULAWESI TENGGARA,2017,96.41,lompatan_tahunan,"selisih -1.21 poin dari tahun sebelumnya, di luar pagar [-1.14; 1.38]"
+rinci | Perkotaan | Laki-laki+Perempuan,SUMATERA BARAT,2011,97.52,z_dalam_provinsi,z = -2.74 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Perempuan,BALI,2009,87.35,iqr_lintas_provinsi,di luar pagar [90.19; 102.19] antarprovinsi pada periode itu
+rinci | Perkotaan | Perempuan,BALI,2010,88.66,iqr_lintas_provinsi,di luar pagar [90.72; 102.21] antarprovinsi pada periode itu
+rinci | Perkotaan | Perempuan,BALI,2012,89.54,iqr_lintas_provinsi,di luar pagar [90.50; 102.38] antarprovinsi pada periode itu
+rinci | Perkotaan | Perempuan,BALI,2014,93.27,lompatan_tahunan,"selisih +2.61 poin dari tahun sebelumnya, di luar pagar [-2.16; 2.49]"
+rinci | Perkotaan | Perempuan,BANTEN,2009,89.25,iqr_lintas_provinsi,di luar pagar [90.19; 102.19] antarprovinsi pada periode itu
+rinci | Perkotaan | Perempuan,BANTEN,2009,89.25,z_dalam_provinsi,z = -3.46 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Perempuan,BANTEN,2010,95.91,lompatan_tahunan,"selisih +6.66 poin dari tahun sebelumnya, di luar pagar [-2.16; 2.49]"
+rinci | Perkotaan | Perempuan,BENGKULU,2009,95.35,z_dalam_provinsi,z = -2.99 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Perempuan,JAWA TENGAH,2010,89.91,iqr_lintas_provinsi,di luar pagar [90.72; 102.21] antarprovinsi pada periode itu
+rinci | Perkotaan | Perempuan,JAWA TENGAH,2012,89.63,iqr_lintas_provinsi,di luar pagar [90.50; 102.38] antarprovinsi pada periode itu
+rinci | Perkotaan | Perempuan,JAWA TENGAH,2022,94.18,iqr_lintas_provinsi,di luar pagar [94.22; 102.38] antarprovinsi pada periode itu
+rinci | Perkotaan | Perempuan,JAWA TENGAH,2024,94.41,iqr_lintas_provinsi,di luar pagar [94.83; 102.04] antarprovinsi pada periode itu
+rinci | Perkotaan | Perempuan,JAWA TENGAH,2025,94.88,iqr_lintas_provinsi,di luar pagar [95.54; 101.74] antarprovinsi pada periode itu
+rinci | Perkotaan | Perempuan,JAWA TIMUR,2010,90.76,lompatan_tahunan,"selisih -5.26 poin dari tahun sebelumnya, di luar pagar [-2.16; 2.49]"
+rinci | Perkotaan | Perempuan,KALIMANTAN SELATAN,2011,96.51,z_dalam_provinsi,z = -2.57 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Perempuan,KALIMANTAN TENGAH,2011,95.46,lompatan_tahunan,"selisih -2.42 poin dari tahun sebelumnya, di luar pagar [-2.16; 2.49]"
+rinci | Perkotaan | Perempuan,KALIMANTAN TENGAH,2011,95.46,z_dalam_provinsi,z = -2.66 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Perempuan,KEPULAUAN BANGKA BELITUNG,2009,94.69,z_dalam_provinsi,z = -2.50 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Perempuan,KEPULAUAN RIAU,2009,95.49,z_dalam_provinsi,z = -3.16 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Perempuan,MALUKU UTARA,2009,97.15,z_dalam_provinsi,z = -2.84 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Perempuan,NUSA TENGGARA BARAT,2009,78.43,iqr_lintas_provinsi,di luar pagar [90.19; 102.19] antarprovinsi pada periode itu
+rinci | Perkotaan | Perempuan,NUSA TENGGARA BARAT,2010,81.17,iqr_lintas_provinsi,di luar pagar [90.72; 102.21] antarprovinsi pada periode itu
+rinci | Perkotaan | Perempuan,NUSA TENGGARA BARAT,2010,81.17,lompatan_tahunan,"selisih +2.74 poin dari tahun sebelumnya, di luar pagar [-2.16; 2.49]"
+rinci | Perkotaan | Perempuan,NUSA TENGGARA BARAT,2011,82.81,iqr_lintas_provinsi,di luar pagar [87.09; 103.65] antarprovinsi pada periode itu
+rinci | Perkotaan | Perempuan,NUSA TENGGARA BARAT,2012,83.5,iqr_lintas_provinsi,di luar pagar [90.50; 102.38] antarprovinsi pada periode itu
+rinci | Perkotaan | Perempuan,NUSA TENGGARA BARAT,2013,84.71,iqr_lintas_provinsi,di luar pagar [90.16; 103.40] antarprovinsi pada periode itu
+rinci | Perkotaan | Perempuan,NUSA TENGGARA BARAT,2014,87.82,iqr_lintas_provinsi,di luar pagar [90.75; 104.35] antarprovinsi pada periode itu
+rinci | Perkotaan | Perempuan,NUSA TENGGARA BARAT,2014,87.82,lompatan_tahunan,"selisih +3.11 poin dari tahun sebelumnya, di luar pagar [-2.16; 2.49]"
+rinci | Perkotaan | Perempuan,NUSA TENGGARA BARAT,2015,87.04,iqr_lintas_provinsi,di luar pagar [91.00; 103.90] antarprovinsi pada periode itu
+rinci | Perkotaan | Perempuan,NUSA TENGGARA BARAT,2016,86.35,iqr_lintas_provinsi,di luar pagar [92.11; 103.14] antarprovinsi pada periode itu
+rinci | Perkotaan | Perempuan,NUSA TENGGARA BARAT,2017,87.31,iqr_lintas_provinsi,di luar pagar [92.36; 103.24] antarprovinsi pada periode itu
+rinci | Perkotaan | Perempuan,NUSA TENGGARA BARAT,2018,86.31,iqr_lintas_provinsi,di luar pagar [90.33; 104.57] antarprovinsi pada periode itu
+rinci | Perkotaan | Perempuan,NUSA TENGGARA BARAT,2019,86.31,iqr_lintas_provinsi,di luar pagar [92.42; 103.40] antarprovinsi pada periode itu
+rinci | Perkotaan | Perempuan,NUSA TENGGARA BARAT,2020,87.63,iqr_lintas_provinsi,di luar pagar [92.27; 103.56] antarprovinsi pada periode itu
+rinci | Perkotaan | Perempuan,NUSA TENGGARA BARAT,2021,87.26,iqr_lintas_provinsi,di luar pagar [92.46; 103.34] antarprovinsi pada periode itu
+rinci | Perkotaan | Perempuan,NUSA TENGGARA BARAT,2022,89.42,iqr_lintas_provinsi,di luar pagar [94.22; 102.38] antarprovinsi pada periode itu
+rinci | Perkotaan | Perempuan,NUSA TENGGARA BARAT,2023,89.0,iqr_lintas_provinsi,di luar pagar [93.74; 102.62] antarprovinsi pada periode itu
+rinci | Perkotaan | Perempuan,NUSA TENGGARA BARAT,2024,89.27,iqr_lintas_provinsi,di luar pagar [94.83; 102.04] antarprovinsi pada periode itu
+rinci | Perkotaan | Perempuan,NUSA TENGGARA BARAT,2025,90.17,iqr_lintas_provinsi,di luar pagar [95.54; 101.74] antarprovinsi pada periode itu
+rinci | Perkotaan | Perempuan,NUSA TENGGARA TIMUR,2011,94.18,lompatan_tahunan,"selisih -2.62 poin dari tahun sebelumnya, di luar pagar [-2.16; 2.49]"
+rinci | Perkotaan | Perempuan,NUSA TENGGARA TIMUR,2011,94.18,z_dalam_provinsi,z = -2.55 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Perempuan,PAPUA,2015,93.71,lompatan_tahunan,"selisih -4.43 poin dari tahun sebelumnya, di luar pagar [-2.16; 2.49]"
+rinci | Perkotaan | Perempuan,PAPUA,2015,93.71,z_dalam_provinsi,z = -2.66 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Perempuan,PAPUA,2016,96.24,lompatan_tahunan,"selisih +2.53 poin dari tahun sebelumnya, di luar pagar [-2.16; 2.49]"
+rinci | Perkotaan | Perempuan,PAPUA BARAT,2009,97.25,z_dalam_provinsi,z = -2.73 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Perempuan,PAPUA PEGUNUNGAN,2024,92.12,iqr_lintas_provinsi,di luar pagar [94.83; 102.04] antarprovinsi pada periode itu
+rinci | Perkotaan | Perempuan,PAPUA PEGUNUNGAN,2025,86.91,iqr_lintas_provinsi,di luar pagar [95.54; 101.74] antarprovinsi pada periode itu
+rinci | Perkotaan | Perempuan,PAPUA PEGUNUNGAN,2025,86.91,lompatan_tahunan,"selisih -5.21 poin dari tahun sebelumnya, di luar pagar [-2.16; 2.49]"
+rinci | Perkotaan | Perempuan,SULAWESI BARAT,2010,91.49,lompatan_tahunan,"selisih -6.17 poin dari tahun sebelumnya, di luar pagar [-2.16; 2.49]"
+rinci | Perkotaan | Perempuan,SULAWESI BARAT,2013,94.62,lompatan_tahunan,"selisih +4.05 poin dari tahun sebelumnya, di luar pagar [-2.16; 2.49]"
+rinci | Perkotaan | Perempuan,SULAWESI TENGAH,2009,93.16,z_dalam_provinsi,z = -3.48 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Perempuan,SULAWESI TENGAH,2010,98.0,lompatan_tahunan,"selisih +4.84 poin dari tahun sebelumnya, di luar pagar [-2.16; 2.49]"
+rinci | Perkotaan | Perempuan,SULAWESI TENGGARA,2009,90.9,z_dalam_provinsi,z = -2.81 terhadap deret provinsi itu sendiri
+rinci | Perkotaan | Perempuan,SULAWESI TENGGARA,2010,95.03,lompatan_tahunan,"selisih +4.13 poin dari tahun sebelumnya, di luar pagar [-2.16; 2.49]"
+rinci | Perkotaan | Perempuan,SUMATERA BARAT,2011,96.57,z_dalam_provinsi,z = -2.79 terhadap deret provinsi itu sendiri
+var1458,BALI,2019,94.53,lompatan_tahunan,"selisih +1.55 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,JAWA TIMUR,2022,93.32,lompatan_tahunan,"selisih +0.76 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,JAWA TIMUR,2025,94.85,lompatan_tahunan,"selisih +0.72 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,KALIMANTAN BARAT,2023,94.79,lompatan_tahunan,"selisih +0.83 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,KALIMANTAN BARAT,2025,96.09,lompatan_tahunan,"selisih +1.06 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,KALIMANTAN SELATAN,2025,97.82,lompatan_tahunan,"selisih -0.52 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,KALIMANTAN SELATAN,2025,97.82,z_dalam_provinsi,z = -2.70 terhadap deret provinsi itu sendiri
+var1458,KALIMANTAN UTARA,2019,96.39,lompatan_tahunan,"selisih +1.21 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,KALIMANTAN UTARA,2022,97.71,lompatan_tahunan,"selisih +1.16 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,KALIMANTAN UTARA,2025,98.14,lompatan_tahunan,"selisih +0.77 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,NUSA TENGGARA BARAT,2019,87.59,iqr_lintas_provinsi,di luar pagar [88.14; 105.43] antarprovinsi pada periode itu
+var1458,NUSA TENGGARA BARAT,2020,87.6,iqr_lintas_provinsi,di luar pagar [88.74; 105.03] antarprovinsi pada periode itu
+var1458,NUSA TENGGARA BARAT,2021,87.39,iqr_lintas_provinsi,di luar pagar [89.08; 104.74] antarprovinsi pada periode itu
+var1458,NUSA TENGGARA BARAT,2022,88.97,iqr_lintas_provinsi,di luar pagar [89.73; 104.44] antarprovinsi pada periode itu
+var1458,NUSA TENGGARA BARAT,2022,88.97,lompatan_tahunan,"selisih +1.58 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,NUSA TENGGARA BARAT,2023,89.11,iqr_lintas_provinsi,di luar pagar [90.55; 104.01] antarprovinsi pada periode itu
+var1458,NUSA TENGGARA BARAT,2024,89.83,iqr_lintas_provinsi,di luar pagar [90.03; 104.01] antarprovinsi pada periode itu
+var1458,NUSA TENGGARA BARAT,2024,89.83,lompatan_tahunan,"selisih +0.72 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,NUSA TENGGARA BARAT,2025,91.07,iqr_lintas_provinsi,di luar pagar [91.50; 103.42] antarprovinsi pada periode itu
+var1458,NUSA TENGGARA BARAT,2025,91.07,lompatan_tahunan,"selisih +1.24 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,NUSA TENGGARA TIMUR,2019,93.24,lompatan_tahunan,"selisih +1.34 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,NUSA TENGGARA TIMUR,2022,94.63,lompatan_tahunan,"selisih +0.78 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,NUSA TENGGARA TIMUR,2025,95.92,lompatan_tahunan,"selisih +0.77 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,PAPUA,2014,70.78,iqr_lintas_provinsi,di luar pagar [84.79; 106.63] antarprovinsi pada periode itu
+var1458,PAPUA,2015,70.83,iqr_lintas_provinsi,di luar pagar [85.60; 106.31] antarprovinsi pada periode itu
+var1458,PAPUA,2016,71.02,iqr_lintas_provinsi,di luar pagar [85.68; 106.63] antarprovinsi pada periode itu
+var1458,PAPUA,2017,73.89,iqr_lintas_provinsi,di luar pagar [85.87; 106.55] antarprovinsi pada periode itu
+var1458,PAPUA,2017,73.89,lompatan_tahunan,"selisih +2.87 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,PAPUA,2018,76.79,iqr_lintas_provinsi,di luar pagar [85.99; 106.55] antarprovinsi pada periode itu
+var1458,PAPUA,2018,76.79,lompatan_tahunan,"selisih +2.90 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,PAPUA,2019,78.0,iqr_lintas_provinsi,di luar pagar [88.14; 105.43] antarprovinsi pada periode itu
+var1458,PAPUA,2019,78.0,lompatan_tahunan,"selisih +1.21 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,PAPUA,2020,77.9,iqr_lintas_provinsi,di luar pagar [88.74; 105.03] antarprovinsi pada periode itu
+var1458,PAPUA,2021,78.89,iqr_lintas_provinsi,di luar pagar [89.08; 104.74] antarprovinsi pada periode itu
+var1458,PAPUA,2021,78.89,lompatan_tahunan,"selisih +0.99 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,PAPUA,2022,81.19,iqr_lintas_provinsi,di luar pagar [89.73; 104.44] antarprovinsi pada periode itu
+var1458,PAPUA,2022,81.19,lompatan_tahunan,"selisih +2.30 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,PAPUA,2023,84.22,iqr_lintas_provinsi,di luar pagar [90.55; 104.01] antarprovinsi pada periode itu
+var1458,PAPUA,2023,84.22,lompatan_tahunan,"selisih +3.03 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,PAPUA,2024,98.37,lompatan_tahunan,"selisih +14.15 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,PAPUA BARAT DAYA,2025,98.58,lompatan_tahunan,"selisih +0.74 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,PAPUA PEGUNUNGAN,2024,70.37,iqr_lintas_provinsi,di luar pagar [90.03; 104.01] antarprovinsi pada periode itu
+var1458,PAPUA PEGUNUNGAN,2025,68.32,iqr_lintas_provinsi,di luar pagar [91.50; 103.42] antarprovinsi pada periode itu
+var1458,PAPUA PEGUNUNGAN,2025,68.32,lompatan_tahunan,"selisih -2.05 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,PAPUA SELATAN,2025,95.27,lompatan_tahunan,"selisih +1.06 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,PAPUA TENGAH,2024,84.69,iqr_lintas_provinsi,di luar pagar [90.03; 104.01] antarprovinsi pada periode itu
+var1458,PAPUA TENGAH,2025,85.82,iqr_lintas_provinsi,di luar pagar [91.50; 103.42] antarprovinsi pada periode itu
+var1458,PAPUA TENGAH,2025,85.82,lompatan_tahunan,"selisih +1.13 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,SULAWESI BARAT,2019,93.59,lompatan_tahunan,"selisih +0.74 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,SULAWESI BARAT,2022,93.82,lompatan_tahunan,"selisih +0.73 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,SULAWESI SELATAN,2022,93.31,lompatan_tahunan,"selisih +0.82 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,SULAWESI SELATAN,2025,95.05,lompatan_tahunan,"selisih +0.94 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,SULAWESI TENGGARA,2022,95.79,lompatan_tahunan,"selisih +0.85 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"
+var1458,SULAWESI TENGGARA,2025,97.22,lompatan_tahunan,"selisih +0.93 poin dari tahun sebelumnya, di luar pagar [-0.49; 0.70]"

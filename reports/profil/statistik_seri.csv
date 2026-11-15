@@ -1,0 +1,11 @@
+seri,n_terisi,rata2,simpangan_baku,min,q1,median,q3,maks,n_sel,n_kosong,pct_kosong
+rinci | Perdesaan | Laki-laki,563,95.586,5.55,60.59,94.635,97.4,98.68,99.83,646,83,12.8
+rinci | Perdesaan | Laki-laki+Perempuan,563,93.62,6.798,52.22,91.66,95.92,97.745,99.81,646,83,12.8
+rinci | Perdesaan | Perempuan,563,91.65,8.198,43.12,88.7,94.35,96.855,99.89,646,83,12.8
+rinci | Perkotaan + Perdesaan | Laki-laki,580,96.857,4.247,70.72,96.222,98.325,99.15,99.91,646,66,10.2
+rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan,580,95.405,5.25,64.08,94.125,97.325,98.57,99.87,646,66,10.2
+rinci | Perkotaan + Perdesaan | Perempuan,580,93.951,6.385,56.74,92.295,96.28,98.12,99.92,646,66,10.2
+rinci | Perkotaan | Laki-laki,580,98.648,1.506,89.12,98.232,99.18,99.6,99.98,646,66,10.2
+rinci | Perkotaan | Laki-laki+Perempuan,580,97.795,2.285,83.61,97.078,98.595,99.34,99.93,646,66,10.2
+rinci | Perkotaan | Perempuan,580,96.954,3.092,78.43,95.905,98.01,99.112,99.94,646,66,10.2
+var1458,415,96.167,4.686,68.32,94.795,97.96,98.805,99.87,415,0,0.0
