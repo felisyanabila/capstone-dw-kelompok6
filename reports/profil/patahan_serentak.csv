@@ -1,0 +1,156 @@
+seri,periode,n_provinsi,median_perubahan,z_robust,pct_searah,patahan
+rinci / Perdesaan / Laki-laki,2010,32,-0.35,-2.2,41.0,False
+rinci / Perdesaan / Laki-laki,2011,32,0.1,-0.1,28.0,False
+rinci / Perdesaan / Laki-laki,2012,32,0.27,0.8,28.0,False
+rinci / Perdesaan / Laki-laki,2013,32,0.63,2.4,62.0,False
+rinci / Perdesaan / Laki-laki,2014,32,0.72,2.8,75.0,False
+rinci / Perdesaan / Laki-laki,2015,32,0.1,-0.0,19.0,False
+rinci / Perdesaan / Laki-laki,2016,33,0.12,0.0,9.0,False
+rinci / Perdesaan / Laki-laki,2017,33,0.35,1.1,42.0,False
+rinci / Perdesaan / Laki-laki,2018,33,-0.19,-1.4,30.0,False
+rinci / Perdesaan / Laki-laki,2019,33,0.16,0.2,24.0,False
+rinci / Perdesaan / Laki-laki,2020,33,-0.04,-0.7,12.0,False
+rinci / Perdesaan / Laki-laki,2021,33,-0.02,-0.6,6.0,False
+rinci / Perdesaan / Laki-laki,2022,33,-0.03,-0.7,15.0,False
+rinci / Perdesaan / Laki-laki,2023,33,0.21,0.5,33.0,False
+rinci / Perdesaan / Laki-laki,2024,33,0.01,-0.5,15.0,False
+rinci / Perdesaan / Laki-laki,2025,37,0.5,1.8,51.0,False
+rinci / Perdesaan / Laki-laki+Perempuan,2010,32,0.4,0.7,41.0,False
+rinci / Perdesaan / Laki-laki+Perempuan,2011,32,-0.2,-1.1,44.0,False
+rinci / Perdesaan / Laki-laki+Perempuan,2012,32,0.49,1.0,50.0,False
+rinci / Perdesaan / Laki-laki+Perempuan,2013,32,0.91,2.3,78.0,False
+rinci / Perdesaan / Laki-laki+Perempuan,2014,32,1.39,3.7,100.0,True
+rinci / Perdesaan / Laki-laki+Perempuan,2015,32,0.21,0.2,16.0,False
+rinci / Perdesaan / Laki-laki+Perempuan,2016,33,0.18,0.0,3.0,False
+rinci / Perdesaan / Laki-laki+Perempuan,2017,33,0.55,1.2,55.0,False
+rinci / Perdesaan / Laki-laki+Perempuan,2018,33,-0.26,-1.3,33.0,False
+rinci / Perdesaan / Laki-laki+Perempuan,2019,33,0.15,-0.0,21.0,False
+rinci / Perdesaan / Laki-laki+Perempuan,2020,33,0.01,-0.5,6.0,False
+rinci / Perdesaan / Laki-laki+Perempuan,2021,33,-0.04,-0.6,0.0,False
+rinci / Perdesaan / Laki-laki+Perempuan,2022,33,0.05,-0.3,33.0,False
+rinci / Perdesaan / Laki-laki+Perempuan,2023,33,0.11,-0.2,18.0,False
+rinci / Perdesaan / Laki-laki+Perempuan,2024,33,0.09,-0.2,21.0,False
+rinci / Perdesaan / Laki-laki+Perempuan,2025,37,0.42,0.8,46.0,False
+rinci / Perdesaan / Perempuan,2010,32,1.01,3.0,62.0,False
+rinci / Perdesaan / Perempuan,2011,32,-0.57,-3.1,59.0,False
+rinci / Perdesaan / Perempuan,2012,32,0.59,1.3,53.0,False
+rinci / Perdesaan / Perempuan,2013,32,1.02,3.0,81.0,True
+rinci / Perdesaan / Perempuan,2014,32,1.9,6.4,100.0,True
+rinci / Perdesaan / Perempuan,2015,32,0.21,-0.1,38.0,False
+rinci / Perdesaan / Perempuan,2016,33,0.3,0.2,30.0,False
+rinci / Perdesaan / Perempuan,2017,33,0.55,1.2,64.0,False
+rinci / Perdesaan / Perempuan,2018,33,-0.26,-1.9,36.0,False
+rinci / Perdesaan / Perempuan,2019,33,0.25,0.0,30.0,False
+rinci / Perdesaan / Perempuan,2020,33,0.11,-0.5,27.0,False
+rinci / Perdesaan / Perempuan,2021,33,0.03,-0.8,12.0,False
+rinci / Perdesaan / Perempuan,2022,33,0.24,-0.0,45.0,False
+rinci / Perdesaan / Perempuan,2023,33,0.11,-0.5,12.0,False
+rinci / Perdesaan / Perempuan,2024,33,0.23,-0.1,33.0,False
+rinci / Perdesaan / Perempuan,2025,37,0.31,0.3,46.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki,2010,33,-0.13,-1.3,33.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki,2011,33,-0.03,-0.6,18.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki,2012,33,0.3,1.5,27.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki,2013,33,0.52,3.0,55.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki,2014,33,0.53,3.0,55.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki,2015,33,0.06,-0.0,15.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki,2016,34,0.08,0.0,3.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki,2017,34,0.17,0.6,12.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki,2018,34,-0.07,-0.9,6.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki,2019,34,0.09,0.1,21.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki,2020,34,-0.04,-0.7,3.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki,2021,34,-0.0,-0.5,6.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki,2022,34,-0.03,-0.7,3.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki,2023,34,0.13,0.4,21.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki,2024,34,-0.06,-0.8,0.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki,2025,38,0.28,1.4,34.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki+Perempuan,2010,33,0.24,0.7,39.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki+Perempuan,2011,33,-0.3,-2.3,39.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki+Perempuan,2012,33,0.45,1.9,45.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki+Perempuan,2013,33,0.71,3.4,70.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki+Perempuan,2014,33,1.06,5.3,94.0,True
+rinci / Perkotaan + Perdesaan / Laki-laki+Perempuan,2015,33,0.1,-0.1,0.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki+Perempuan,2016,34,0.12,0.1,0.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki+Perempuan,2017,34,0.3,1.1,35.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki+Perempuan,2018,34,-0.11,-1.3,26.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki+Perempuan,2019,34,0.13,0.1,21.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki+Perempuan,2020,34,0.01,-0.6,0.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki+Perempuan,2021,34,0.0,-0.6,0.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki+Perempuan,2022,34,0.03,-0.5,29.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki+Perempuan,2023,34,0.08,-0.2,12.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki+Perempuan,2024,34,0.05,-0.3,9.0,False
+rinci / Perkotaan + Perdesaan / Laki-laki+Perempuan,2025,38,0.27,0.9,39.0,False
+rinci / Perkotaan + Perdesaan / Perempuan,2010,33,0.81,2.4,61.0,False
+rinci / Perkotaan + Perdesaan / Perempuan,2011,33,-0.62,-3.3,58.0,False
+rinci / Perkotaan + Perdesaan / Perempuan,2012,33,0.63,1.7,55.0,False
+rinci / Perkotaan + Perdesaan / Perempuan,2013,33,0.84,2.5,79.0,False
+rinci / Perkotaan + Perdesaan / Perempuan,2014,33,1.53,5.2,100.0,True
+rinci / Perkotaan + Perdesaan / Perempuan,2015,33,0.12,-0.3,6.0,False
+rinci / Perkotaan + Perdesaan / Perempuan,2016,34,0.23,0.1,6.0,False
+rinci / Perkotaan + Perdesaan / Perempuan,2017,34,0.45,1.0,47.0,False
+rinci / Perkotaan + Perdesaan / Perempuan,2018,34,-0.11,-1.2,26.0,False
+rinci / Perkotaan + Perdesaan / Perempuan,2019,34,0.22,0.0,26.0,False
+rinci / Perkotaan + Perdesaan / Perempuan,2020,34,0.07,-0.5,21.0,False
+rinci / Perkotaan + Perdesaan / Perempuan,2021,34,0.04,-0.7,3.0,False
+rinci / Perkotaan + Perdesaan / Perempuan,2022,34,0.2,-0.0,38.0,False
+rinci / Perkotaan + Perdesaan / Perempuan,2023,34,0.04,-0.7,12.0,False
+rinci / Perkotaan + Perdesaan / Perempuan,2024,34,0.17,-0.1,24.0,False
+rinci / Perkotaan + Perdesaan / Perempuan,2025,38,0.28,0.3,34.0,False
+rinci / Perkotaan / Laki-laki,2010,33,-0.23,-2.6,36.0,False
+rinci / Perkotaan / Laki-laki,2011,33,-0.04,-0.6,18.0,False
+rinci / Perkotaan / Laki-laki,2012,33,0.2,2.0,21.0,False
+rinci / Perkotaan / Laki-laki,2013,33,0.23,2.3,36.0,False
+rinci / Perkotaan / Laki-laki,2014,33,0.31,3.2,12.0,False
+rinci / Perkotaan / Laki-laki,2015,33,-0.04,-0.6,9.0,False
+rinci / Perkotaan / Laki-laki,2016,34,0.05,0.4,9.0,False
+rinci / Perkotaan / Laki-laki,2017,34,-0.01,-0.2,6.0,False
+rinci / Perkotaan / Laki-laki,2018,34,-0.05,-0.7,3.0,False
+rinci / Perkotaan / Laki-laki,2019,34,0.07,0.6,18.0,False
+rinci / Perkotaan / Laki-laki,2020,34,0.03,0.2,0.0,False
+rinci / Perkotaan / Laki-laki,2021,34,-0.02,-0.3,6.0,False
+rinci / Perkotaan / Laki-laki,2022,34,-0.04,-0.5,0.0,False
+rinci / Perkotaan / Laki-laki,2023,34,0.14,1.4,9.0,False
+rinci / Perkotaan / Laki-laki,2024,34,-0.06,-0.8,9.0,False
+rinci / Perkotaan / Laki-laki,2025,38,0.23,2.3,24.0,False
+rinci / Perkotaan / Laki-laki+Perempuan,2010,33,0.16,0.8,30.0,False
+rinci / Perkotaan / Laki-laki+Perempuan,2011,33,-0.31,-2.5,36.0,False
+rinci / Perkotaan / Laki-laki+Perempuan,2012,33,0.36,2.2,39.0,False
+rinci / Perkotaan / Laki-laki+Perempuan,2013,33,0.38,2.3,36.0,False
+rinci / Perkotaan / Laki-laki+Perempuan,2014,33,0.57,3.6,58.0,False
+rinci / Perkotaan / Laki-laki+Perempuan,2015,33,-0.05,-0.7,12.0,False
+rinci / Perkotaan / Laki-laki+Perempuan,2016,34,0.05,0.0,3.0,False
+rinci / Perkotaan / Laki-laki+Perempuan,2017,34,0.15,0.7,15.0,False
+rinci / Perkotaan / Laki-laki+Perempuan,2018,34,-0.05,-0.7,21.0,False
+rinci / Perkotaan / Laki-laki+Perempuan,2019,34,0.09,0.3,18.0,False
+rinci / Perkotaan / Laki-laki+Perempuan,2020,34,-0.0,-0.3,3.0,False
+rinci / Perkotaan / Laki-laki+Perempuan,2021,34,0.0,-0.3,0.0,False
+rinci / Perkotaan / Laki-laki+Perempuan,2022,34,0.04,-0.0,15.0,False
+rinci / Perkotaan / Laki-laki+Perempuan,2023,34,0.01,-0.3,3.0,False
+rinci / Perkotaan / Laki-laki+Perempuan,2024,34,-0.02,-0.5,3.0,False
+rinci / Perkotaan / Laki-laki+Perempuan,2025,38,0.16,0.8,13.0,False
+rinci / Perkotaan / Perempuan,2010,33,0.43,1.2,45.0,False
+rinci / Perkotaan / Perempuan,2011,33,-0.63,-2.6,58.0,False
+rinci / Perkotaan / Perempuan,2012,33,0.57,1.7,52.0,False
+rinci / Perkotaan / Perempuan,2013,33,0.62,1.9,61.0,False
+rinci / Perkotaan / Perempuan,2014,33,0.99,3.2,82.0,True
+rinci / Perkotaan / Perempuan,2015,33,-0.17,-0.9,24.0,False
+rinci / Perkotaan / Perempuan,2016,34,0.07,-0.1,9.0,False
+rinci / Perkotaan / Perempuan,2017,34,0.27,0.7,32.0,False
+rinci / Perkotaan / Perempuan,2018,34,-0.12,-0.8,29.0,False
+rinci / Perkotaan / Perempuan,2019,34,0.16,0.3,24.0,False
+rinci / Perkotaan / Perempuan,2020,34,0.03,-0.2,9.0,False
+rinci / Perkotaan / Perempuan,2021,34,0.03,-0.2,6.0,False
+rinci / Perkotaan / Perempuan,2022,34,0.18,0.3,26.0,False
+rinci / Perkotaan / Perempuan,2023,34,-0.1,-0.7,0.0,False
+rinci / Perkotaan / Perempuan,2024,34,0.03,-0.2,15.0,False
+rinci / Perkotaan / Perempuan,2025,38,0.11,0.1,18.0,False
+var1458,2015,33,0.1,0.2,0.0,False
+var1458,2016,34,0.12,0.7,0.0,False
+var1458,2017,34,0.09,0.0,3.0,False
+var1458,2018,34,0.09,0.0,3.0,False
+var1458,2019,34,0.13,0.8,21.0,False
+var1458,2020,34,0.01,-1.5,0.0,False
+var1458,2021,34,0.0,-1.7,0.0,False
+var1458,2022,34,0.03,-1.3,29.0,False
+var1458,2023,34,0.08,-0.3,12.0,False
+var1458,2024,34,0.05,-0.7,9.0,False
+var1458,2025,38,0.27,3.5,39.0,False
