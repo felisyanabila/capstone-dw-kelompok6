@@ -1,4 +1,4 @@
-﻿# Profil awal AMH: var1458 dan sdg4_amh_rinci (Tahap 2)
+# Profil awal AMH: var1458 dan sdg4_amh_rinci (Tahap 2)
 
 Dibuat oleh `src/silver/profil_amh.py`. Tujuan tahap ini menemukan, bukan memperbaiki.
 Data: `data/raw/bps/2026-10-17/` (sdg4_amh.csv dan sdg4_amh_rinci.csv), tidak diubah.
@@ -9,15 +9,15 @@ Rinci lengkap per provinsi ada di `reports/profil/statistik_provinsi.csv`.
 
 | seri | n_terisi | rata2 | simpangan_baku | min | q1 | median | q3 | maks | n_sel | n_kosong | pct_kosong |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| rinci | Perdesaan | Laki-laki | 563 | 95.586 | 5.55 | 60.59 | 94.635 | 97.4 | 98.68 | 99.83 | 646 | 83 | 12.8 |
-| rinci | Perdesaan | Laki-laki+Perempuan | 563 | 93.62 | 6.798 | 52.22 | 91.66 | 95.92 | 97.745 | 99.81 | 646 | 83 | 12.8 |
-| rinci | Perdesaan | Perempuan | 563 | 91.65 | 8.198 | 43.12 | 88.7 | 94.35 | 96.855 | 99.89 | 646 | 83 | 12.8 |
-| rinci | Perkotaan + Perdesaan | Laki-laki | 580 | 96.857 | 4.247 | 70.72 | 96.222 | 98.325 | 99.15 | 99.91 | 646 | 66 | 10.2 |
-| rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan | 580 | 95.405 | 5.25 | 64.08 | 94.125 | 97.325 | 98.57 | 99.87 | 646 | 66 | 10.2 |
-| rinci | Perkotaan + Perdesaan | Perempuan | 580 | 93.951 | 6.385 | 56.74 | 92.295 | 96.28 | 98.12 | 99.92 | 646 | 66 | 10.2 |
-| rinci | Perkotaan | Laki-laki | 580 | 98.648 | 1.506 | 89.12 | 98.232 | 99.18 | 99.6 | 99.98 | 646 | 66 | 10.2 |
-| rinci | Perkotaan | Laki-laki+Perempuan | 580 | 97.795 | 2.285 | 83.61 | 97.078 | 98.595 | 99.34 | 99.93 | 646 | 66 | 10.2 |
-| rinci | Perkotaan | Perempuan | 580 | 96.954 | 3.092 | 78.43 | 95.905 | 98.01 | 99.112 | 99.94 | 646 | 66 | 10.2 |
+| rinci \| Perdesaan \| Laki-laki | 563 | 95.586 | 5.55 | 60.59 | 94.635 | 97.4 | 98.68 | 99.83 | 646 | 83 | 12.8 |
+| rinci \| Perdesaan \| Laki-laki+Perempuan | 563 | 93.62 | 6.798 | 52.22 | 91.66 | 95.92 | 97.745 | 99.81 | 646 | 83 | 12.8 |
+| rinci \| Perdesaan \| Perempuan | 563 | 91.65 | 8.198 | 43.12 | 88.7 | 94.35 | 96.855 | 99.89 | 646 | 83 | 12.8 |
+| rinci \| Perkotaan + Perdesaan \| Laki-laki | 580 | 96.857 | 4.247 | 70.72 | 96.222 | 98.325 | 99.15 | 99.91 | 646 | 66 | 10.2 |
+| rinci \| Perkotaan + Perdesaan \| Laki-laki+Perempuan | 580 | 95.405 | 5.25 | 64.08 | 94.125 | 97.325 | 98.57 | 99.87 | 646 | 66 | 10.2 |
+| rinci \| Perkotaan + Perdesaan \| Perempuan | 580 | 93.951 | 6.385 | 56.74 | 92.295 | 96.28 | 98.12 | 99.92 | 646 | 66 | 10.2 |
+| rinci \| Perkotaan \| Laki-laki | 580 | 98.648 | 1.506 | 89.12 | 98.232 | 99.18 | 99.6 | 99.98 | 646 | 66 | 10.2 |
+| rinci \| Perkotaan \| Laki-laki+Perempuan | 580 | 97.795 | 2.285 | 83.61 | 97.078 | 98.595 | 99.34 | 99.93 | 646 | 66 | 10.2 |
+| rinci \| Perkotaan \| Perempuan | 580 | 96.954 | 3.092 | 78.43 | 95.905 | 98.01 | 99.112 | 99.94 | 646 | 66 | 10.2 |
 | var1458 | 415 | 96.167 | 4.686 | 68.32 | 94.795 | 97.96 | 98.805 | 99.87 | 415 | 0 | 0.0 |
 
 ## Sel kosong
@@ -33,33 +33,33 @@ Calon belum tentu salah. Pemilahan antara nilai asli, patahan deret, dan galat i
 
 | seri | metode | jumlah |
 |---|---|---|
-| rinci | Perdesaan | Laki-laki | iqr_lintas_provinsi | 22 |
-| rinci | Perdesaan | Laki-laki | lompatan_tahunan | 17 |
-| rinci | Perdesaan | Laki-laki | z_dalam_provinsi | 6 |
-| rinci | Perdesaan | Laki-laki+Perempuan | iqr_lintas_provinsi | 21 |
-| rinci | Perdesaan | Laki-laki+Perempuan | lompatan_tahunan | 20 |
-| rinci | Perdesaan | Laki-laki+Perempuan | z_dalam_provinsi | 6 |
-| rinci | Perdesaan | Perempuan | iqr_lintas_provinsi | 21 |
-| rinci | Perdesaan | Perempuan | lompatan_tahunan | 18 |
-| rinci | Perdesaan | Perempuan | z_dalam_provinsi | 6 |
-| rinci | Perkotaan + Perdesaan | Laki-laki | iqr_lintas_provinsi | 36 |
-| rinci | Perkotaan + Perdesaan | Laki-laki | lompatan_tahunan | 20 |
-| rinci | Perkotaan + Perdesaan | Laki-laki | z_dalam_provinsi | 7 |
-| rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan | iqr_lintas_provinsi | 26 |
-| rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan | lompatan_tahunan | 22 |
-| rinci | Perkotaan + Perdesaan | Laki-laki+Perempuan | z_dalam_provinsi | 6 |
-| rinci | Perkotaan + Perdesaan | Perempuan | iqr_lintas_provinsi | 22 |
-| rinci | Perkotaan + Perdesaan | Perempuan | lompatan_tahunan | 22 |
-| rinci | Perkotaan + Perdesaan | Perempuan | z_dalam_provinsi | 5 |
-| rinci | Perkotaan | Laki-laki | iqr_lintas_provinsi | 28 |
-| rinci | Perkotaan | Laki-laki | lompatan_tahunan | 21 |
-| rinci | Perkotaan | Laki-laki | z_dalam_provinsi | 11 |
-| rinci | Perkotaan | Laki-laki+Perempuan | iqr_lintas_provinsi | 32 |
-| rinci | Perkotaan | Laki-laki+Perempuan | lompatan_tahunan | 25 |
-| rinci | Perkotaan | Laki-laki+Perempuan | z_dalam_provinsi | 11 |
-| rinci | Perkotaan | Perempuan | iqr_lintas_provinsi | 28 |
-| rinci | Perkotaan | Perempuan | lompatan_tahunan | 14 |
-| rinci | Perkotaan | Perempuan | z_dalam_provinsi | 13 |
+| rinci \| Perdesaan \| Laki-laki | iqr_lintas_provinsi | 22 |
+| rinci \| Perdesaan \| Laki-laki | lompatan_tahunan | 17 |
+| rinci \| Perdesaan \| Laki-laki | z_dalam_provinsi | 6 |
+| rinci \| Perdesaan \| Laki-laki+Perempuan | iqr_lintas_provinsi | 21 |
+| rinci \| Perdesaan \| Laki-laki+Perempuan | lompatan_tahunan | 20 |
+| rinci \| Perdesaan \| Laki-laki+Perempuan | z_dalam_provinsi | 6 |
+| rinci \| Perdesaan \| Perempuan | iqr_lintas_provinsi | 21 |
+| rinci \| Perdesaan \| Perempuan | lompatan_tahunan | 18 |
+| rinci \| Perdesaan \| Perempuan | z_dalam_provinsi | 6 |
+| rinci \| Perkotaan + Perdesaan \| Laki-laki | iqr_lintas_provinsi | 36 |
+| rinci \| Perkotaan + Perdesaan \| Laki-laki | lompatan_tahunan | 20 |
+| rinci \| Perkotaan + Perdesaan \| Laki-laki | z_dalam_provinsi | 7 |
+| rinci \| Perkotaan + Perdesaan \| Laki-laki+Perempuan | iqr_lintas_provinsi | 26 |
+| rinci \| Perkotaan + Perdesaan \| Laki-laki+Perempuan | lompatan_tahunan | 22 |
+| rinci \| Perkotaan + Perdesaan \| Laki-laki+Perempuan | z_dalam_provinsi | 6 |
+| rinci \| Perkotaan + Perdesaan \| Perempuan | iqr_lintas_provinsi | 22 |
+| rinci \| Perkotaan + Perdesaan \| Perempuan | lompatan_tahunan | 22 |
+| rinci \| Perkotaan + Perdesaan \| Perempuan | z_dalam_provinsi | 5 |
+| rinci \| Perkotaan \| Laki-laki | iqr_lintas_provinsi | 28 |
+| rinci \| Perkotaan \| Laki-laki | lompatan_tahunan | 21 |
+| rinci \| Perkotaan \| Laki-laki | z_dalam_provinsi | 11 |
+| rinci \| Perkotaan \| Laki-laki+Perempuan | iqr_lintas_provinsi | 32 |
+| rinci \| Perkotaan \| Laki-laki+Perempuan | lompatan_tahunan | 25 |
+| rinci \| Perkotaan \| Laki-laki+Perempuan | z_dalam_provinsi | 11 |
+| rinci \| Perkotaan \| Perempuan | iqr_lintas_provinsi | 28 |
+| rinci \| Perkotaan \| Perempuan | lompatan_tahunan | 14 |
+| rinci \| Perkotaan \| Perempuan | z_dalam_provinsi | 13 |
 | var1458 | iqr_lintas_provinsi | 21 |
 | var1458 | lompatan_tahunan | 32 |
 | var1458 | z_dalam_provinsi | 1 |
@@ -99,7 +99,7 @@ Semua angka di bawah berasal dari keluaran skrip ini (`reports/profil/*.csv`) da
 - Papua juga paling banyak muncul pada daftar rinci (144 baris), disusul Nusa Tenggara Barat (95 baris), karena nilainya rendah dan deretnya bergerak besar.
 
 ### 4. Dua sumber yang tidak sama (bahan tugas #15)
-- Seri total pada tabel rinci (Perkotaan + Perdesaan, Laki-laki+Perempuan) seharusnya sama dengan var1458. Dari 403 pasangan wilayah dan tahun yang beririsan (2014 sampai 2025), 32 punya selisih lebih dari 0,01, dan semuanya jatuh pada 2017. Rinci lebih tinggi rata-rata 0,42 poin, selisih terbesar 1,91 (Papua: 75,80 pada rinci, 73,89 pada var1458). Nasional: 95,92 pada rinci dan 95,50 pada var1458.
+- Seri total pada tabel rinci (Perkotaan + Perdesaan, Laki-laki+Perempuan) seharusnya sama dengan var1458. Dari 427 pasangan wilayah dan tahun yang beririsan (2014 sampai 2025, dipasangkan lewat kode wilayah), 33 punya selisih lebih dari 0,01 (32 provinsi dan Indonesia), dan semuanya jatuh pada 2017. Rinci lebih tinggi rata-rata 0,41 poin, selisih terbesar 1,91 (Papua: 75,80 pada rinci, 73,89 pada var1458). Nasional: 95,92 pada rinci dan 95,50 pada var1458.
 - Artinya untuk 2017 ada dua nilai berbeda dari dua berkas. Aturan deduplikasi dua snapshot ini diputuskan di #15 dan dicatat di `log-keputusan.csv`, bukan sekarang.
 
 ### 5. Temuan lain
