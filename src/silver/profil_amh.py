@@ -1,4 +1,4 @@
-"""Tahap 2: profil dan calon anomali untuk var1458 dan tabel sdg4_amh_rinci.
+﻿"""Tahap 2: profil dan calon anomali untuk var1458 dan tabel sdg4_amh_rinci.
 
 Menemukan, bukan memperbaiki. Hanya membaca data/raw, tidak mengubahnya.
 Jalankan dari akar repo:  python src/silver/profil_amh.py
@@ -175,11 +175,18 @@ def md_tabel(t, maks=None):
     k = list(t.columns)
     baris = ["| " + " | ".join(k) + " |", "|" + "|".join(["---"] * len(k)) + "|"]
     for _, b in t.iterrows():
-        baris.append("| " + " | ".join("" if pd.isna(v) else str(v) for v in b) + " |")
+        baris.append("| " + " | ".join("" if pd.isna(v) else str(v).replace("|", "\\|") for v in b) + " |")  # | di dalam sel diberi escape
     return "\n".join(baris)
 
 
 def tulis_laporan(per_seri, kosong, anomali):
+    jalur = ROOT / "reports" / "profil_amh.md"
+    catatan = "## Catatan temuan\n\n(belum diisi)\n"
+    if jalur.exists():  # jangan hapus catatan temuan yang sudah ditulis
+        lama = jalur.read_text(encoding="utf-8")
+        i = lama.find("## Catatan temuan")
+        if i != -1:
+            catatan = lama[i:]
     ringkas_anom = anomali.groupby(["seri", "metode"]).size().rename("jumlah").reset_index()
     teks = f"""# Profil awal AMH: var1458 dan sdg4_amh_rinci (Tahap 2)
 
@@ -218,10 +225,8 @@ Calon belum tentu salah. Pemilahan antara nilai asli, patahan deret, dan galat i
 ![rinci deret waktu](gambar/rinci_deret_waktu_per_seri.png)
 ![rinci kekosongan](gambar/rinci_kekosongan.png)
 
-## Catatan temuan (isi sendiri setelah membaca keluaran)
-- 
-"""
-    (ROOT / "reports" / "profil_amh.md").write_text(teks, encoding="utf-8")
+{catatan}"""
+    jalur.write_text(teks, encoding="utf-8")
 
 
 def jalankan():
