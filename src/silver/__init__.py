@@ -1,11 +1,16 @@
-"""Tahap 2–4 — Profil, pembersihan, dan penyeragaman ke Silver (pertemuan II–VII). Milik tim.
+"""Tahap 4 — Transformasi: susun Silver dari hasil ekstraksi. Milik tim.
 
-Keluaran: data/silver/silver.parquet dengan skema minimal di src/common/skema.py.
-Satu baris = satu seri x wilayah x periode x rincian x berkas sumber. Nilai dari sumber berbeda
-TIDAK digabung di sini. Setiap keputusan pembersihan dicatat di log-keputusan.csv.
+Silver ditulis ke data/silver/silver.parquet dan harus lolos
+`python -m src.common.skema data/silver/silver.parquet`. Logikanya ada di src/silver/bangun.py;
+modul lain di paket ini (wilayah, grid_amh, profil_*, anomali_amh) adalah tahap 2-3.
 """
 
 
 def jalankan(mentah):
-    """Terima keluaran tahap 1, tulis dan kembalikan DataFrame Silver."""
-    raise NotImplementedError("Tahap 2–4: profil, missing, outlier/patahan, duplikat, format periode dan wilayah")
+    from src.silver import bangun
+    s = bangun.susun(mentah)
+    jalur = bangun.tulis(s)
+    r = bangun.ringkasan(s)
+    print(f"Silver: {r['baris_silver']} baris, {r['seri_silver']} seri, {r['rincian_dienkode']} rincian, "
+          f"{r['baris_ditandai_anomali']} baris bertanda anomali -> {jalur.relative_to(bangun.ROOT)}")
+    return s
