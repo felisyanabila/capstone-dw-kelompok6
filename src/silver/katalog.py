@@ -15,7 +15,7 @@ KATALOG = {
         "nama": "Angka Melek Aksara Penduduk Umur 15 Tahun ke Atas Menurut Provinsi, "
                 "Klasifikasi Desa, dan Jenis Kelamin, 2009-2025",
         "satuan": "persen", "kode_sdg": "4.6.1", "jenis_periode": "tahun",
-        "sumber_satuan": "inferensi: total identik dengan var1458 pada 393 dari 427 pasangan (K-010)",
+        "sumber_satuan": "inferensi: total identik dengan var1458 (toleransi 0.01) pada 394 dari 427 pasangan (K-010)",
         "sumber_sdg": "data/KASUS.md; diperiksa terhadap UIS Feb 2026 (K-012)",
     },
     ("wdi", "SE.ADT.LITR.ZS"): {
