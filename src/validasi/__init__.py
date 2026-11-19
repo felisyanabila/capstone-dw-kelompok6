@@ -93,6 +93,9 @@ def jalankan(silver=None, gold=None):
     print(f"           Validasi: {lolos}/{len(hasil)} aturan lolos -> {LAPORAN.relative_to(ROOT)}")
     if lolos < len(hasil):
         raise AssertionError("Ada aturan validasi Silver yang gagal")
+    from src.validasi.kamus_data import buat_kamus_data
+    buat_kamus_data(df)
+    
     return {"aturan_validasi": len(hasil), "aturan_lolos": lolos}
 
 
