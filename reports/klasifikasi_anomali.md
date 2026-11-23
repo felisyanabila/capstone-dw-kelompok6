@@ -57,7 +57,7 @@ Daftar pasangan: `reports/profil/duplikat_dua_snapshot.csv`.
 
 3. Patahan wilayah. Papua 2024 melompat dari 84,22 ke 98,37 pada var1458 (dan serupa di enam seri rinci). Ini terjadi di satu provinsi saja, bertepatan dengan terbitnya provinsi hasil pemekaran Papua Selatan, Papua Tengah, dan Papua Pegunungan, jadi saya kategorikan patahan wilayah, bukan outlier. Perbandingan Papua sebelum dan sesudah 2024 tidak boleh dibaca sebagai kemajuan tanpa catatan.
 
-4. Revisi snapshot. 33 sel berbeda antara var1458 dan total tabel rinci, semuanya pada 2017 (contoh Papua 73,89 vs 75,80). Dua di antaranya masuk daftar calon anomali. Keduanya dipertahankan beserta sumbernya, dan var1458 dipakai untuk total sesuai K-003.
+4. Revisi snapshot. 34 sel berbeda antara var1458 dan total tabel rinci, semuanya pada 2017 (contoh Papua 73,89 vs 75,80). Dua di antaranya masuk daftar calon anomali. Keduanya dipertahankan beserta sumbernya, dan var1458 dipakai untuk total sesuai K-003.
 
 5. Outlier asli. 441 sel dari 10 seri dan 30 provinsi. Sebagian besar persisten pada provinsi dengan angka rendah yang memang konsisten (misalnya Papua dan provinsi hasil pemekarannya). Nilai ini sah dan tetap dipakai, hanya ditandai.
 
