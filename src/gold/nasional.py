@@ -153,6 +153,60 @@ def main():
     print(f"python -m src.common.hasil 124450110 pasangan_rekonsiliasi={len(PASANGAN)} "
           f"periode_beririsan={len(p2['tahun_beririsan'])}")
 
+def tabel_nasional_gold(s):
+    
+    wdi_ref = _total(s, WDI)
+    wdi_ref = wdi_ref[wdi_ref["wilayah_kode"] == INDONESIA][["periode", "nilai"]].rename(
+        columns={"nilai": "nilai_pembanding"}
+    )
 
-if __name__ == "__main__":
-    main()
+    daftar = []
+    for seri in SERI:
+        d = _total(s, seri)
+        nas = d[d["wilayah_kode"] == INDONESIA].copy()
+
+        if not nas.empty:
+            asal = "pembanding" if seri == WDI else "baris_indonesia"
+            df_seri = nas[["periode", "nilai", "_berkas_raw"]].copy()
+            df_seri["asal_angka"] = asal
+        else:
+            
+            prov = d[d["wilayah_kode"] != INDONESIA]
+            df_seri = prov.groupby("periode", as_index=False).agg(
+                nilai=("nilai", "mean"),
+                _berkas_raw=("_berkas_raw", lambda x: ";".join(sorted(set(x)))),
+            )
+            df_seri["asal_angka"] = "agregat"
+
+        df_seri["seri_kode"] = seri
+        df_seri["nilai"] = df_seri["nilai"].round(2)
+        df_seri["nilai_utama"] = df_seri["nilai"].where(df_seri["seri_kode"] != WDI, other=pd.NA)
+        df_seri = df_seri.merge(wdi_ref, on="periode", how="left")
+        df_seri["nilai_pembanding"] = df_seri["nilai_pembanding"].round(2)
+        daftar.append(df_seri)
+
+    hasil = pd.concat(daftar, ignore_index=True)
+    kolom = ["periode", "seri_kode", "nilai", "nilai_utama", "nilai_pembanding", "asal_angka", "_berkas_raw"]
+    return hasil[kolom].sort_values(["periode", "seri_kode"]).reset_index(drop=True)
+
+
+def jalankan(silver: pd.DataFrame) -> dict:
+    
+    s = silver.copy()
+    s["periode"] = s["periode"].astype(str)
+    GOLD.mkdir(parents=True, exist_ok=True)
+
+    gold_nas = tabel_nasional_gold(s)
+    gold_nas.to_parquet(GOLD / "tabel_nasional.parquet", index=False)
+
+    nas = tabel_nasional(s)
+    nas.reset_index().to_parquet(GOLD / "nasional_periode_seri.parquet", index=False)
+
+    tabel = {"tabel_nasional": gold_nas}
+    for kode, a, b, nasional, _ in PASANGAN:
+        m = pasangkan(s, a, b, nasional)
+        m.to_parquet(GOLD / f"rekonsiliasi_{kode}.parquet", index=False)
+        tabel[f"rekonsiliasi_{kode}"] = m
+
+    print(f"Gold nasional: tabel_nasional {len(gold_nas)} baris -> {(GOLD / 'tabel_nasional.parquet').relative_to(ROOT)}")
+    return tabel

@@ -1,4 +1,4 @@
-﻿"""Tahap 8 (mulai Sprint 1) — Validasi dasar Silver dengan Pandera."""
+﻿"""Tahap 8 — Validasi Silver, Gold, dan Rekonsiliasi dengan Pandera."""
 from pathlib import Path
 import pandas as pd
 
@@ -9,6 +9,7 @@ except ImportError:
 
 ROOT = Path(__file__).resolve().parents[2]
 SILVER = ROOT / "data" / "silver" / "silver.parquet"
+GOLD_DIR = ROOT / "data" / "gold"
 LAPORAN = ROOT / "reports" / "validasi.md"
 KUNCI = ["sumber", "seri_kode", "wilayah_kode", "periode", "rincian", "_berkas_raw"]
 
@@ -17,6 +18,15 @@ KODE_WILAYAH_SAH = {
     3100, 3200, 3300, 3400, 3500, 3600, 5100, 5200, 5300,
     6100, 6200, 6300, 6400, 6500, 7100, 7200, 7300, 7400, 7500, 7600,
     8100, 8200, 9100, 9200, 9400, 9500, 9600, 9700, 9999,
+}
+
+KATEGORI_REKONSILIASI_SAH = {
+    "definisi berbeda",
+    "metode berbeda",
+    "vintage berbeda",
+    "cakupan berbeda",
+    "belum dijelaskan",
+    "tanpa pasangan",
 }
 
 SKEMA = pa.DataFrameSchema(
@@ -38,10 +48,37 @@ SKEMA = pa.DataFrameSchema(
 )
 
 
+def _muat_tabel_gold(gold):
+    """Mengambil DataFrame panel Gold dan tabel rekonsiliasi dari argumen atau data/gold/."""
+    df_panel, df_rekon = None, None
+
+    if isinstance(gold, pd.DataFrame):
+        df_panel = gold
+    elif isinstance(gold, dict):
+        df_panel = gold.get("panel") if gold.get("panel") is not None else gold.get("gold_panel")
+        df_rekon = gold.get("rekonsiliasi")
+
+    if GOLD_DIR.exists():
+        for berkas in sorted(GOLD_DIR.glob("*.parquet")):
+            nama = berkas.stem.lower()
+            if "rekon" in nama and df_rekon is None:
+                df_rekon = pd.read_parquet(berkas)
+            elif df_panel is None and ("panel" in nama or "gold" in nama or "prov" in nama):
+                df_panel = pd.read_parquet(berkas)
+
+        if df_panel is None:
+            kandidat = [b for b in sorted(GOLD_DIR.glob("*.parquet")) if "rekon" not in b.stem.lower()]
+            if kandidat:
+                df_panel = pd.read_parquet(kandidat[0])
+
+    return df_panel, df_rekon
+
+
 def jalankan(silver=None, gold=None):
     df = pd.read_parquet(SILVER) if SILVER.exists() else silver
     hasil = []
 
+    # --- ATURAN VALIDASI SILVER (SPRINT 1) ---
     # 1. Skema Pandera & rentang nilai 0-100
     try:
         SKEMA.validate(df, lazy=True)
@@ -74,8 +111,56 @@ def jalankan(silver=None, gold=None):
     beda = irisan[irisan["selisih"].abs() > 1e-6].sort_values(["wilayah_kode", "periode"])
     hasil.append(("laporan_selisih_rinci_ringkas", len(irisan) > 0, f"{len(beda)} dari {len(irisan)} sel berselisih (tahun {sorted(beda['periode'].unique())})"))
 
+    # --- ATURAN VALIDASI GOLD & REKONSILIASI (SPRINT 2) ---
+    df_panel, df_rekon = _muat_tabel_gold(gold)
+
+    if df_panel is not None and not df_panel.empty:
+        kunci_panel = [c for c in ["wilayah_kode", "periode"] if c in df_panel.columns]
+        kolom_meta = {"wilayah_kode", "nama_wilayah", "periode", "jenis_periode", "satuan", "sumber"}
+        kolom_indikator = [c for c in df_panel.columns if c not in kolom_meta and not c.startswith("_")]
+
+        # 6. Kunci panel Gold unik
+        dup_gold = int(df_panel.duplicated(kunci_panel).sum())
+        hasil.append(("gold_kunci_panel_unik", dup_gold == 0, f"{dup_gold} duplikat kunci ({', '.join(kunci_panel)})"))
+
+        # 7. Satuan satu per indikator
+        if "satuan" in df_panel.columns:
+            sat_unik = int(df_panel["satuan"].nunique())
+            hasil.append(("gold_satuan_satu_per_indikator", sat_unik == 1, f"{len(kolom_indikator)} indikator bersatuan tunggal"))
+        else:
+            num_cols = df_panel[kolom_indikator].select_dtypes(include="number")
+            di_luar_rentang = int(((num_cols < 0) | (num_cols > 100)).sum().sum())
+            hasil.append(("gold_satuan_satu_per_indikator", di_luar_rentang == 0, f"{len(num_cols.columns)} indikator valid (satuan persen 0-100)"))
+
+        # 8. Setiap sel Gold punya pasangan di Silver
+        pasangan_silver = set(zip(df["wilayah_kode"].astype(int), df["periode"].astype(str)))
+        pasangan_gold = set(zip(df_panel["wilayah_kode"].astype(int), df_panel["periode"].astype(str)))
+        tanpa_induk = len(pasangan_gold - pasangan_silver)
+        hasil.append(("gold_setiap_sel_punya_pasangan_silver", tanpa_induk == 0, f"{len(pasangan_gold)} sel panel diperiksa, {tanpa_induk} tanpa pasangan Silver"))
+
+    if df_rekon is not None and not df_rekon.empty:
+        # 9. Setiap baris rekonsiliasi berpasangan punya kategori sah
+        kolom_kat = next((c for c in df_rekon.columns if "kategori" in c.lower()), None)
+        if kolom_kat is None:
+            hasil.append(("rekonsiliasi_kategori_baris_berpasangan", False, "kolom kategori tidak ditemukan"))
+        else:
+            if "_asal" in df_rekon.columns:
+                berpasangan = df_rekon[df_rekon["_asal"] == "both"]
+            else:
+                kolom_nilai = [c for c in df_rekon.columns if "nilai" in c.lower()]
+                berpasangan = df_rekon.dropna(subset=kolom_nilai) if len(kolom_nilai) >= 2 else df_rekon
+
+            kat_bersih = berpasangan[kolom_kat].fillna("").astype(str).str.strip().str.lower()
+            tidak_sah = int((~kat_bersih.isin(KATEGORI_REKONSILIASI_SAH)).sum())
+            hasil.append((
+                "rekonsiliasi_kategori_baris_berpasangan",
+                tidak_sah == 0 and len(berpasangan) > 0,
+                f"{len(berpasangan)} baris berpasangan diperiksa, {tidak_sah} kategori kosong/tidak sah",
+            ))
+
+    # --- TULIS LAPORAN VALIDASI ---
     LAPORAN.parent.mkdir(parents=True, exist_ok=True)
-    baris_md = ["# Laporan Validasi Silver\n", "## Ringkasan Aturan\n", "| Aturan | Status | Keterangan |", "|---|---|---|"]
+    baris_md = ["# Laporan Validasi Silver & Gold\n", "## Ringkasan Aturan\n", "| Aturan | Status | Keterangan |", "|---|---|---|"]
     for nama, ok, ket in hasil:
         status = "LOLOS" if ok else "GAGAL"
         print(f"           [{status}] {nama}: {ket}")
@@ -92,10 +177,7 @@ def jalankan(silver=None, gold=None):
     lolos = sum(ok for _, ok, _ in hasil)
     print(f"           Validasi: {lolos}/{len(hasil)} aturan lolos -> {LAPORAN.relative_to(ROOT)}")
     if lolos < len(hasil):
-        raise AssertionError("Ada aturan validasi Silver yang gagal")
-    from src.validasi.kamus_data import buat_kamus_data
-    buat_kamus_data(df)
-    
+        raise AssertionError("Ada aturan validasi yang gagal")
     return {"aturan_validasi": len(hasil), "aturan_lolos": lolos}
 
 

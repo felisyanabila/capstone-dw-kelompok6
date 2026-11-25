@@ -81,7 +81,13 @@ def baca_bps_json_ringkas(raw: Path = RAW) -> pd.DataFrame:
 
 
 def baca_bps_json_rinci(raw: Path = RAW) -> pd.DataFrame:
-    """Membaca json/sdg4_amh_rinci.json dengan unescape HTML dan meratakan header bertingkat."""
+    """Membaca json/sdg4_amh_rinci.json: unescape HTML, lalu ratakan tiga blok header bertingkat.
+
+    Tabelnya terdiri dari TIGA blok baris (Perkotaan, Perdesaan, Perkotaan + Perdesaan). Tiap blok punya tiga
+    baris header (Klasifikasi Daerah / Jenis Kelamin / Tahun) yang dikenali dari teks kolom pertama, bukan dari
+    nomor baris. Pada baris data, kolom 0 = provinsi, kolom 1 kosong, kolom 2 dst = nilai; sedangkan pada baris
+    header Jenis Kelamin dan Tahun, label dimulai di kolom 1. Karena itu label kolom data j diambil dari j - 1.
+    """
     berkas = "bps/2026-10-17/json/sdg4_amh_rinci.json"
     with open(raw / berkas, encoding="utf-8") as f:
         payload = json.load(f)
@@ -89,47 +95,33 @@ def baca_bps_json_rinci(raw: Path = RAW) -> pd.DataFrame:
     tabel_html = html.unescape(payload["data"]["table"])
     trs = re.findall(r"<tr[^>]*>(.*?)</tr>", tabel_html, flags=re.S | re.I)
 
-    def _ekstrak_sel_dengan_colspan(tr_html: str) -> list[str]:
+    def _sel(tr_html: str) -> list[str]:
         hasil = []
         for tag_open, isi in re.findall(r"<(t[dh][^>]*)>(.*?)</t[dh]>", tr_html, flags=re.S | re.I):
             teks = re.sub(r"<[^>]+>", " ", isi)
-            teks = html.unescape(teks).replace("\xa0", " ")
-            teks = re.sub(r"\s+", " ", teks).strip()
+            teks = re.sub(r"\s+", " ", html.unescape(teks).replace("\xa0", " ")).strip()
             m = re.search(r"colspan\s*=\s*['\"]?(\d+)", tag_open, flags=re.I)
-            span = int(m.group(1)) if m else 1
-            hasil.extend([teks] * span)
+            hasil.extend([teks] * (int(m.group(1)) if m else 1))
         return hasil
 
-    matriks = [_ekstrak_sel_dengan_colspan(tr) for tr in trs]
-
-    baris_daerah = matriks[2]
-    baris_jk = matriks[3]
-    baris_tahun = [""] + matriks[4]
-
-    baris = []
-
-    for row in matriks[5:]:
+    matriks = [_sel(tr) for tr in trs]
+    baris, daerah, jk, tahun = [], None, None, None
+    for i, row in enumerate(matriks):
         if not row or not row[0]:
             continue
-        wilayah = row[0]
-        if wilayah.lower().startswith(("catatan", "sumber", "keterangan", "*")):
-            break
-
-        batas_kolom = min(len(row), len(baris_daerah), len(baris_jk), len(baris_tahun))
-        for col_idx in range(2, batas_kolom):
-            tahun_str = baris_tahun[col_idx]
-            if not tahun_str.isdigit():
-                continue
-            nilai_mentah = row[col_idx]
-            baris.append(
-                {
-                    "wilayah": wilayah,
-                    "daerah": baris_daerah[col_idx],
-                    "jenis_kelamin": baris_jk[col_idx],
-                    "tahun": int(tahun_str),
-                    "nilai": nilai_mentah,
-                }
-            )
+        if row[0] == "Provinsi":                      # awal blok: tiga baris header berurutan
+            daerah = row[2]
+            jk, tahun = matriks[i + 1], matriks[i + 2]
+            assert jk[0] == "Jenis Kelamin" and tahun[0] == "Tahun", "susunan header tidak seperti dugaan"
+            continue
+        if row[0] in ("Jenis Kelamin", "Tahun") or row[0].lower().startswith(("sumber", "catatan", "keterangan", "angka melek")):
+            continue
+        if daerah is None:
+            continue
+        for j in range(2, min(len(row), len(jk) + 1)):
+            if tahun[j - 1].isdigit():
+                baris.append({"wilayah": row[0], "daerah": daerah, "jenis_kelamin": jk[j - 1],
+                              "tahun": int(tahun[j - 1]), "nilai": row[j]})
 
     df = pd.DataFrame(baris)
     return _tempel_lineage(df, berkas, raw=raw)

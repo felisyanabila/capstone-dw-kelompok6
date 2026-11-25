@@ -1,0 +1,594 @@
+seri_kode,wilayah_kode,nama_wilayah,periode,rincian,nilai,alasan
+SE.ADT.LITR.ZS,9999,INDONESIA,1980,total,67.3099975585938,nasional_bukan_provinsi
+SE.ADT.LITR.ZS,9999,INDONESIA,1990,total,81.5199966430664,nasional_bukan_provinsi
+SE.ADT.LITR.ZS,9999,INDONESIA,2004,total,90.379997253418,nasional_bukan_provinsi
+SE.ADT.LITR.ZS,9999,INDONESIA,2006,total,91.9800033569336,nasional_bukan_provinsi
+SE.ADT.LITR.ZS,9999,INDONESIA,2008,total,92.1900024414062,nasional_bukan_provinsi
+SE.ADT.LITR.ZS,9999,INDONESIA,2009,total,92.5800018310547,nasional_bukan_provinsi
+SE.ADT.LITR.ZS,9999,INDONESIA,2010,total,92.3199996948242,nasional_bukan_provinsi
+SE.ADT.LITR.ZS,9999,INDONESIA,2011,total,92.8099975585938,nasional_bukan_provinsi
+SE.ADT.LITR.ZS,9999,INDONESIA,2014,total,95.120002746582,nasional_bukan_provinsi
+SE.ADT.LITR.ZS,9999,INDONESIA,2015,total,95.2200012207031,nasional_bukan_provinsi
+SE.ADT.LITR.ZS,9999,INDONESIA,2016,total,95.379997253418,nasional_bukan_provinsi
+SE.ADT.LITR.ZS,9999,INDONESIA,2018,total,95.6600036621094,nasional_bukan_provinsi
+SE.ADT.LITR.ZS,9999,INDONESIA,2020,total,96.0,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2009,laki-laki,95.65,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2009,perdesaan,89.42,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2009,perdesaan_laki-laki,93.46,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2009,perdesaan_perempuan,85.62,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2009,perempuan,89.68,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2009,perkotaan,95.82,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2009,perkotaan_laki-laki,97.88,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2009,perkotaan_perempuan,93.86,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2009,total,92.58,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2010,laki-laki,95.35,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2010,perdesaan,89.68,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2010,perdesaan_laki-laki,92.86,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2010,perdesaan_perempuan,86.55,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2010,perempuan,90.52,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2010,perkotaan,96.07,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2010,perkotaan_laki-laki,97.79,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2010,perkotaan_perempuan,94.39,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2010,total,92.91,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2011,laki-laki,95.59,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2011,perdesaan,89.89,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2011,perdesaan_laki-laki,93.48,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2011,perdesaan_perempuan,86.3,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2011,perempuan,90.07,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2011,perkotaan,95.68,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2011,perkotaan_laki-laki,97.68,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2011,perkotaan_perempuan,93.72,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2011,total,92.81,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2012,laki-laki,95.87,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2012,perdesaan,90.18,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2012,perdesaan_laki-laki,93.65,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2012,perdesaan_perempuan,86.72,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2012,perempuan,90.64,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2012,perkotaan,96.21,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2012,perkotaan_laki-laki,98.0,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2012,perkotaan_perempuan,94.43,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2012,total,93.25,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2013,laki-laki,96.47,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2013,perdesaan,91.12,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2013,perdesaan_laki-laki,94.56,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2013,perdesaan_perempuan,87.71,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2013,perempuan,91.4,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2013,perkotaan,96.63,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2013,perkotaan_laki-laki,98.3,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2013,perkotaan_perempuan,94.96,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2013,total,93.92,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2014,laki-laki,96.79,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2014,perdesaan,92.88,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2014,perdesaan_laki-laki,95.21,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2014,perdesaan_perempuan,90.56,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2014,perempuan,93.45,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2014,perkotaan,97.27,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2014,perkotaan_laki-laki,98.31,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2014,perkotaan_perempuan,96.23,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2014,total,95.12,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2015,laki-laki,97.11,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2015,perdesaan,92.91,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2015,perdesaan_laki-laki,95.51,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2015,perdesaan_perempuan,90.32,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2015,perempuan,93.34,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2015,perkotaan,97.43,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2015,perkotaan_laki-laki,98.63,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2015,perkotaan_perempuan,96.22,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2015,total,95.22,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2016,laki-laki,97.17,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2016,perdesaan,93.03,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2016,perdesaan_laki-laki,95.53,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2016,perdesaan_perempuan,90.54,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2016,perempuan,93.59,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2016,perkotaan,97.53,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2016,perkotaan_laki-laki,98.68,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2016,perkotaan_perempuan,96.38,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2016,total,95.38,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2017,laki-laki,97.47,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2017,perdesaan,93.79,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2017,perdesaan_laki-laki,95.95,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2017,perdesaan_perempuan,91.62,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2017,perempuan,94.36,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2017,perkotaan,97.78,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2017,perkotaan_laki-laki,98.8,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2017,perkotaan_perempuan,96.77,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2017,total,95.92,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2018,laki-laki,97.33,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2018,perdesaan,93.3,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2018,perdesaan_laki-laki,95.67,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2018,perdesaan_perempuan,90.93,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2018,perempuan,93.99,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2018,perkotaan,97.56,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2018,perkotaan_laki-laki,98.67,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2018,perkotaan_perempuan,96.46,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2018,total,95.66,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2019,laki-laki,97.48,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2019,perdesaan,93.56,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2019,perdesaan_laki-laki,95.86,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2019,perdesaan_perempuan,91.34,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2019,perempuan,94.33,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2019,perkotaan,97.71,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2019,perkotaan_laki-laki,98.7,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2019,perkotaan_perempuan,96.71,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2019,total,95.9,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2020,laki-laki,97.45,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2020,perdesaan,93.64,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2020,perdesaan_laki-laki,95.72,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2020,perdesaan_perempuan,91.65,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2020,perempuan,94.55,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2020,perkotaan,97.81,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2020,perkotaan_laki-laki,98.74,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2020,perkotaan_perempuan,96.86,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2020,total,96.0,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2021,laki-laki,97.43,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2021,perdesaan,93.65,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2021,perdesaan_laki-laki,95.69,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2021,perdesaan_perempuan,91.68,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2021,perempuan,94.65,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2021,perkotaan,97.82,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2021,perkotaan_laki-laki,98.69,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2021,perkotaan_perempuan,96.93,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2021,total,96.04,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2022,laki-laki,97.42,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2022,perdesaan,94.21,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2022,perdesaan_laki-laki,95.76,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2022,perdesaan_perempuan,92.65,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2022,perempuan,95.26,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2022,perkotaan,97.91,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2022,perkotaan_laki-laki,98.65,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2022,perkotaan_perempuan,97.17,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2022,total,96.35,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2023,laki-laki,97.77,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2023,perdesaan,94.54,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2023,perdesaan_laki-laki,96.3,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2023,perdesaan_perempuan,92.78,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2023,perempuan,95.29,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2023,perkotaan,97.94,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2023,perkotaan_laki-laki,98.82,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2023,perkotaan_perempuan,97.06,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2023,total,96.53,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2024,laki-laki,97.69,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2024,perdesaan,94.66,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2024,perdesaan_laki-laki,96.16,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2024,perdesaan_perempuan,93.15,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2024,perempuan,95.66,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2024,perkotaan,98.07,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2024,perkotaan_laki-laki,98.76,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2024,perkotaan_perempuan,97.38,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2024,total,96.67,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2025,laki-laki,98.18,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2025,perdesaan,95.23,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2025,perdesaan_laki-laki,96.84,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2025,perdesaan_perempuan,93.63,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2025,perempuan,96.03,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2025,perkotaan,98.35,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2025,perkotaan_laki-laki,99.09,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2025,perkotaan_perempuan,97.62,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,9999,INDONESIA,2025,total,97.1,nasional_bukan_provinsi
+var1458,9999,INDONESIA,2014,total,95.12,nasional_bukan_provinsi
+var1458,9999,INDONESIA,2015,total,95.22,nasional_bukan_provinsi
+var1458,9999,INDONESIA,2016,total,95.38,nasional_bukan_provinsi
+var1458,9999,INDONESIA,2017,total,95.5,nasional_bukan_provinsi
+var1458,9999,INDONESIA,2018,total,95.66,nasional_bukan_provinsi
+var1458,9999,INDONESIA,2019,total,95.9,nasional_bukan_provinsi
+var1458,9999,INDONESIA,2020,total,96.0,nasional_bukan_provinsi
+var1458,9999,INDONESIA,2021,total,96.04,nasional_bukan_provinsi
+var1458,9999,INDONESIA,2022,total,96.35,nasional_bukan_provinsi
+var1458,9999,INDONESIA,2023,total,96.53,nasional_bukan_provinsi
+var1458,9999,INDONESIA,2024,total,96.67,nasional_bukan_provinsi
+var1458,9999,INDONESIA,2025,total,97.1,nasional_bukan_provinsi
+tabel:sdg4_amh_rinci,1100,ACEH,2014,total,97.42,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1100,ACEH,2015,total,97.63,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1100,ACEH,2016,total,97.74,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1100,ACEH,2017,total,98.15,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1100,ACEH,2018,total,98.03,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1100,ACEH,2019,total,98.21,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1100,ACEH,2020,total,98.25,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1100,ACEH,2021,total,98.24,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1100,ACEH,2022,total,98.25,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1100,ACEH,2023,total,98.34,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1100,ACEH,2024,total,98.34,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1100,ACEH,2025,total,98.92,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1200,SUMATERA UTARA,2014,total,98.57,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1200,SUMATERA UTARA,2015,total,98.68,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1200,SUMATERA UTARA,2016,total,98.88,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1200,SUMATERA UTARA,2017,total,98.96,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1200,SUMATERA UTARA,2018,total,99.07,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1200,SUMATERA UTARA,2019,total,99.15,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1200,SUMATERA UTARA,2020,total,99.16,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1200,SUMATERA UTARA,2021,total,99.19,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1200,SUMATERA UTARA,2022,total,99.11,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1200,SUMATERA UTARA,2023,total,99.17,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1200,SUMATERA UTARA,2024,total,99.09,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1200,SUMATERA UTARA,2025,total,99.01,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1300,SUMATERA BARAT,2014,total,98.44,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1300,SUMATERA BARAT,2015,total,98.56,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1300,SUMATERA BARAT,2016,total,98.81,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1300,SUMATERA BARAT,2017,total,98.93,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1300,SUMATERA BARAT,2018,total,99.07,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1300,SUMATERA BARAT,2019,total,99.17,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1300,SUMATERA BARAT,2020,total,99.17,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1300,SUMATERA BARAT,2021,total,99.26,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1300,SUMATERA BARAT,2022,total,99.29,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1300,SUMATERA BARAT,2023,total,99.31,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1300,SUMATERA BARAT,2024,total,99.37,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1300,SUMATERA BARAT,2025,total,99.08,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1400,RIAU,2014,total,98.75,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1400,RIAU,2015,total,98.87,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1400,RIAU,2016,total,99.07,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1400,RIAU,2017,total,99.21,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1400,RIAU,2018,total,99.2,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1400,RIAU,2019,total,99.21,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1400,RIAU,2020,total,99.23,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1400,RIAU,2021,total,99.2,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1400,RIAU,2022,total,99.18,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1400,RIAU,2023,total,99.18,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1400,RIAU,2024,total,99.2,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1400,RIAU,2025,total,99.0,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1500,JAMBI,2014,total,97.77,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1500,JAMBI,2015,total,97.84,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1500,JAMBI,2016,total,98.01,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1500,JAMBI,2017,total,98.28,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1500,JAMBI,2018,total,98.15,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1500,JAMBI,2019,total,98.2,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1500,JAMBI,2020,total,98.19,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1500,JAMBI,2021,total,98.08,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1500,JAMBI,2022,total,98.1,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1500,JAMBI,2023,total,98.16,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1500,JAMBI,2024,total,98.02,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1500,JAMBI,2025,total,97.59,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1600,SUMATERA SELATAN,2014,total,98.14,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1600,SUMATERA SELATAN,2015,total,98.22,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1600,SUMATERA SELATAN,2016,total,98.46,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1600,SUMATERA SELATAN,2017,total,98.65,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1600,SUMATERA SELATAN,2018,total,98.66,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1600,SUMATERA SELATAN,2019,total,98.76,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1600,SUMATERA SELATAN,2020,total,98.75,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1600,SUMATERA SELATAN,2021,total,98.78,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1600,SUMATERA SELATAN,2022,total,98.65,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1600,SUMATERA SELATAN,2023,total,98.73,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1600,SUMATERA SELATAN,2024,total,98.68,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1600,SUMATERA SELATAN,2025,total,98.89,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1700,BENGKULU,2014,total,97.52,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1700,BENGKULU,2015,total,97.63,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1700,BENGKULU,2016,total,97.75,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1700,BENGKULU,2017,total,98.04,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1700,BENGKULU,2018,total,97.91,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1700,BENGKULU,2019,total,98.01,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1700,BENGKULU,2020,total,98.01,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1700,BENGKULU,2021,total,97.88,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1700,BENGKULU,2022,total,97.8,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1700,BENGKULU,2023,total,97.89,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1700,BENGKULU,2024,total,97.91,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1700,BENGKULU,2025,total,97.8,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1800,LAMPUNG,2014,total,96.54,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1800,LAMPUNG,2015,total,96.67,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1800,LAMPUNG,2016,total,96.78,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1800,LAMPUNG,2017,total,97.21,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1800,LAMPUNG,2018,total,96.93,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1800,LAMPUNG,2019,total,97.11,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1800,LAMPUNG,2020,total,97.24,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1800,LAMPUNG,2021,total,97.28,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1800,LAMPUNG,2022,total,97.25,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1800,LAMPUNG,2023,total,97.33,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1800,LAMPUNG,2024,total,97.36,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1800,LAMPUNG,2025,total,97.83,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1900,KEP. BANGKA BELITUNG,2014,total,97.6,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1900,KEP. BANGKA BELITUNG,2015,total,97.63,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1900,KEP. BANGKA BELITUNG,2016,total,97.66,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1900,KEP. BANGKA BELITUNG,2017,total,97.97,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1900,KEP. BANGKA BELITUNG,2018,total,97.76,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1900,KEP. BANGKA BELITUNG,2019,total,98.09,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1900,KEP. BANGKA BELITUNG,2020,total,98.08,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1900,KEP. BANGKA BELITUNG,2021,total,98.1,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1900,KEP. BANGKA BELITUNG,2022,total,98.17,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1900,KEP. BANGKA BELITUNG,2023,total,98.24,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1900,KEP. BANGKA BELITUNG,2024,total,98.2,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,1900,KEP. BANGKA BELITUNG,2025,total,98.2,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,2100,KEP. RIAU,2014,total,98.71,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,2100,KEP. RIAU,2015,total,98.79,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,2100,KEP. RIAU,2016,total,98.84,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,2100,KEP. RIAU,2017,total,98.88,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,2100,KEP. RIAU,2018,total,98.87,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,2100,KEP. RIAU,2019,total,99.0,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,2100,KEP. RIAU,2020,total,99.0,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,2100,KEP. RIAU,2021,total,99.09,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,2100,KEP. RIAU,2022,total,99.02,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,2100,KEP. RIAU,2023,total,99.05,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,2100,KEP. RIAU,2024,total,99.2,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,2100,KEP. RIAU,2025,total,99.46,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3100,DKI JAKARTA,2014,total,99.54,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3100,DKI JAKARTA,2015,total,99.59,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3100,DKI JAKARTA,2016,total,99.64,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3100,DKI JAKARTA,2017,total,99.68,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3100,DKI JAKARTA,2018,total,99.72,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3100,DKI JAKARTA,2019,total,99.74,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3100,DKI JAKARTA,2020,total,99.69,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3100,DKI JAKARTA,2021,total,99.73,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3100,DKI JAKARTA,2022,total,99.69,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3100,DKI JAKARTA,2023,total,99.69,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3100,DKI JAKARTA,2024,total,99.65,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3100,DKI JAKARTA,2025,total,99.71,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3200,JAWA BARAT,2014,total,97.96,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3200,JAWA BARAT,2015,total,98.01,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3200,JAWA BARAT,2016,total,98.22,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3200,JAWA BARAT,2017,total,98.38,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3200,JAWA BARAT,2018,total,98.48,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3200,JAWA BARAT,2019,total,98.53,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3200,JAWA BARAT,2020,total,98.63,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3200,JAWA BARAT,2021,total,98.62,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3200,JAWA BARAT,2022,total,98.49,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3200,JAWA BARAT,2023,total,98.51,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3200,JAWA BARAT,2024,total,98.57,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3200,JAWA BARAT,2025,total,98.9,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3300,JAWA TENGAH,2014,total,92.98,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3300,JAWA TENGAH,2015,total,93.12,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3300,JAWA TENGAH,2016,total,93.3,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3300,JAWA TENGAH,2017,total,93.99,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3300,JAWA TENGAH,2018,total,93.45,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3300,JAWA TENGAH,2019,total,93.54,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3300,JAWA TENGAH,2020,total,93.62,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3300,JAWA TENGAH,2021,total,93.79,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3300,JAWA TENGAH,2022,total,94.26,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3300,JAWA TENGAH,2023,total,94.34,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3300,JAWA TENGAH,2024,total,94.5,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3300,JAWA TENGAH,2025,total,95.2,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3400,DI YOGYAKARTA,2014,total,94.44,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3400,DI YOGYAKARTA,2015,total,94.5,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3400,DI YOGYAKARTA,2016,total,94.59,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3400,DI YOGYAKARTA,2017,total,95.09,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3400,DI YOGYAKARTA,2018,total,94.83,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3400,DI YOGYAKARTA,2019,total,94.96,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3400,DI YOGYAKARTA,2020,total,95.09,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3400,DI YOGYAKARTA,2021,total,95.22,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3400,DI YOGYAKARTA,2022,total,95.15,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3400,DI YOGYAKARTA,2023,total,95.59,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3400,DI YOGYAKARTA,2024,total,95.65,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3400,DI YOGYAKARTA,2025,total,95.93,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3500,JAWA TIMUR,2014,total,91.36,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3500,JAWA TIMUR,2015,total,91.47,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3500,JAWA TIMUR,2016,total,91.59,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3500,JAWA TIMUR,2017,total,92.53,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3500,JAWA TIMUR,2018,total,91.85,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3500,JAWA TIMUR,2019,total,92.32,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3500,JAWA TIMUR,2020,total,92.5,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3500,JAWA TIMUR,2021,total,92.56,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3500,JAWA TIMUR,2022,total,93.32,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3500,JAWA TIMUR,2023,total,93.7,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3500,JAWA TIMUR,2024,total,94.13,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3500,JAWA TIMUR,2025,total,94.85,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3600,BANTEN,2014,total,97.24,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3600,BANTEN,2015,total,97.37,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3600,BANTEN,2016,total,97.55,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3600,BANTEN,2017,total,97.79,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3600,BANTEN,2018,total,97.62,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3600,BANTEN,2019,total,97.62,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3600,BANTEN,2020,total,97.88,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3600,BANTEN,2021,total,97.78,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3600,BANTEN,2022,total,98.16,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3600,BANTEN,2023,total,98.23,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3600,BANTEN,2024,total,98.41,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,3600,BANTEN,2025,total,99.0,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5100,BALI,2014,total,92.56,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5100,BALI,2015,total,92.77,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5100,BALI,2016,total,92.82,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5100,BALI,2017,total,93.59,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5100,BALI,2018,total,92.98,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5100,BALI,2019,total,94.53,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5100,BALI,2020,total,94.8,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5100,BALI,2021,total,95.0,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5100,BALI,2022,total,95.53,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5100,BALI,2023,total,95.61,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5100,BALI,2024,total,95.79,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5100,BALI,2025,total,96.42,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5200,NUSA TENGGARA BARAT,2014,total,86.96,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5200,NUSA TENGGARA BARAT,2015,total,86.97,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5200,NUSA TENGGARA BARAT,2016,total,87.06,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5200,NUSA TENGGARA BARAT,2017,total,88.53,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5200,NUSA TENGGARA BARAT,2018,total,87.42,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5200,NUSA TENGGARA BARAT,2019,total,87.59,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5200,NUSA TENGGARA BARAT,2020,total,87.6,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5200,NUSA TENGGARA BARAT,2021,total,87.39,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5200,NUSA TENGGARA BARAT,2022,total,88.97,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5200,NUSA TENGGARA BARAT,2023,total,89.11,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5200,NUSA TENGGARA BARAT,2024,total,89.83,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5200,NUSA TENGGARA BARAT,2025,total,91.07,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5300,NUSA TENGGARA TIMUR,2014,total,91.18,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5300,NUSA TENGGARA TIMUR,2015,total,91.45,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5300,NUSA TENGGARA TIMUR,2016,total,91.52,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5300,NUSA TENGGARA TIMUR,2017,total,92.75,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5300,NUSA TENGGARA TIMUR,2018,total,91.9,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5300,NUSA TENGGARA TIMUR,2019,total,93.24,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5300,NUSA TENGGARA TIMUR,2020,total,93.31,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5300,NUSA TENGGARA TIMUR,2021,total,93.85,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5300,NUSA TENGGARA TIMUR,2022,total,94.63,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5300,NUSA TENGGARA TIMUR,2023,total,95.11,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5300,NUSA TENGGARA TIMUR,2024,total,95.15,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,5300,NUSA TENGGARA TIMUR,2025,total,95.92,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6100,KALIMANTAN BARAT,2014,total,92.3,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6100,KALIMANTAN BARAT,2015,total,92.32,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6100,KALIMANTAN BARAT,2016,total,92.39,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6100,KALIMANTAN BARAT,2017,total,93.25,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6100,KALIMANTAN BARAT,2018,total,92.58,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6100,KALIMANTAN BARAT,2019,total,93.21,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6100,KALIMANTAN BARAT,2020,total,93.41,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6100,KALIMANTAN BARAT,2021,total,93.41,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6100,KALIMANTAN BARAT,2022,total,93.96,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6100,KALIMANTAN BARAT,2023,total,94.79,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6100,KALIMANTAN BARAT,2024,total,95.03,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6100,KALIMANTAN BARAT,2025,total,96.09,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6200,KALIMANTAN TENGAH,2014,total,98.82,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6200,KALIMANTAN TENGAH,2015,total,98.88,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6200,KALIMANTAN TENGAH,2016,total,98.97,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6200,KALIMANTAN TENGAH,2017,total,99.08,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6200,KALIMANTAN TENGAH,2018,total,99.21,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6200,KALIMANTAN TENGAH,2019,total,99.22,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6200,KALIMANTAN TENGAH,2020,total,99.2,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6200,KALIMANTAN TENGAH,2021,total,99.1,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6200,KALIMANTAN TENGAH,2022,total,99.12,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6200,KALIMANTAN TENGAH,2023,total,99.03,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6200,KALIMANTAN TENGAH,2024,total,98.83,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6200,KALIMANTAN TENGAH,2025,total,99.18,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6300,KALIMANTAN SELATAN,2014,total,98.19,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6300,KALIMANTAN SELATAN,2015,total,98.21,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6300,KALIMANTAN SELATAN,2016,total,98.28,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6300,KALIMANTAN SELATAN,2017,total,98.52,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6300,KALIMANTAN SELATAN,2018,total,98.42,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6300,KALIMANTAN SELATAN,2019,total,98.5,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6300,KALIMANTAN SELATAN,2020,total,98.45,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6300,KALIMANTAN SELATAN,2021,total,98.27,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6300,KALIMANTAN SELATAN,2022,total,98.36,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6300,KALIMANTAN SELATAN,2023,total,98.37,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6300,KALIMANTAN SELATAN,2024,total,98.34,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6300,KALIMANTAN SELATAN,2025,total,97.82,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6400,KALIMANTAN TIMUR,2014,total,98.59,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6400,KALIMANTAN TIMUR,2015,total,98.69,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6400,KALIMANTAN TIMUR,2016,total,98.82,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6400,KALIMANTAN TIMUR,2017,total,99.04,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6400,KALIMANTAN TIMUR,2018,total,98.96,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6400,KALIMANTAN TIMUR,2019,total,99.03,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6400,KALIMANTAN TIMUR,2020,total,98.97,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6400,KALIMANTAN TIMUR,2021,total,98.9,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6400,KALIMANTAN TIMUR,2022,total,98.97,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6400,KALIMANTAN TIMUR,2023,total,99.01,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6400,KALIMANTAN TIMUR,2024,total,98.96,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6400,KALIMANTAN TIMUR,2025,total,98.96,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6500,KALIMANTAN UTARA,2015,total,94.99,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6500,KALIMANTAN UTARA,2016,total,95.05,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6500,KALIMANTAN UTARA,2017,total,95.63,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6500,KALIMANTAN UTARA,2018,total,95.18,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6500,KALIMANTAN UTARA,2019,total,96.39,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6500,KALIMANTAN UTARA,2020,total,96.66,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6500,KALIMANTAN UTARA,2021,total,96.55,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6500,KALIMANTAN UTARA,2022,total,97.71,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6500,KALIMANTAN UTARA,2023,total,97.78,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6500,KALIMANTAN UTARA,2024,total,97.37,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,6500,KALIMANTAN UTARA,2025,total,98.14,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7100,SULAWESI UTARA,2014,total,99.6,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7100,SULAWESI UTARA,2015,total,99.63,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7100,SULAWESI UTARA,2016,total,99.79,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7100,SULAWESI UTARA,2017,total,99.73,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7100,SULAWESI UTARA,2018,total,99.87,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7100,SULAWESI UTARA,2019,total,99.8,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7100,SULAWESI UTARA,2020,total,99.79,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7100,SULAWESI UTARA,2021,total,99.8,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7100,SULAWESI UTARA,2022,total,99.81,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7100,SULAWESI UTARA,2023,total,99.79,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7100,SULAWESI UTARA,2024,total,99.75,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7100,SULAWESI UTARA,2025,total,99.8,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7200,SULAWESI TENGAH,2014,total,97.08,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7200,SULAWESI TENGAH,2015,total,97.34,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7200,SULAWESI TENGAH,2016,total,97.51,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7200,SULAWESI TENGAH,2017,total,97.83,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7200,SULAWESI TENGAH,2018,total,97.87,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7200,SULAWESI TENGAH,2019,total,98.22,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7200,SULAWESI TENGAH,2020,total,98.24,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7200,SULAWESI TENGAH,2021,total,98.28,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7200,SULAWESI TENGAH,2022,total,98.05,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7200,SULAWESI TENGAH,2023,total,98.14,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7200,SULAWESI TENGAH,2024,total,98.35,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7200,SULAWESI TENGAH,2025,total,98.39,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7300,SULAWESI SELATAN,2014,total,91.26,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7300,SULAWESI SELATAN,2015,total,91.29,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7300,SULAWESI SELATAN,2016,total,91.52,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7300,SULAWESI SELATAN,2017,total,92.53,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7300,SULAWESI SELATAN,2018,total,91.81,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7300,SULAWESI SELATAN,2019,total,92.45,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7300,SULAWESI SELATAN,2020,total,92.56,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7300,SULAWESI SELATAN,2021,total,92.49,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7300,SULAWESI SELATAN,2022,total,93.31,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7300,SULAWESI SELATAN,2023,total,93.83,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7300,SULAWESI SELATAN,2024,total,94.11,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7300,SULAWESI SELATAN,2025,total,95.05,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7400,SULAWESI TENGGARA,2014,total,94.03,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7400,SULAWESI TENGGARA,2015,total,94.1,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7400,SULAWESI TENGGARA,2016,total,94.25,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7400,SULAWESI TENGGARA,2017,total,95.05,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7400,SULAWESI TENGGARA,2018,total,94.46,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7400,SULAWESI TENGGARA,2019,total,94.91,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7400,SULAWESI TENGGARA,2020,total,95.0,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7400,SULAWESI TENGGARA,2021,total,94.94,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7400,SULAWESI TENGGARA,2022,total,95.79,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7400,SULAWESI TENGGARA,2023,total,96.03,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7400,SULAWESI TENGGARA,2024,total,96.29,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7400,SULAWESI TENGGARA,2025,total,97.22,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7500,GORONTALO,2014,total,97.9,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7500,GORONTALO,2015,total,98.24,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7500,GORONTALO,2016,total,98.44,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7500,GORONTALO,2017,total,98.47,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7500,GORONTALO,2018,total,98.63,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7500,GORONTALO,2019,total,98.75,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7500,GORONTALO,2020,total,98.75,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7500,GORONTALO,2021,total,98.75,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7500,GORONTALO,2022,total,98.42,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7500,GORONTALO,2023,total,98.49,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7500,GORONTALO,2024,total,98.55,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7500,GORONTALO,2025,total,98.54,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7600,SULAWESI BARAT,2014,total,92.27,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7600,SULAWESI BARAT,2015,total,92.64,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7600,SULAWESI BARAT,2016,total,92.75,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7600,SULAWESI BARAT,2017,total,93.71,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7600,SULAWESI BARAT,2018,total,92.85,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7600,SULAWESI BARAT,2019,total,93.59,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7600,SULAWESI BARAT,2020,total,93.17,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7600,SULAWESI BARAT,2021,total,93.09,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7600,SULAWESI BARAT,2022,total,93.82,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7600,SULAWESI BARAT,2023,total,94.33,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7600,SULAWESI BARAT,2024,total,95.0,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,7600,SULAWESI BARAT,2025,total,95.62,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,8100,MALUKU,2014,total,98.77,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,8100,MALUKU,2015,total,98.85,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,8100,MALUKU,2016,total,98.94,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,8100,MALUKU,2017,total,99.19,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,8100,MALUKU,2018,total,99.22,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,8100,MALUKU,2019,total,99.39,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,8100,MALUKU,2020,total,99.42,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,8100,MALUKU,2021,total,99.42,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,8100,MALUKU,2022,total,99.4,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,8100,MALUKU,2023,total,99.47,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,8100,MALUKU,2024,total,99.53,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,8100,MALUKU,2025,total,99.35,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,8200,MALUKU UTARA,2014,total,98.36,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,8200,MALUKU UTARA,2015,total,98.49,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,8200,MALUKU UTARA,2016,total,98.67,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,8200,MALUKU UTARA,2017,total,98.78,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,8200,MALUKU UTARA,2018,total,98.76,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,8200,MALUKU UTARA,2019,total,98.79,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,8200,MALUKU UTARA,2020,total,98.77,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,8200,MALUKU UTARA,2021,total,98.71,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,8200,MALUKU UTARA,2022,total,98.78,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,8200,MALUKU UTARA,2023,total,98.81,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,8200,MALUKU UTARA,2024,total,98.8,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,8200,MALUKU UTARA,2025,total,98.86,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9100,PAPUA BARAT,2014,total,96.75,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9100,PAPUA BARAT,2015,total,96.88,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9100,PAPUA BARAT,2016,total,97.05,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9100,PAPUA BARAT,2017,total,97.38,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9100,PAPUA BARAT,2018,total,97.37,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9100,PAPUA BARAT,2019,total,97.72,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9100,PAPUA BARAT,2020,total,97.52,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9100,PAPUA BARAT,2021,total,97.91,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9100,PAPUA BARAT,2022,total,97.64,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9100,PAPUA BARAT,2023,total,97.84,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9100,PAPUA BARAT,2024,total,97.89,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9100,PAPUA BARAT,2025,total,97.96,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9200,PAPUA BARAT DAYA,2024,total,97.84,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9200,PAPUA BARAT DAYA,2025,total,98.58,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9400,PAPUA,2014,total,70.78,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9400,PAPUA,2015,total,70.83,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9400,PAPUA,2016,total,71.02,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9400,PAPUA,2017,total,75.8,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9400,PAPUA,2018,total,76.79,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9400,PAPUA,2019,total,78.0,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9400,PAPUA,2020,total,77.9,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9400,PAPUA,2021,total,78.89,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9400,PAPUA,2022,total,81.19,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9400,PAPUA,2023,total,84.22,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9400,PAPUA,2024,total,98.37,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9400,PAPUA,2025,total,98.39,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9500,PAPUA SELATAN,2024,total,94.21,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9500,PAPUA SELATAN,2025,total,95.27,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9600,PAPUA TENGAH,2024,total,84.69,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9600,PAPUA TENGAH,2025,total,85.82,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9700,PAPUA PEGUNUNGAN,2024,total,70.37,total_rinci_digantikan_var1458
+tabel:sdg4_amh_rinci,9700,PAPUA PEGUNUNGAN,2025,total,68.32,total_rinci_digantikan_var1458
