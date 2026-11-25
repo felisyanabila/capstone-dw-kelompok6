@@ -1,11 +1,4 @@
-"""Satu perintah reproduksi tim: data mentah -> Silver -> Gold -> validasi.
-
-    python unduh_data.py --kasus <N>     # sekali, isi data/raw/
-    python pipeline.py
-
-Urutan tahap tidak diubah; isi tiap tahap di src/<tahap>/. Tahap 7 (skala, arsip WDI) ditulis
-sebagai skrip terpisah di src/skala/ karena memakai unduhan tambahan.
-"""
+﻿"""Satu perintah reproduksi tim: data mentah -> Silver -> Gold -> validasi."""
 import sys
 import time
 
@@ -21,10 +14,14 @@ def main():
     for nama, langkah in [("ekstraksi", lambda h: ekstraksi.jalankan()),
                           ("silver", lambda h: silver.jalankan(h["ekstraksi"])),
                           ("gold", lambda h: gold.jalankan(h["silver"])),
-                          ("validasi", lambda h: validasi.jalankan(h["silver"], h["gold"]))]:
+                          ("validasi", lambda h: validasi.jalankan(h["silver"], h.get("gold")))]:
         mulai = time.time()
-        hasil[nama] = langkah(hasil)
-        print(f"{nama:<10} selesai dalam {time.time() - mulai:.1f} s")
+        try:
+            hasil[nama] = langkah(hasil)
+            print(f"{nama:<10} selesai dalam {time.time() - mulai:.1f} s")
+        except NotImplementedError:
+            hasil[nama] = None
+            print(f"{nama:<10} dilewati (tahap Sprint 2)")
     print("Periksa skema minimal: python -m src.common.skema data/silver/silver.parquet")
 
 

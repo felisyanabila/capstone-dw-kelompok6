@@ -13,7 +13,7 @@ def jalankan(silver: pd.DataFrame, out_dir: Path = ROOT / "data" / "gold") -> di
 
     df_var1458 = silver[(silver["sumber"] == "bps") & (silver["seri_kode"] == "var1458")].copy()
     df_rinci = silver[(silver["sumber"] == "bps") & (silver["seri_kode"] == "tabel:sdg4_amh_rinci")].copy()
-    df_rinci_total = df_rinci[df_rinci["rincian"] == "daerah=Perkotaan + Perdesaan|jk=Laki-laki+Perempuan"].copy()
+    df_rinci_total = df_rinci[df_rinci["rincian"] == "total"].copy()
 
     df_wdi = silver[(silver["sumber"] == "wdi") & (silver["seri_kode"] == "SE.ADT.LITR.ZS")].copy()
     if df_wdi.empty:

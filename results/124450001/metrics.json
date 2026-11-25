@@ -1,0 +1,16 @@
+{
+  "metrik": {
+    "baris_silver": 5749,
+    "sel_kosong_grid": 686,
+    "outlier_ditandai": 463,
+    "sel_missing_sejati": 0,
+    "anomali_outlier_asli": 441,
+    "anomali_patahan": 20,
+    "anomali_revisi_snapshot": 2,
+    "anomali_galat_input": 0,
+    "keputusan_dicatat": 8
+  },
+  "seed": 0,
+  "data_hash": "8c82f4533900ceb595082bd6dc49aecb4b06974a9ed00e213a8641b5ac528df9",
+  "perangkat": "Windows AMD64 Python 3.13.7"
+}

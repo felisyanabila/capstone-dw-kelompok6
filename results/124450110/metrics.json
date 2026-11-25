@@ -1,12 +1,9 @@
 {
   "metrik": {
-    "silver_baris": 5762,
-    "rekonsiliasi_baris": 617,
-    "rekonsiliasi_selisih": 39,
-    "rekonsiliasi_belum_terjelaskan": 34,
-    "rekonsiliasi_cakupan_berbeda": 185
+    "pasangan_rekonsiliasi": 3,
+    "periode_beririsan": 5
   },
   "seed": 0,
   "data_hash": "8c82f4533900ceb595082bd6dc49aecb4b06974a9ed00e213a8641b5ac528df9",
-  "perangkat": "Windows AMD64 Python 3.13.7"
+  "perangkat": "Windows AMD64 Python 3.14.3"
 }
