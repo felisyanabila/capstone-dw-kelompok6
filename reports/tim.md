@@ -1,4 +1,4 @@
-﻿# Laporan tim â€” <Nama tim>, kasus <NN> <judul kasus>
+# Laporan tim — Kelompok 6, kasus 06 melek aksara (SDG 4.6.1)
 
 Satu dokumen bersama, enam bagian. Angka harus dapat ditarik ulang dari `data/silver`, `data/gold`,
 dan `log-keputusan.csv` yang sudah di-*commit*.
@@ -28,3 +28,4 @@ Tahap validasi pada alur kerja Kasus 06 mengacu pada pemeriksaan validasi dasar 
 Pembagian kerja pada Kasus 06 tercermin dari jejak pencatatan di log-keputusan.csv dan AI_LOG.md, di mana NIM 124450001 menangani penyusunan profil seri BPS dan World Development Indicators, kelengkapan panel, kamus wilayah, serta klasifikasi anomali dan aturan deduplikasi awal (K-001 sampai K-008) beserta draf awal catatan temuan anomali. NIM 124450121 menangani standardisasi satuan, kode SDG, jenis periode, rincian daerah dan jenis kelamin, penanganan sel kosong dan baris nasional kode 9999, uji silang CSV pratampil terhadap JSON BPS, serta pemeriksaan metadata katalog (K-009 sampai K-019 dan K-021) yang menjadi rujukan untuk bagian Data dan lineage serta Masalah data dan penanganannya.
 
 Selanjutnya, NIM 124450014 mengerjakan skema validasi dasar Pandera untuk lapisan Silver (K-020), laporan validasi, dan generator kamus data Silver sebagai dasar bagian Validasi dan reproduksibilitas, sedangkan NIM 124450110 mengerjakan tabel nasional dan pasangan rekonsiliasi lapisan Gold (p1, p2, p3), penyiapan artefak basis data dan skrip pemuat, sinkronisasi Git, serta penyusunan draf bagian Ringkasan, Integrasi dan rekonsiliasi, dan Validasi dan reproduksibilitas. Apabila terdapat anggota tim lain dengan NIM berbeda yang belum tercatat pada log-keputusan.csv atau AI_LOG.md, peran dan bagian tulisan masing-masing dapat ditambahkan langsung pada bagian ini sebelum laporan tim difinalkan.
+
