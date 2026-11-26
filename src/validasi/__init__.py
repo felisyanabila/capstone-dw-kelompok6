@@ -25,7 +25,7 @@ KATEGORI_REKONSILIASI_SAH = {
     "metode berbeda",
     "vintage berbeda",
     "cakupan berbeda",
-    "belum dijelaskan",
+    "belum terjelaskan",
     "tanpa pasangan",
 }
 
@@ -49,27 +49,30 @@ SKEMA = pa.DataFrameSchema(
 
 
 def _muat_tabel_gold(gold):
-    """Mengambil DataFrame panel Gold dan tabel rekonsiliasi dari argumen atau data/gold/."""
+    """Mengambil panel_provinsi (memuat status_sel & jejak Silver) dan rekonsiliasi secara eksplisit."""
     df_panel, df_rekon = None, None
 
-    if isinstance(gold, pd.DataFrame):
+    if isinstance(gold, dict):
+        for kunci in ("panel_provinsi", "panel_lebar", "panel", "gold_panel"):
+            if isinstance(gold.get(kunci), pd.DataFrame):
+                df_panel = gold[kunci]
+                break
+        if isinstance(gold.get("rekonsiliasi"), pd.DataFrame):
+            df_rekon = gold["rekonsiliasi"]
+    elif isinstance(gold, pd.DataFrame):
         df_panel = gold
-    elif isinstance(gold, dict):
-        df_panel = gold.get("panel") if gold.get("panel") is not None else gold.get("gold_panel")
-        df_rekon = gold.get("rekonsiliasi")
 
-    if GOLD_DIR.exists():
-        for berkas in sorted(GOLD_DIR.glob("*.parquet")):
-            nama = berkas.stem.lower()
-            if "rekon" in nama and df_rekon is None:
-                df_rekon = pd.read_parquet(berkas)
-            elif df_panel is None and ("panel" in nama or "gold" in nama or "prov" in nama):
-                df_panel = pd.read_parquet(berkas)
+    if df_panel is None and GOLD_DIR.exists():
+        for nama_berkas in ("panel_provinsi.parquet", "panel_lebar.parquet", "gold_panel.parquet"):
+            path_kandidat = GOLD_DIR / nama_berkas
+            if path_kandidat.exists():
+                df_panel = pd.read_parquet(path_kandidat)
+                break
 
-        if df_panel is None:
-            kandidat = [b for b in sorted(GOLD_DIR.glob("*.parquet")) if "rekon" not in b.stem.lower()]
-            if kandidat:
-                df_panel = pd.read_parquet(kandidat[0])
+    if df_rekon is None and GOLD_DIR.exists():
+        path_rekon = GOLD_DIR / "rekonsiliasi.parquet"
+        if path_rekon.exists():
+            df_rekon = pd.read_parquet(path_rekon)
 
     return df_panel, df_rekon
 
@@ -115,31 +118,41 @@ def jalankan(silver=None, gold=None):
     df_panel, df_rekon = _muat_tabel_gold(gold)
 
     if df_panel is not None and not df_panel.empty:
-        kunci_panel = [c for c in ["wilayah_kode", "periode"] if c in df_panel.columns]
-        kolom_meta = {"wilayah_kode", "nama_wilayah", "periode", "jenis_periode", "satuan", "sumber"}
-        kolom_indikator = [c for c in df_panel.columns if c not in kolom_meta and not c.startswith("_")]
+        kunci_panel = [c for c in ["wilayah_kode", "periode", "indikator", "rincian"] if c in df_panel.columns]
 
         # 6. Kunci panel Gold unik
         dup_gold = int(df_panel.duplicated(kunci_panel).sum())
         hasil.append(("gold_kunci_panel_unik", dup_gold == 0, f"{dup_gold} duplikat kunci ({', '.join(kunci_panel)})"))
 
-        # 7. Satuan satu per indikator
+        # 7. Satuan satu per indikator (kecualikan kolom tahun & metadata)
         if "satuan" in df_panel.columns:
-            sat_unik = int(df_panel["satuan"].nunique())
-            hasil.append(("gold_satuan_satu_per_indikator", sat_unik == 1, f"{len(kolom_indikator)} indikator bersatuan tunggal"))
+            kolom_grup = "indikator" if "indikator" in df_panel.columns else "rincian"
+            sat_ganda = int((df_panel.groupby(kolom_grup)["satuan"].nunique() != 1).sum())
+            hasil.append(("gold_satuan_satu_per_indikator", sat_ganda == 0, f"{df_panel[kolom_grup].nunique()} indikator bersatuan tunggal"))
         else:
-            num_cols = df_panel[kolom_indikator].select_dtypes(include="number")
+            kolom_non_indikator = {"wilayah_kode", "nama_wilayah", "periode", "tahun", "jenis_periode", "satuan", "sumber", "status_sel"}
+            kolom_ind = [c for c in df_panel.columns if c not in kolom_non_indikator and not str(c).startswith("_")]
+            num_cols = df_panel[kolom_ind].select_dtypes(include="number")
             di_luar_rentang = int(((num_cols < 0) | (num_cols > 100)).sum().sum())
-            hasil.append(("gold_satuan_satu_per_indikator", di_luar_rentang == 0, f"{len(num_cols.columns)} indikator valid (satuan persen 0-100)"))
+            hasil.append(("gold_satuan_satu_per_indikator", di_luar_rentang == 0, f"satuan konsisten (persen 0-100 pada {len(num_cols.columns)} indikator)"))
 
-        # 8. Setiap sel Gold punya pasangan di Silver
+        # 8. Setiap sel Gold berstatus terisi punya pasangan di Silver
         pasangan_silver = set(zip(df["wilayah_kode"].astype(int), df["periode"].astype(str)))
-        pasangan_gold = set(zip(df_panel["wilayah_kode"].astype(int), df_panel["periode"].astype(str)))
-        tanpa_induk = len(pasangan_gold - pasangan_silver)
-        hasil.append(("gold_setiap_sel_punya_pasangan_silver", tanpa_induk == 0, f"{len(pasangan_gold)} sel panel diperiksa, {tanpa_induk} tanpa pasangan Silver"))
+        if "status_sel" in df_panel.columns:
+            df_terisi = df_panel[df_panel["status_sel"].astype(str).str.lower() == "terisi"]
+        elif "nilai" in df_panel.columns:
+            df_terisi = df_panel[df_panel["nilai"].notna()]
+        else:
+            kolom_non_indikator = {"wilayah_kode", "nama_wilayah", "periode", "tahun", "jenis_periode", "satuan", "sumber", "status_sel"}
+            kolom_ind = [c for c in df_panel.columns if c not in kolom_non_indikator and not str(c).startswith("_")]
+            df_terisi = df_panel[df_panel[kolom_ind].notna().any(axis=1)]
+
+        pasangan_gold_terisi = set(zip(df_terisi["wilayah_kode"].astype(int), df_terisi["periode"].astype(str)))
+        tanpa_induk = len(pasangan_gold_terisi - pasangan_silver)
+        hasil.append(("gold_setiap_sel_punya_pasangan_silver", tanpa_induk == 0, f"{len(pasangan_gold_terisi)} sel terisi diperiksa, {tanpa_induk} tanpa pasangan Silver"))
 
     if df_rekon is not None and not df_rekon.empty:
-        # 9. Setiap baris rekonsiliasi berpasangan punya kategori sah
+        # 9. Setiap baris rekonsiliasi berpasangan punya kategori sah ("belum terjelaskan", dll.)
         kolom_kat = next((c for c in df_rekon.columns if "kategori" in c.lower()), None)
         if kolom_kat is None:
             hasil.append(("rekonsiliasi_kategori_baris_berpasangan", False, "kolom kategori tidak ditemukan"))

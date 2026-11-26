@@ -9,10 +9,10 @@
 | `konsistensi_satuan_seri` | **LOLOS** | 3 seri bersatuan tunggal |
 | `satu_total_kanonik_prov_tahun` | **LOLOS** | 580 sel kanonik, 0 ganda |
 | `laporan_selisih_rinci_ringkas` | **LOLOS** | 34 dari 427 sel berselisih (tahun ['2017']) |
-| `gold_kunci_panel_unik` | **LOLOS** | 0 duplikat kunci (wilayah_kode, periode) |
-| `gold_satuan_satu_per_indikator` | **LOLOS** | 1 indikator valid (satuan persen 0-100) |
-| `gold_setiap_sel_punya_pasangan_silver` | **LOLOS** | 1 sel panel diperiksa, 0 tanpa pasangan Silver |
-| `rekonsiliasi_kategori_baris_berpasangan` | **LOLOS** | 1 baris berpasangan diperiksa, 0 kategori kosong/tidak sah |
+| `gold_kunci_panel_unik` | **LOLOS** | 0 duplikat kunci (wilayah_kode, periode, indikator, rincian) |
+| `gold_satuan_satu_per_indikator` | **LOLOS** | 9 indikator bersatuan tunggal |
+| `gold_setiap_sel_punya_pasangan_silver` | **LOLOS** | 580 sel terisi diperiksa, 0 tanpa pasangan Silver |
+| `rekonsiliasi_kategori_baris_berpasangan` | **LOLOS** | 432 baris berpasangan diperiksa, 0 kategori kosong/tidak sah |
 
 ## Selisih Total Rinci vs Ringkas (`var1458`)
 
