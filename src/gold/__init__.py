@@ -1,4 +1,4 @@
-﻿import sqlite3
+import sqlite3
 from pathlib import Path
 import pandas as pd
 from src.gold.rekonsiliasi import bangun_rekonsiliasi, muat_wdi_literasi_indonesia
@@ -10,6 +10,16 @@ def jalankan(silver: pd.DataFrame, out_dir: Path = ROOT / "data" / "gold") -> di
     """Bentuk tabel Gold (panel + rekonsiliasi nasional) dan simpan ke Parquet serta SQLite."""
     gold_path = Path(out_dir)
     gold_path.mkdir(parents=True, exist_ok=True)
+
+    # Tahap 4: aturan satu nilai (#27), panel provinsi (#28), tabel nasional dan rekonsiliasi (#29)
+    from src.gold import aturan, nasional, panel
+    pilihan = aturan.pilih_satu_nilai(silver)
+    aturan.tulis_keluaran(pilihan)
+    f = pilihan["ringkasan"]
+    print(f"Gold: {f['baris_panel']} baris satu nilai per sel, {f['baris_tidak_terpilih']} baris Silver tidak terpilih -> reports/aturan_gold.md")
+    tabel_tim = {}
+    tabel_tim.update(panel.jalankan(silver))
+    tabel_tim.update(nasional.jalankan(silver))
 
     df_var1458 = silver[(silver["sumber"] == "bps") & (silver["seri_kode"] == "var1458")].copy()
     df_rinci = silver[(silver["sumber"] == "bps") & (silver["seri_kode"] == "tabel:sdg4_amh_rinci")].copy()
@@ -27,7 +37,7 @@ def jalankan(silver: pd.DataFrame, out_dir: Path = ROOT / "data" / "gold") -> di
     wilayah_unik = df_var1458[["wilayah_kode", "nama_wilayah"]].drop_duplicates()
     periode_unik = sorted(set(df_var1458["periode"]).union(set(df_rinci_total["periode"])))
     grid = wilayah_unik.merge(pd.DataFrame({"periode": periode_unik}), how="cross")
-    panel = (
+    panel_afriza = (
         grid.merge(
             df_var1458[["wilayah_kode", "periode", "nilai"]].rename(columns={"nilai": "amh_var1458"}),
             on=["wilayah_kode", "periode"],
@@ -49,14 +59,12 @@ def jalankan(silver: pd.DataFrame, out_dir: Path = ROOT / "data" / "gold") -> di
         df_wdi_idn=df_wdi_idn,
     )
 
-    panel.to_parquet(gold_path / "panel_melek_aksara.parquet", index=False)
+    panel_afriza.to_parquet(gold_path / "panel_melek_aksara.parquet", index=False)
     rekonsiliasi.to_parquet(gold_path / "rekonsiliasi.parquet", index=False)
 
     with sqlite3.connect(gold_path / "gold.sqlite") as conn:
-        panel.to_sql("panel_melek_aksara", conn, if_exists="replace", index=False)
+        panel_afriza.to_sql("panel_melek_aksara", conn, if_exists="replace", index=False)
         rekonsiliasi.to_sql("rekonsiliasi", conn, if_exists="replace", index=False)
 
-    return {
-        "panel_melek_aksara": panel,
-        "rekonsiliasi": rekonsiliasi,
-    }
+    tabel_tim.update({"panel_melek_aksara": panel_afriza, "rekonsiliasi": rekonsiliasi})
+    return tabel_tim
