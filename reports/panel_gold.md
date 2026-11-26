@@ -5,7 +5,7 @@ Dibuat otomatis oleh `python pipeline.py` (`src/gold/panel.py`); tidak ada langk
 ## 1. Hasil pipeline
 
 - `data/gold/panel_provinsi.parquet`: 5814 baris = 38 provinsi x 17 tahun (2009-2025) x 9 indikator (`amh_<rincian>`).
-- `data/gold/panel_lebar.parquet`: 646 baris (provinsi x tahun, satu kolom nilai per indikator).
+- `data/gold/panel_lebar.parquet`: 580 baris (provinsi x tahun yang punya minimal satu nilai; kolomnya hanya kunci dan 9 indikator). Grid lengkap dengan sel kosong ada di panel_provinsi.
 - `data/gold/pemeriksaan_total_rinci_vs_ringkas.parquet`: 415 pasangan provinsi-tahun; 382 sama, 33 berbeda (periode: 2017), 1 di antaranya dalam toleransi 0,01.
 - Status sel: 5169 terisi, 495 belum_ada_wilayah, 99 belum_terbit, 51 tidak_berlaku, 0 missing (aturan K-004).
 - Satuan: persen untuk seluruh kolom `nilai`; nilai tidak diubah; rentang 43.12 sampai 99.98.
@@ -82,10 +82,10 @@ Dihitung pipeline dibandingkan dengan `results/124450121/metrics.json`:
 - `baris_silver`: dihitung 5762; di metrics.json 5762 (cocok)
 - `seri_panel`: dihitung 2; di metrics.json 2 (cocok)
 - `baris_gold`: dihitung 5814; di metrics.json 5814 (cocok)
-- `keputusan_dicatat`: dihitung 19; di metrics.json 19 (cocok)
+- `keputusan_dicatat`: dihitung 20; di metrics.json 20 (cocok)
 
 Perintah menulis ulang metrics (satu baris, memuat metrik Sprint 1 dan Sprint 2):
 
 ```
-py -m src.common.hasil 124450121 seri_silver=3 rincian_dienkode=9 baris_silver=5762 seri_panel=2 baris_gold=5814 keputusan_dicatat=19
+py -m src.common.hasil 124450121 seri_silver=3 rincian_dienkode=9 baris_silver=5762 seri_panel=2 baris_gold=5814 keputusan_dicatat=20
 ```
