@@ -27,7 +27,16 @@ def main():
     pem = pd.read_parquet(gold / "pemeriksaan_total_rinci_vs_ringkas.parquet")
     silver = pd.read_parquet(ROOT / "data" / "silver" / "silver.parquet")
 
-    print("== bentuk dan kunci")
+    print("== laporan bukti dan metrik")
+    lap = ROOT / "reports" / "panel_gold.md"
+    teks = lap.read_text(encoding="utf-8") if lap.exists() else ""
+    cek("reports/panel_gold.md ditulis pipeline: kunci kembar 0 dan 5169 dari 5169 sel terlacak ke berkas mentah",
+        "kunci kembar: 0" in teks and "5169 dari 5169 sel terlacak" in teks)
+    metrik = teks.split("## 4. Metrik")[-1] if teks else ""
+    cek("results/124450121/metrics.json cocok dengan hitungan pipeline (seri_panel, baris_gold, dan metrik Sprint 1)",
+        bool(teks) and "BEDA" not in metrik and "tidak ada" not in metrik, "; ".join(b.strip("- ") for b in metrik.splitlines() if "BEDA" in b or "tidak ada" in b)[:300])
+
+    print("\n== bentuk dan kunci")
     cek("panel = 38 provinsi x 17 tahun x 9 indikator", len(p) == 38 * 17 * 9 and p.wilayah_kode.nunique() == 38 and p.periode.nunique() == 17 and p.indikator.nunique() == 9, f"{len(p)} baris")
     cek("kunci (wilayah_kode, periode, indikator) tidak kembar", int(p.duplicated(["wilayah_kode", "periode", "indikator"]).sum()) == 0)
     cek("Indonesia (9999) tidak ada di panel provinsi", not (p.wilayah_kode == 9999).any())
@@ -73,8 +82,12 @@ def main():
     cek("status 8 rincian non-total sama dengan grid tahap 3", len(nt) == 38 * 17 * 8 and (nt.status == nt.status_sel).all(), f"{len(nt)} sel dibandingkan")
 
     print("\n== panel lebar dan tabel pemeriksaan")
-    cek("panel lebar = 646 baris dan nilainya sama dengan panel panjang",
-        len(lebar) == 646 and all(((lebar.set_index(["wilayah_kode", "periode"])[c]) .sub(p[p.indikator == c].set_index(["wilayah_kode", "periode"])["nilai"]).fillna(0).abs().max()) == 0 for c in ["amh_total", "amh_perdesaan_perempuan"]))
+    kolom_indikator = [c for c in lebar.columns if c not in ("wilayah_kode", "nama_wilayah", "periode")]
+    cek("panel lebar: 580 baris (provinsi-tahun bernilai), hanya kolom kunci dan 9 indikator amh_, tanpa baris kosong",
+        len(lebar) == 580 and len(kolom_indikator) == 9 and all(c.startswith("amh_") for c in kolom_indikator) and not lebar[kolom_indikator].isna().all(axis=1).any(),
+        f"{len(lebar)} baris, {len(kolom_indikator)} kolom indikator")
+    cek("nilai panel lebar sama dengan panel panjang",
+        all(((lebar.set_index(["wilayah_kode", "periode"])[c]).sub(p[p.indikator == c].set_index(["wilayah_kode", "periode"])["nilai"]).dropna().abs().max()) == 0 for c in kolom_indikator))
     sp = pem.status_pemeriksaan.value_counts().to_dict()
     cek("pemeriksaan total: 415 pasangan, 382 sama, 33 berbeda (semuanya 2017), 1 di dalam toleransi 0,01",
         sp == {"sama": 382, "berbeda": 33} and set(pem[pem.status_pemeriksaan == "berbeda"].periode) == {"2017"} and int(pem[pem.status_pemeriksaan == "berbeda"].dalam_toleransi_0_01.sum()) == 1, str(sp))
