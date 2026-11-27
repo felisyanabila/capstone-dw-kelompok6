@@ -3,7 +3,7 @@
 Masukan : DataFrame Silver dari src.silver.jalankan().
 Keluaran: tiga tabel Parquet di data/gold/
   - panel_provinsi.parquet                      panel panjang: satu baris = satu sel (provinsi, periode, indikator)
-  - panel_lebar.parquet                         panel lebar: satu baris = (provinsi, periode), satu kolom per indikator
+  - panel_lebar.parquet                         panel lebar: satu baris = (provinsi, periode) yang punya nilai, satu kolom per indikator
   - pemeriksaan_total_rinci_vs_ringkas.parquet  total tabel rinci vs var1458 per provinsi dan tahun
   - reports/panel_gold.md                       laporan bukti: hasil pipeline, keunikan kunci, keterlacakan, metrik
 
@@ -99,8 +99,14 @@ def panel_provinsi(silver: pd.DataFrame) -> pd.DataFrame:
 
 
 def panel_lebar(panel: pd.DataFrame) -> pd.DataFrame:
-    w = panel.pivot(index=["wilayah_kode", "nama_wilayah", "periode", "tahun"], columns="indikator", values="nilai")
-    w = w[["amh_" + r for r in URUTAN_RINCIAN]].reset_index()
+    """Satu baris = provinsi x periode yang punya minimal satu nilai; satu kolom nilai per indikator.
+
+    Tanpa kolom bantu (tahun, status) supaya semua kolom selain kunci adalah indikator. Grid lengkap dengan sel
+    kosong dan status_sel ada di panel_provinsi.
+    """
+    w = panel.pivot(index=["wilayah_kode", "nama_wilayah", "periode"], columns="indikator", values="nilai")
+    w = w[["amh_" + r for r in URUTAN_RINCIAN]]
+    w = w[w.notna().any(axis=1)].reset_index()
     w.columns.name = None
     return w
 
@@ -130,7 +136,10 @@ def periksa(silver: pd.DataFrame, panel: pd.DataFrame, lebar: pd.DataFrame) -> d
     assert panel["satuan"].nunique() == 1 and panel["nilai"].dropna().between(0, 100).all(), "satuan atau rentang nilai salah"
     assert set(panel["status_sel"]) <= set(STATUS) and not (panel["status_sel"] == "missing").any(), "ada sel missing sejati"
     assert (panel["nilai"].notna() == (panel["status_sel"] == "terisi")).all(), "status_sel tidak sejalan dengan nilai"
-    assert len(lebar) == panel[["wilayah_kode", "periode"]].drop_duplicates().shape[0], "panel lebar tidak sejalan dengan panel panjang"
+    assert len(lebar) == panel[panel["status_sel"] == "terisi"][["wilayah_kode", "periode"]].drop_duplicates().shape[0], \
+        "panel lebar tidak sejalan dengan panel panjang"
+    assert lebar.drop(columns=["wilayah_kode", "nama_wilayah", "periode"]).columns.str.startswith("amh_").all(), "kolom non-indikator di panel lebar"
+    assert not lebar.drop(columns=["wilayah_kode", "nama_wilayah", "periode"]).isna().all(axis=1).any(), "baris panel lebar tanpa satu nilai pun"
     # jejak: setiap sel terisi kembali ke tepat satu baris Silver dengan nilai, sidik, dan tanda anomali yang sama
     isi = panel[panel["status_sel"] == "terisi"].rename(columns={"seri_kanonik": "seri_kode"})
     gabung = isi.merge(silver, on=KUNCI_SILVER, how="left", suffixes=("", "_silver"), validate="one_to_one", indicator=True)
@@ -259,7 +268,7 @@ def tulis_laporan(silver, panel, lebar, pem, audit, jalur: Path = LAPORAN) -> Pa
          "Dibuat otomatis oleh `python pipeline.py` (`src/gold/panel.py`); tidak ada langkah tangan. Isinya sengaja tanpa waktu dan nomor commit supaya sama setiap kali pipeline dijalankan.", "",
          "## 1. Hasil pipeline", "",
          f"- `data/gold/panel_provinsi.parquet`: {r['baris_gold']} baris = 38 provinsi x 17 tahun (2009-2025) x {r['indikator_panel']} indikator (`amh_<rincian>`).",
-         f"- `data/gold/panel_lebar.parquet`: {r['baris_panel_lebar']} baris (provinsi x tahun, satu kolom nilai per indikator).",
+         f"- `data/gold/panel_lebar.parquet`: {r['baris_panel_lebar']} baris (provinsi x tahun yang punya minimal satu nilai; kolomnya hanya kunci dan {r['indikator_panel']} indikator). Grid lengkap dengan sel kosong ada di panel_provinsi.",
          f"- `data/gold/pemeriksaan_total_rinci_vs_ringkas.parquet`: {r['baris_pemeriksaan_total']} pasangan provinsi-tahun; "
          f"{int((pem['status_pemeriksaan'] == 'sama').sum())} sama, {r['total_berbeda']} berbeda (periode: {', '.join(sorted(pem[pem['status_pemeriksaan'] == 'berbeda']['periode'].unique()))}), "
          f"{int(pem[pem['status_pemeriksaan'] == 'berbeda']['dalam_toleransi_0_01'].sum())} di antaranya dalam toleransi 0,01.",
